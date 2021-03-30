@@ -1,0 +1,14 @@
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\ProyectoIntegrador2021.exe.config
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\ProyectoIntegrador2021.exe
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\ProyectoIntegrador2021.pdb
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\Guna.UI.dll
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.csprojAssemblyReference.cache
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.Properties.Resources.resources
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.Form1.resources
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.csproj.GenerateResource.cache
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.csproj.CoreCompileInputs.cache
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.csproj.CopyComplete
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.exe
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.pdb
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCInicioSesion.resources
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCNuevoUsuario.resources
