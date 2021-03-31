@@ -80,32 +80,32 @@ namespace ProyectoIntegrador2021.UCs
 
         private void txtbox_Registrar_Contrasenia_Enter(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassEnter(txtbox_Registrar_Contrasenia, phContrasenia);
+            Funciones.placeHolderPassEnter(txtbox_Registrar_Contrasenia, phContrasenia,pic_VerContra);
         }
 
         private void txtbox_Registrar_Contrasenia_Leave(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassLeave(txtbox_Registrar_Contrasenia, phContrasenia);
+            Funciones.placeHolderPassLeave(txtbox_Registrar_Contrasenia, phContrasenia, pic_VerContra);
         }
 
         private void txtbox_Registrar_Repetir_contrasenia_Enter(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassEnter(txtbox_Registrar_Repetir_contrasenia, phRepetirContrasenia);
+            Funciones.placeHolderPassEnter(txtbox_Registrar_Repetir_contrasenia, phRepetirContrasenia,pic_VerRepContra);
         }
 
         private void txtbox_Registrar_Repetir_contrasenia_Leave(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassLeave(txtbox_Registrar_Repetir_contrasenia, phRepetirContrasenia);
+            Funciones.placeHolderPassLeave(txtbox_Registrar_Repetir_contrasenia, phRepetirContrasenia,pic_VerRepContra);
         }
 
         private void txtbox_Registrar_Contrasenia_admin_Enter(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassEnter(txtbox_Registrar_Contrasenia_admin, phContraseniAdmin);
+            Funciones.placeHolderPassEnter(txtbox_Registrar_Contrasenia_admin, phContraseniAdmin,pic_VerAdminContra);
         }
 
         private void txtbox_Registrar_Contrasenia_admin_Leave(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassLeave(txtbox_Registrar_Contrasenia_admin, phContraseniAdmin);
+            Funciones.placeHolderPassLeave(txtbox_Registrar_Contrasenia_admin, phContraseniAdmin, pic_VerAdminContra);
         }
 
         private void lbl_Volver_MouseEnter(object sender, EventArgs e)
@@ -116,6 +116,21 @@ namespace ProyectoIntegrador2021.UCs
         private void lbl_Volver_MouseLeave(object sender, EventArgs e)
         {
             lbl_Volver.ForeColor = Color.Silver;
+        }
+
+        private void pic_VerContra_Click(object sender, EventArgs e)
+        {
+            Funciones.verContra(txtbox_Registrar_Contrasenia,pic_VerContra);
+        }
+
+        private void pic_VerRepContra_Click(object sender, EventArgs e)
+        {
+            Funciones.verContra(txtbox_Registrar_Repetir_contrasenia, pic_VerRepContra);
+        }
+
+        private void pic_VerAdminContra_Click(object sender, EventArgs e)
+        {
+            Funciones.verContra(txtbox_Registrar_Contrasenia_admin, pic_VerAdminContra);
         }
     }
 }

@@ -32,17 +32,20 @@ namespace ProyectoIntegrador2021.UCs
             this.pnl_Login = new System.Windows.Forms.Panel();
             this.lbl_Olvidaste_tu_contra = new Guna.UI.WinForms.GunaLabel();
             this.lbl_Crear_cuenta = new Guna.UI.WinForms.GunaLabel();
-            this.btn_Ingresar = new Guna.UI.WinForms.GunaButton();
             this.chbox_Permanecer_Conectado = new Guna.UI.WinForms.GunaCheckBox();
             this.txtbox_Contrasenia = new Guna.UI.WinForms.GunaTextBox();
             this.txtbox_NombreUsuario = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.btn_VerContra = new System.Windows.Forms.PictureBox();
+            this.btn_Ingresar = new Guna.UI.WinForms.GunaButton();
             this.pnl_Login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_VerContra)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Login
             // 
             this.pnl_Login.BackColor = System.Drawing.Color.GhostWhite;
+            this.pnl_Login.Controls.Add(this.btn_VerContra);
             this.pnl_Login.Controls.Add(this.lbl_Olvidaste_tu_contra);
             this.pnl_Login.Controls.Add(this.lbl_Crear_cuenta);
             this.pnl_Login.Controls.Add(this.btn_Ingresar);
@@ -88,35 +91,6 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Crear_cuenta.Click += new System.EventHandler(this.lbl_Crear_cuenta_Click);
             this.lbl_Crear_cuenta.MouseEnter += new System.EventHandler(this.lbl_Crear_cuenta_MouseEnter);
             this.lbl_Crear_cuenta.MouseLeave += new System.EventHandler(this.lbl_Crear_cuenta_MouseLeave);
-            // 
-            // btn_Ingresar
-            // 
-            this.btn_Ingresar.AnimationHoverSpeed = 0.07F;
-            this.btn_Ingresar.AnimationSpeed = 0.03F;
-            this.btn_Ingresar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Ingresar.BaseColor = System.Drawing.Color.Transparent;
-            this.btn_Ingresar.BorderColor = System.Drawing.Color.Silver;
-            this.btn_Ingresar.BorderSize = 3;
-            this.btn_Ingresar.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_Ingresar.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_Ingresar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Ingresar.ForeColor = System.Drawing.Color.White;
-            this.btn_Ingresar.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_right_50px;
-            this.btn_Ingresar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_Ingresar.ImageSize = new System.Drawing.Size(40, 40);
-            this.btn_Ingresar.Location = new System.Drawing.Point(135, 375);
-            this.btn_Ingresar.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
-            this.btn_Ingresar.Name = "btn_Ingresar";
-            this.btn_Ingresar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
-            this.btn_Ingresar.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
-            this.btn_Ingresar.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_Ingresar.OnHoverImage = global::ProyectoIntegrador2021.Properties.Resources.icons8_right_50px_1;
-            this.btn_Ingresar.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_Ingresar.Radius = 25;
-            this.btn_Ingresar.Size = new System.Drawing.Size(80, 80);
-            this.btn_Ingresar.TabIndex = 9;
-            this.btn_Ingresar.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            this.btn_Ingresar.Click += new System.EventHandler(this.btn_Ingresar_Click);
             // 
             // chbox_Permanecer_Conectado
             // 
@@ -194,6 +168,48 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.gunaLabel3.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
+            // btn_VerContra
+            // 
+            this.btn_VerContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_VerContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
+            this.btn_VerContra.Location = new System.Drawing.Point(292, 235);
+            this.btn_VerContra.Name = "btn_VerContra";
+            this.btn_VerContra.Size = new System.Drawing.Size(30, 30);
+            this.btn_VerContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_VerContra.TabIndex = 12;
+            this.btn_VerContra.TabStop = false;
+            this.btn_VerContra.Visible = false;
+            this.btn_VerContra.Click += new System.EventHandler(this.btn_VerContra_Click);
+            // 
+            // btn_Ingresar
+            // 
+            this.btn_Ingresar.AnimationHoverSpeed = 0.07F;
+            this.btn_Ingresar.AnimationSpeed = 0.03F;
+            this.btn_Ingresar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Ingresar.BaseColor = System.Drawing.Color.Transparent;
+            this.btn_Ingresar.BorderColor = System.Drawing.Color.Silver;
+            this.btn_Ingresar.BorderSize = 3;
+            this.btn_Ingresar.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_Ingresar.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_Ingresar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Ingresar.ForeColor = System.Drawing.Color.White;
+            this.btn_Ingresar.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_right_50px;
+            this.btn_Ingresar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_Ingresar.ImageSize = new System.Drawing.Size(40, 40);
+            this.btn_Ingresar.Location = new System.Drawing.Point(135, 375);
+            this.btn_Ingresar.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
+            this.btn_Ingresar.Name = "btn_Ingresar";
+            this.btn_Ingresar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.btn_Ingresar.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.btn_Ingresar.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_Ingresar.OnHoverImage = global::ProyectoIntegrador2021.Properties.Resources.icons8_right_50px_1;
+            this.btn_Ingresar.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_Ingresar.Radius = 25;
+            this.btn_Ingresar.Size = new System.Drawing.Size(80, 80);
+            this.btn_Ingresar.TabIndex = 9;
+            this.btn_Ingresar.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btn_Ingresar.Click += new System.EventHandler(this.btn_Ingresar_Click);
+            // 
             // UCInicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,6 +222,7 @@ namespace ProyectoIntegrador2021.UCs
             this.Size = new System.Drawing.Size(350, 576);
             this.pnl_Login.ResumeLayout(false);
             this.pnl_Login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_VerContra)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -220,5 +237,6 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaTextBox txtbox_Contrasenia;
         private Guna.UI.WinForms.GunaTextBox txtbox_NombreUsuario;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
+        private System.Windows.Forms.PictureBox btn_VerContra;
     }
 }

@@ -12,3 +12,4 @@ C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debu
 C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.pdb
 C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCInicioSesion.resources
 C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCNuevoUsuario.resources
+C:\Users\Lew\source\repos\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.ventanas.frmPrincipal.resources

@@ -23,6 +23,7 @@ namespace ProyectoIntegrador2021.UCs
 
         private void btn_Ingresar_Click(object sender, EventArgs e)
         {
+            
             if (txtBoxVacios())
             {
                 //MENSAJE ERROR
@@ -60,12 +61,12 @@ namespace ProyectoIntegrador2021.UCs
 
         private void txtbox_Contrasenia_Enter(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassEnter(txtbox_Contrasenia, phContrasenia);
+            Funciones.placeHolderPassEnter(txtbox_Contrasenia, phContrasenia,btn_VerContra);
         }
 
         private void txtbox_Contrasenia_Leave(object sender, EventArgs e)
         {
-            Funciones.placeHolderPassLeave(txtbox_Contrasenia, phContrasenia);
+            Funciones.placeHolderPassLeave(txtbox_Contrasenia, phContrasenia,btn_VerContra);
         }
 
         private void lbl_Olvidaste_tu_contra_MouseEnter(object sender, EventArgs e)
@@ -86,6 +87,11 @@ namespace ProyectoIntegrador2021.UCs
         private void lbl_Crear_cuenta_MouseLeave(object sender, EventArgs e)
         {
             lbl_Crear_cuenta.ForeColor = Color.Silver;
+        }
+
+        private void btn_VerContra_Click(object sender, EventArgs e)
+        {
+            Funciones.verContra(txtbox_Contrasenia,btn_VerContra);
         }
     }
 }

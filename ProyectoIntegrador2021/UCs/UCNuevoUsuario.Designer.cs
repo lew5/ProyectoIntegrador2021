@@ -30,6 +30,9 @@ namespace ProyectoIntegrador2021.UCs
         private void InitializeComponent()
         {
             this.pnl_Registro = new System.Windows.Forms.Panel();
+            this.pic_VerAdminContra = new System.Windows.Forms.PictureBox();
+            this.pic_VerRepContra = new System.Windows.Forms.PictureBox();
+            this.pic_VerContra = new System.Windows.Forms.PictureBox();
             this.txtbox_Registrar_Contrasenia_admin = new Guna.UI.WinForms.GunaTextBox();
             this.txtbox_Registrar_Repetir_contrasenia = new Guna.UI.WinForms.GunaTextBox();
             this.txtbox_Registrar_Contrasenia = new Guna.UI.WinForms.GunaTextBox();
@@ -39,11 +42,17 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Registrar_Nombre_usuario = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
             this.pnl_Registro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerAdminContra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerRepContra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerContra)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Registro
             // 
             this.pnl_Registro.BackColor = System.Drawing.Color.GhostWhite;
+            this.pnl_Registro.Controls.Add(this.pic_VerAdminContra);
+            this.pnl_Registro.Controls.Add(this.pic_VerRepContra);
+            this.pnl_Registro.Controls.Add(this.pic_VerContra);
             this.pnl_Registro.Controls.Add(this.txtbox_Registrar_Contrasenia_admin);
             this.pnl_Registro.Controls.Add(this.txtbox_Registrar_Repetir_contrasenia);
             this.pnl_Registro.Controls.Add(this.txtbox_Registrar_Contrasenia);
@@ -57,6 +66,45 @@ namespace ProyectoIntegrador2021.UCs
             this.pnl_Registro.Name = "pnl_Registro";
             this.pnl_Registro.Size = new System.Drawing.Size(350, 576);
             this.pnl_Registro.TabIndex = 13;
+            // 
+            // pic_VerAdminContra
+            // 
+            this.pic_VerAdminContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerAdminContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
+            this.pic_VerAdminContra.Location = new System.Drawing.Point(292, 369);
+            this.pic_VerAdminContra.Name = "pic_VerAdminContra";
+            this.pic_VerAdminContra.Size = new System.Drawing.Size(30, 30);
+            this.pic_VerAdminContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_VerAdminContra.TabIndex = 16;
+            this.pic_VerAdminContra.TabStop = false;
+            this.pic_VerAdminContra.Visible = false;
+            this.pic_VerAdminContra.Click += new System.EventHandler(this.pic_VerAdminContra_Click);
+            // 
+            // pic_VerRepContra
+            // 
+            this.pic_VerRepContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerRepContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
+            this.pic_VerRepContra.Location = new System.Drawing.Point(292, 302);
+            this.pic_VerRepContra.Name = "pic_VerRepContra";
+            this.pic_VerRepContra.Size = new System.Drawing.Size(30, 30);
+            this.pic_VerRepContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_VerRepContra.TabIndex = 15;
+            this.pic_VerRepContra.TabStop = false;
+            this.pic_VerRepContra.Visible = false;
+            this.pic_VerRepContra.Click += new System.EventHandler(this.pic_VerRepContra_Click);
+            // 
+            // pic_VerContra
+            // 
+            this.pic_VerContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
+            this.pic_VerContra.Location = new System.Drawing.Point(292, 235);
+            this.pic_VerContra.Name = "pic_VerContra";
+            this.pic_VerContra.Size = new System.Drawing.Size(30, 30);
+            this.pic_VerContra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic_VerContra.TabIndex = 14;
+            this.pic_VerContra.TabStop = false;
+            this.pic_VerContra.Visible = false;
+            this.pic_VerContra.Click += new System.EventHandler(this.pic_VerContra_Click);
             // 
             // txtbox_Registrar_Contrasenia_admin
             // 
@@ -249,6 +297,9 @@ namespace ProyectoIntegrador2021.UCs
             this.Size = new System.Drawing.Size(350, 576);
             this.pnl_Registro.ResumeLayout(false);
             this.pnl_Registro.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerAdminContra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerRepContra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_VerContra)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -264,5 +315,8 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaTextBox txtbox_Registrar_Email;
         private Guna.UI.WinForms.GunaTextBox txtbox_Registrar_Nombre_usuario;
         private Guna.UI.WinForms.GunaLabel gunaLabel6;
+        private System.Windows.Forms.PictureBox pic_VerRepContra;
+        private System.Windows.Forms.PictureBox pic_VerContra;
+        private System.Windows.Forms.PictureBox pic_VerAdminContra;
     }
 }
