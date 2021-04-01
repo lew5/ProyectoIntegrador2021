@@ -83,6 +83,16 @@ namespace ProyectoIntegrador2021.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_question_mark_60px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_question_mark_60px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_right_50px {
             get {
                 object obj = ResourceManager.GetObject("icons8_right_50px", resourceCulture);

@@ -29,12 +29,15 @@ namespace ProyectoIntegrador2021.ventanas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.gunaLinePanel3 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
+            this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.ucPanelInicio1 = new ProyectoIntegrador2021.UCs.UCPanelInicio();
+            this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
+            this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.panel2.SuspendLayout();
+            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -49,56 +52,44 @@ namespace ProyectoIntegrador2021.ventanas
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.GhostWhite;
-            this.panel2.Controls.Add(this.gunaLinePanel3);
-            this.panel2.Controls.Add(this.gunaLinePanel2);
-            this.panel2.Controls.Add(this.gunaLinePanel1);
+            this.panel2.Controls.Add(this.pnlContenedor);
+            this.panel2.Controls.Add(this.ucMenu1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 30);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1024, 546);
             this.panel2.TabIndex = 1;
             // 
-            // gunaLinePanel3
+            // pnlContenedor
             // 
-            this.gunaLinePanel3.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel3.LineBottom = 2;
-            this.gunaLinePanel3.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel3.LineLeft = 2;
-            this.gunaLinePanel3.LineRight = 2;
-            this.gunaLinePanel3.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel3.LineTop = 2;
-            this.gunaLinePanel3.Location = new System.Drawing.Point(801, 61);
-            this.gunaLinePanel3.Name = "gunaLinePanel3";
-            this.gunaLinePanel3.Size = new System.Drawing.Size(170, 152);
-            this.gunaLinePanel3.TabIndex = 1;
+            this.pnlContenedor.Controls.Add(this.ucPanelInicio1);
+            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContenedor.Location = new System.Drawing.Point(200, 0);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Size = new System.Drawing.Size(824, 546);
+            this.pnlContenedor.TabIndex = 3;
             // 
-            // gunaLinePanel2
+            // ucPanelInicio1
             // 
-            this.gunaLinePanel2.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel2.LineBottom = 2;
-            this.gunaLinePanel2.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel2.LineLeft = 2;
-            this.gunaLinePanel2.LineRight = 2;
-            this.gunaLinePanel2.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel2.LineTop = 2;
-            this.gunaLinePanel2.Location = new System.Drawing.Point(810, 219);
-            this.gunaLinePanel2.Name = "gunaLinePanel2";
-            this.gunaLinePanel2.Size = new System.Drawing.Size(170, 152);
-            this.gunaLinePanel2.TabIndex = 1;
+            this.ucPanelInicio1.BackColor = System.Drawing.Color.GhostWhite;
+            this.ucPanelInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelInicio1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelInicio1.Name = "ucPanelInicio1";
+            this.ucPanelInicio1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelInicio1.TabIndex = 0;
             // 
-            // gunaLinePanel1
+            // ucMenu1
             // 
-            this.gunaLinePanel1.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel1.LineBottom = 2;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel1.LineLeft = 2;
-            this.gunaLinePanel1.LineRight = 2;
-            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.LineTop = 2;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(810, 377);
-            this.gunaLinePanel1.Name = "gunaLinePanel1";
-            this.gunaLinePanel1.Size = new System.Drawing.Size(170, 152);
-            this.gunaLinePanel1.TabIndex = 0;
+            this.ucMenu1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ucMenu1.Location = new System.Drawing.Point(0, 0);
+            this.ucMenu1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucMenu1.Name = "ucMenu1";
+            this.ucMenu1.Size = new System.Drawing.Size(200, 546);
+            this.ucMenu1.TabIndex = 2;
+            // 
+            // gunaDragControl1
+            // 
+            this.gunaDragControl1.TargetControl = this.panel1;
             // 
             // frmPrincipal
             // 
@@ -113,6 +104,7 @@ namespace ProyectoIntegrador2021.ventanas
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPrincipal";
             this.panel2.ResumeLayout(false);
+            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -121,8 +113,9 @@ namespace ProyectoIntegrador2021.ventanas
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI.WinForms.GunaLinePanel gunaLinePanel1;
-        private Guna.UI.WinForms.GunaLinePanel gunaLinePanel3;
-        private Guna.UI.WinForms.GunaLinePanel gunaLinePanel2;
+        private UCs.UCMenu ucMenu1;
+        private System.Windows.Forms.Panel pnlContenedor;
+        private UCs.UCPanelInicio ucPanelInicio1;
+        private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
     }
 }

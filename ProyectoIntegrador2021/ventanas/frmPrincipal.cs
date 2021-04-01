@@ -15,6 +15,7 @@ namespace ProyectoIntegrador2021.ventanas
         public frmPrincipal()
         {
             InitializeComponent();
+            Guna.UI.Lib.GraphicsHelper.ShadowForm(this);
         }
     }
 }
