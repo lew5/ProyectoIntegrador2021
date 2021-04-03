@@ -84,7 +84,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.BackColor = System.Drawing.Color.Transparent;
             this.btnAjustes.BaseColor = System.Drawing.Color.White;
             this.btnAjustes.BorderColor = System.Drawing.Color.Black;
-            this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.btnAjustes.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnAjustes.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnAjustes.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnAjustes.CheckedImage")));
@@ -136,7 +136,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.BaseColor = System.Drawing.Color.White;
             this.btnUsuarios.BorderColor = System.Drawing.Color.Black;
             this.btnUsuarios.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnUsuarios.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.btnUsuarios.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.btnUsuarios.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnUsuarios.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnUsuarios.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.CheckedImage")));
@@ -172,7 +172,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.BaseColor = System.Drawing.Color.White;
             this.btnPedidos.BorderColor = System.Drawing.Color.Black;
             this.btnPedidos.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.btnPedidos.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnPedidos.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnPedidos.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.CheckedImage")));
@@ -208,7 +208,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.BaseColor = System.Drawing.Color.White;
             this.btnClientes.BorderColor = System.Drawing.Color.Black;
             this.btnClientes.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnClientes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.btnClientes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.btnClientes.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnClientes.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnClientes.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnClientes.CheckedImage")));
@@ -244,7 +244,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.BaseColor = System.Drawing.Color.White;
             this.btnInicio.BorderColor = System.Drawing.Color.Black;
             this.btnInicio.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnInicio.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.btnInicio.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.btnInicio.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnInicio.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnInicio.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnInicio.CheckedImage")));

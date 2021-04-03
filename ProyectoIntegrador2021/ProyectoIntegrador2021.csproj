@@ -90,6 +90,12 @@
     <Compile Include="UCs\UCInicioSesion.Designer.cs">
       <DependentUpon>UCInicioSesion.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCItemCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCItemCliente.Designer.cs">
+      <DependentUpon>UCItemCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCs\UCMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -107,6 +113,12 @@
     </Compile>
     <Compile Include="UCs\UCNuevoUsuario.Designer.cs">
       <DependentUpon>UCNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\UCPanelClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPanelClientes.Designer.cs">
+      <DependentUpon>UCPanelClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="UCs\UCPanelInicio.cs">
       <SubType>UserControl</SubType>
@@ -145,6 +157,9 @@
     <EmbeddedResource Include="UCs\UCInicioSesion.resx">
       <DependentUpon>UCInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCItemCliente.resx">
+      <DependentUpon>UCItemCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCNuevoUsuario.resx">
       <DependentUpon>UCNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCPanelClientes.resx">
+      <DependentUpon>UCPanelClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCPanelInicio.resx">
       <DependentUpon>UCPanelInicio.cs</DependentUpon>

@@ -33,9 +33,9 @@ namespace ProyectoIntegrador2021.ventanas
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.ucPanelInicio1 = new ProyectoIntegrador2021.UCs.UCPanelInicio();
-            this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
+            this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
+            this.ucPanelClientes1 = new ProyectoIntegrador2021.UCs.UCPanelClientes();
             this.panel2.SuspendLayout();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
@@ -62,21 +62,16 @@ namespace ProyectoIntegrador2021.ventanas
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPanelInicio1);
+            this.pnlContenedor.Controls.Add(this.ucPanelClientes1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(200, 0);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(824, 546);
             this.pnlContenedor.TabIndex = 3;
             // 
-            // ucPanelInicio1
+            // gunaDragControl1
             // 
-            this.ucPanelInicio1.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucPanelInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPanelInicio1.Location = new System.Drawing.Point(0, 0);
-            this.ucPanelInicio1.Name = "ucPanelInicio1";
-            this.ucPanelInicio1.Size = new System.Drawing.Size(824, 546);
-            this.ucPanelInicio1.TabIndex = 0;
+            this.gunaDragControl1.TargetControl = this.panel1;
             // 
             // ucMenu1
             // 
@@ -87,9 +82,13 @@ namespace ProyectoIntegrador2021.ventanas
             this.ucMenu1.Size = new System.Drawing.Size(200, 546);
             this.ucMenu1.TabIndex = 2;
             // 
-            // gunaDragControl1
+            // ucPanelClientes1
             // 
-            this.gunaDragControl1.TargetControl = this.panel1;
+            this.ucPanelClientes1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelClientes1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelClientes1.Name = "ucPanelClientes1";
+            this.ucPanelClientes1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelClientes1.TabIndex = 0;
             // 
             // frmPrincipal
             // 
@@ -115,7 +114,7 @@ namespace ProyectoIntegrador2021.ventanas
         private System.Windows.Forms.Panel panel2;
         private UCs.UCMenu ucMenu1;
         private System.Windows.Forms.Panel pnlContenedor;
-        private UCs.UCPanelInicio ucPanelInicio1;
         private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
+        private UCs.UCPanelClientes ucPanelClientes1;
     }
 }
