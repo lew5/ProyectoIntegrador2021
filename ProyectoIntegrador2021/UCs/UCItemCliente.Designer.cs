@@ -67,8 +67,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblEstado.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblEstado.Size = new System.Drawing.Size(120, 48);
             this.lblEstado.TabIndex = 4;
-            this.lblEstado.Text = "ACTIVO";
+            this.lblEstado.Text = "ESTADO";
             this.lblEstado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblEstado.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblEstado.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblEstado.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
@@ -84,8 +85,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblCedula.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblCedula.Size = new System.Drawing.Size(120, 48);
             this.lblCedula.TabIndex = 3;
-            this.lblCedula.Text = "5.144.366-1";
+            this.lblCedula.Text = "CÉDULA";
             this.lblCedula.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCedula.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblCedula.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblCedula.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
@@ -101,8 +103,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblTelefono.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblTelefono.Size = new System.Drawing.Size(120, 48);
             this.lblTelefono.TabIndex = 2;
-            this.lblTelefono.Text = "093491245";
+            this.lblTelefono.Text = "TELÉFONO";
             this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTelefono.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblTelefono.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblTelefono.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
@@ -118,8 +121,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblApellido.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblApellido.Size = new System.Drawing.Size(120, 48);
             this.lblApellido.TabIndex = 1;
-            this.lblApellido.Text = "OLIVERA";
+            this.lblApellido.Text = "APELLIDO";
             this.lblApellido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblApellido.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblApellido.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblApellido.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
@@ -135,8 +139,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblNombre.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblNombre.Size = new System.Drawing.Size(120, 48);
             this.lblNombre.TabIndex = 5;
-            this.lblNombre.Text = "LEANDRO";
+            this.lblNombre.Text = "NOMBRE";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNombre.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblNombre.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblNombre.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
@@ -152,8 +157,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblId.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblId.Size = new System.Drawing.Size(50, 48);
             this.lblId.TabIndex = 0;
-            this.lblId.Text = "1";
+            this.lblId.Text = "ID";
             this.lblId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblId.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblId.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
             this.lblId.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 

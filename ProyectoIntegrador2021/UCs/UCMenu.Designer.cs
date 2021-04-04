@@ -101,8 +101,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.Name = "btnAjustes";
             this.btnAjustes.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnAjustes.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnAjustes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnAjustes.OnHoverImage = null;
+            this.btnAjustes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnAjustes.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnAjustes.OnHoverImage")));
             this.btnAjustes.OnHoverLineColor = System.Drawing.Color.White;
             this.btnAjustes.OnPressedColor = System.Drawing.Color.White;
             this.btnAjustes.OnPressedDepth = 0;
@@ -153,8 +153,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnUsuarios.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnUsuarios.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnUsuarios.OnHoverImage = null;
+            this.btnUsuarios.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnUsuarios.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.OnHoverImage")));
             this.btnUsuarios.OnHoverLineColor = System.Drawing.Color.White;
             this.btnUsuarios.OnPressedColor = System.Drawing.Color.White;
             this.btnUsuarios.OnPressedDepth = 0;
@@ -189,8 +189,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.Name = "btnPedidos";
             this.btnPedidos.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnPedidos.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnPedidos.OnHoverImage = null;
+            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnPedidos.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.OnHoverImage")));
             this.btnPedidos.OnHoverLineColor = System.Drawing.Color.White;
             this.btnPedidos.OnPressedColor = System.Drawing.Color.White;
             this.btnPedidos.OnPressedDepth = 0;
@@ -225,8 +225,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnClientes.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnClientes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnClientes.OnHoverImage = null;
+            this.btnClientes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnClientes.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnClientes.OnHoverImage")));
             this.btnClientes.OnHoverLineColor = System.Drawing.Color.White;
             this.btnClientes.OnPressedColor = System.Drawing.Color.White;
             this.btnClientes.OnPressedDepth = 0;
@@ -261,8 +261,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.OnHoverBaseColor = System.Drawing.Color.White;
             this.btnInicio.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnInicio.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnInicio.OnHoverImage = null;
+            this.btnInicio.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnInicio.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnInicio.OnHoverImage")));
             this.btnInicio.OnHoverLineColor = System.Drawing.Color.White;
             this.btnInicio.OnPressedColor = System.Drawing.Color.White;
             this.btnInicio.OnPressedDepth = 0;

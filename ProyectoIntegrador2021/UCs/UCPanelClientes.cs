@@ -16,5 +16,6 @@ namespace ProyectoIntegrador2021.UCs
         {
             InitializeComponent();
         }
+
     }
 }
