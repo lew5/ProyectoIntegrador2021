@@ -126,6 +126,12 @@
     <Compile Include="UCs\UCPanelInicio.Designer.cs">
       <DependentUpon>UCPanelInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCPanelNuevoCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPanelNuevoCliente.Designer.cs">
+      <DependentUpon>UCPanelNuevoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanas\frmInicio_sesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCPanelInicio.resx">
       <DependentUpon>UCPanelInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCPanelNuevoCliente.resx">
+      <DependentUpon>UCPanelNuevoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanas\frmInicio_sesion.resx">
       <DependentUpon>frmInicio_sesion.cs</DependentUpon>
