@@ -71,10 +71,10 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.LineBottom = 1;
             this.gunaLinePanel4.LineColor = System.Drawing.Color.WhiteSmoke;
             this.gunaLinePanel4.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel4.Location = new System.Drawing.Point(0, 258);
+            this.gunaLinePanel4.Location = new System.Drawing.Point(0, 301);
             this.gunaLinePanel4.Name = "gunaLinePanel4";
             this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(20);
-            this.gunaLinePanel4.Size = new System.Drawing.Size(198, 74);
+            this.gunaLinePanel4.Size = new System.Drawing.Size(198, 80);
             this.gunaLinePanel4.TabIndex = 3;
             // 
             // btnAjustes
@@ -84,7 +84,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.BackColor = System.Drawing.Color.Transparent;
             this.btnAjustes.BaseColor = System.Drawing.Color.White;
             this.btnAjustes.BorderColor = System.Drawing.Color.Black;
-            this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnAjustes.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnAjustes.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnAjustes.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnAjustes.CheckedImage")));
@@ -99,18 +99,19 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.LineColor = System.Drawing.Color.White;
             this.btnAjustes.Location = new System.Drawing.Point(20, 20);
             this.btnAjustes.Name = "btnAjustes";
-            this.btnAjustes.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnAjustes.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnAjustes.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnAjustes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnAjustes.OnHoverForeColor = System.Drawing.Color.Silver;
             this.btnAjustes.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnAjustes.OnHoverImage")));
             this.btnAjustes.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnAjustes.OnPressedColor = System.Drawing.Color.White;
+            this.btnAjustes.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnAjustes.OnPressedDepth = 0;
-            this.btnAjustes.Radius = 4;
-            this.btnAjustes.Size = new System.Drawing.Size(158, 30);
+            this.btnAjustes.Radius = 6;
+            this.btnAjustes.Size = new System.Drawing.Size(158, 40);
             this.btnAjustes.TabIndex = 0;
             this.btnAjustes.Text = "     Ajustes";
             this.btnAjustes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnAjustes.Click += new System.EventHandler(this.btnAjustes_Click);
             // 
             // gunaLinePanel2
             // 
@@ -125,7 +126,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel2.Location = new System.Drawing.Point(0, 101);
             this.gunaLinePanel2.Name = "gunaLinePanel2";
             this.gunaLinePanel2.Padding = new System.Windows.Forms.Padding(20);
-            this.gunaLinePanel2.Size = new System.Drawing.Size(198, 157);
+            this.gunaLinePanel2.Size = new System.Drawing.Size(198, 200);
             this.gunaLinePanel2.TabIndex = 2;
             // 
             // btnUsuarios
@@ -136,7 +137,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.BaseColor = System.Drawing.Color.White;
             this.btnUsuarios.BorderColor = System.Drawing.Color.Black;
             this.btnUsuarios.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnUsuarios.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnUsuarios.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnUsuarios.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnUsuarios.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnUsuarios.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.CheckedImage")));
@@ -149,20 +150,21 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
             this.btnUsuarios.ImageSize = new System.Drawing.Size(25, 25);
             this.btnUsuarios.LineColor = System.Drawing.Color.White;
-            this.btnUsuarios.Location = new System.Drawing.Point(20, 110);
+            this.btnUsuarios.Location = new System.Drawing.Point(20, 140);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnUsuarios.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnUsuarios.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnUsuarios.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnUsuarios.OnHoverForeColor = System.Drawing.Color.Silver;
             this.btnUsuarios.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.OnHoverImage")));
             this.btnUsuarios.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnUsuarios.OnPressedColor = System.Drawing.Color.White;
+            this.btnUsuarios.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnUsuarios.OnPressedDepth = 0;
-            this.btnUsuarios.Radius = 4;
-            this.btnUsuarios.Size = new System.Drawing.Size(158, 30);
+            this.btnUsuarios.Radius = 6;
+            this.btnUsuarios.Size = new System.Drawing.Size(158, 40);
             this.btnUsuarios.TabIndex = 3;
             this.btnUsuarios.Text = "     Usuarios";
             this.btnUsuarios.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // btnPedidos
             // 
@@ -172,7 +174,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.BaseColor = System.Drawing.Color.White;
             this.btnPedidos.BorderColor = System.Drawing.Color.Black;
             this.btnPedidos.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnPedidos.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnPedidos.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnPedidos.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.CheckedImage")));
@@ -185,20 +187,21 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.Image = ((System.Drawing.Image)(resources.GetObject("btnPedidos.Image")));
             this.btnPedidos.ImageSize = new System.Drawing.Size(25, 25);
             this.btnPedidos.LineColor = System.Drawing.Color.White;
-            this.btnPedidos.Location = new System.Drawing.Point(20, 80);
+            this.btnPedidos.Location = new System.Drawing.Point(20, 100);
             this.btnPedidos.Name = "btnPedidos";
-            this.btnPedidos.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnPedidos.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnPedidos.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.Silver;
             this.btnPedidos.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.OnHoverImage")));
             this.btnPedidos.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnPedidos.OnPressedColor = System.Drawing.Color.White;
+            this.btnPedidos.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnPedidos.OnPressedDepth = 0;
-            this.btnPedidos.Radius = 4;
-            this.btnPedidos.Size = new System.Drawing.Size(158, 30);
+            this.btnPedidos.Radius = 6;
+            this.btnPedidos.Size = new System.Drawing.Size(158, 40);
             this.btnPedidos.TabIndex = 2;
             this.btnPedidos.Text = "     Pedidos";
             this.btnPedidos.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
             // 
             // btnClientes
             // 
@@ -208,7 +211,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.BaseColor = System.Drawing.Color.White;
             this.btnClientes.BorderColor = System.Drawing.Color.Black;
             this.btnClientes.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnClientes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnClientes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnClientes.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnClientes.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnClientes.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnClientes.CheckedImage")));
@@ -221,20 +224,21 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageSize = new System.Drawing.Size(25, 25);
             this.btnClientes.LineColor = System.Drawing.Color.White;
-            this.btnClientes.Location = new System.Drawing.Point(20, 50);
+            this.btnClientes.Location = new System.Drawing.Point(20, 60);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnClientes.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnClientes.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnClientes.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnClientes.OnHoverForeColor = System.Drawing.Color.Silver;
             this.btnClientes.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnClientes.OnHoverImage")));
             this.btnClientes.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnClientes.OnPressedColor = System.Drawing.Color.White;
+            this.btnClientes.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnClientes.OnPressedDepth = 0;
-            this.btnClientes.Radius = 4;
-            this.btnClientes.Size = new System.Drawing.Size(158, 30);
+            this.btnClientes.Radius = 6;
+            this.btnClientes.Size = new System.Drawing.Size(158, 40);
             this.btnClientes.TabIndex = 1;
             this.btnClientes.Text = "     Clientes";
             this.btnClientes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnInicio
             // 
@@ -244,7 +248,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.BaseColor = System.Drawing.Color.White;
             this.btnInicio.BorderColor = System.Drawing.Color.Black;
             this.btnInicio.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnInicio.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnInicio.Checked = true;
+            this.btnInicio.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnInicio.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnInicio.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btnInicio.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnInicio.CheckedImage")));
@@ -259,18 +264,19 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.LineColor = System.Drawing.Color.White;
             this.btnInicio.Location = new System.Drawing.Point(20, 20);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.OnHoverBaseColor = System.Drawing.Color.White;
+            this.btnInicio.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnInicio.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnInicio.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
+            this.btnInicio.OnHoverForeColor = System.Drawing.Color.Silver;
             this.btnInicio.OnHoverImage = ((System.Drawing.Image)(resources.GetObject("btnInicio.OnHoverImage")));
             this.btnInicio.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnInicio.OnPressedColor = System.Drawing.Color.White;
+            this.btnInicio.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnInicio.OnPressedDepth = 0;
-            this.btnInicio.Radius = 4;
-            this.btnInicio.Size = new System.Drawing.Size(158, 30);
+            this.btnInicio.Radius = 6;
+            this.btnInicio.Size = new System.Drawing.Size(158, 40);
             this.btnInicio.TabIndex = 0;
             this.btnInicio.Text = "     Inicio";
             this.btnInicio.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // gunaLinePanel1
             // 

@@ -30,11 +30,11 @@ namespace ProyectoIntegrador2021
         private void InitializeComponent()
         {
             this.pnlLogin_Registro = new System.Windows.Forms.Panel();
+            this.ucInicioSesion1 = new ProyectoIntegrador2021.UCs.UCInicioSesion();
+            this.ucNuevoUsuario1 = new ProyectoIntegrador2021.UCs.UCNuevoUsuario();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.ucNuevoUsuario1 = new ProyectoIntegrador2021.UCs.UCNuevoUsuario();
-            this.ucInicioSesion1 = new ProyectoIntegrador2021.UCs.UCInicioSesion();
             this.pnlLogin_Registro.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,9 +50,31 @@ namespace ProyectoIntegrador2021
             this.pnlLogin_Registro.Size = new System.Drawing.Size(350, 576);
             this.pnlLogin_Registro.TabIndex = 0;
             // 
+            // ucInicioSesion1
+            // 
+            this.ucInicioSesion1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucInicioSesion1.Location = new System.Drawing.Point(0, 0);
+            this.ucInicioSesion1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucInicioSesion1.MaximumSize = new System.Drawing.Size(350, 576);
+            this.ucInicioSesion1.MinimumSize = new System.Drawing.Size(350, 576);
+            this.ucInicioSesion1.Name = "ucInicioSesion1";
+            this.ucInicioSesion1.Size = new System.Drawing.Size(350, 576);
+            this.ucInicioSesion1.TabIndex = 14;
+            // 
+            // ucNuevoUsuario1
+            // 
+            this.ucNuevoUsuario1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucNuevoUsuario1.Location = new System.Drawing.Point(0, 0);
+            this.ucNuevoUsuario1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucNuevoUsuario1.MaximumSize = new System.Drawing.Size(350, 576);
+            this.ucNuevoUsuario1.MinimumSize = new System.Drawing.Size(350, 576);
+            this.ucNuevoUsuario1.Name = "ucNuevoUsuario1";
+            this.ucNuevoUsuario1.Size = new System.Drawing.Size(350, 576);
+            this.ucNuevoUsuario1.TabIndex = 15;
+            // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.panel2.Controls.Add(this.gunaLabel2);
             this.panel2.Controls.Add(this.gunaLabel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -86,28 +108,6 @@ namespace ProyectoIntegrador2021
             this.gunaLabel1.Text = "A V O N";
             this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.gunaLabel1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            // 
-            // ucNuevoUsuario1
-            // 
-            this.ucNuevoUsuario1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucNuevoUsuario1.Location = new System.Drawing.Point(0, 0);
-            this.ucNuevoUsuario1.Margin = new System.Windows.Forms.Padding(0);
-            this.ucNuevoUsuario1.MaximumSize = new System.Drawing.Size(350, 576);
-            this.ucNuevoUsuario1.MinimumSize = new System.Drawing.Size(350, 576);
-            this.ucNuevoUsuario1.Name = "ucNuevoUsuario1";
-            this.ucNuevoUsuario1.Size = new System.Drawing.Size(350, 576);
-            this.ucNuevoUsuario1.TabIndex = 15;
-            // 
-            // ucInicioSesion1
-            // 
-            this.ucInicioSesion1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucInicioSesion1.Location = new System.Drawing.Point(0, 0);
-            this.ucInicioSesion1.Margin = new System.Windows.Forms.Padding(0);
-            this.ucInicioSesion1.MaximumSize = new System.Drawing.Size(350, 576);
-            this.ucInicioSesion1.MinimumSize = new System.Drawing.Size(350, 576);
-            this.ucInicioSesion1.Name = "ucInicioSesion1";
-            this.ucInicioSesion1.Size = new System.Drawing.Size(350, 576);
-            this.ucInicioSesion1.TabIndex = 14;
             // 
             // Form1
             // 

@@ -69,7 +69,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // pic_VerAdminContra
             // 
-            this.pic_VerAdminContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerAdminContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.pic_VerAdminContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
             this.pic_VerAdminContra.Location = new System.Drawing.Point(292, 369);
             this.pic_VerAdminContra.Name = "pic_VerAdminContra";
@@ -82,7 +82,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // pic_VerRepContra
             // 
-            this.pic_VerRepContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerRepContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.pic_VerRepContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
             this.pic_VerRepContra.Location = new System.Drawing.Point(292, 302);
             this.pic_VerRepContra.Name = "pic_VerRepContra";
@@ -95,7 +95,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // pic_VerContra
             // 
-            this.pic_VerContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pic_VerContra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.pic_VerContra.Image = global::ProyectoIntegrador2021.Properties.Resources.icons8_invisible_30px;
             this.pic_VerContra.Location = new System.Drawing.Point(292, 235);
             this.pic_VerContra.Name = "pic_VerContra";
@@ -109,12 +109,12 @@ namespace ProyectoIntegrador2021.UCs
             // txtbox_Registrar_Contrasenia_admin
             // 
             this.txtbox_Registrar_Contrasenia_admin.BackColor = System.Drawing.Color.Transparent;
-            this.txtbox_Registrar_Contrasenia_admin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtbox_Registrar_Contrasenia_admin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtbox_Registrar_Contrasenia_admin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.txtbox_Registrar_Contrasenia_admin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.txtbox_Registrar_Contrasenia_admin.BorderSize = 1;
             this.txtbox_Registrar_Contrasenia_admin.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtbox_Registrar_Contrasenia_admin.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtbox_Registrar_Contrasenia_admin.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.txtbox_Registrar_Contrasenia_admin.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.txtbox_Registrar_Contrasenia_admin.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtbox_Registrar_Contrasenia_admin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_Registrar_Contrasenia_admin.ForeColor = System.Drawing.Color.DarkGray;
@@ -133,12 +133,12 @@ namespace ProyectoIntegrador2021.UCs
             // txtbox_Registrar_Repetir_contrasenia
             // 
             this.txtbox_Registrar_Repetir_contrasenia.BackColor = System.Drawing.Color.Transparent;
-            this.txtbox_Registrar_Repetir_contrasenia.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtbox_Registrar_Repetir_contrasenia.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtbox_Registrar_Repetir_contrasenia.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.txtbox_Registrar_Repetir_contrasenia.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.txtbox_Registrar_Repetir_contrasenia.BorderSize = 1;
             this.txtbox_Registrar_Repetir_contrasenia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtbox_Registrar_Repetir_contrasenia.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtbox_Registrar_Repetir_contrasenia.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.txtbox_Registrar_Repetir_contrasenia.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.txtbox_Registrar_Repetir_contrasenia.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtbox_Registrar_Repetir_contrasenia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_Registrar_Repetir_contrasenia.ForeColor = System.Drawing.Color.DarkGray;
@@ -157,12 +157,12 @@ namespace ProyectoIntegrador2021.UCs
             // txtbox_Registrar_Contrasenia
             // 
             this.txtbox_Registrar_Contrasenia.BackColor = System.Drawing.Color.Transparent;
-            this.txtbox_Registrar_Contrasenia.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtbox_Registrar_Contrasenia.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtbox_Registrar_Contrasenia.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.txtbox_Registrar_Contrasenia.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.txtbox_Registrar_Contrasenia.BorderSize = 1;
             this.txtbox_Registrar_Contrasenia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtbox_Registrar_Contrasenia.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtbox_Registrar_Contrasenia.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.txtbox_Registrar_Contrasenia.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.txtbox_Registrar_Contrasenia.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtbox_Registrar_Contrasenia.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_Registrar_Contrasenia.ForeColor = System.Drawing.Color.DarkGray;
@@ -213,8 +213,8 @@ namespace ProyectoIntegrador2021.UCs
             this.btn_Registrar.Location = new System.Drawing.Point(135, 432);
             this.btn_Registrar.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
             this.btn_Registrar.Name = "btn_Registrar";
-            this.btn_Registrar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
-            this.btn_Registrar.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.btn_Registrar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btn_Registrar.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.btn_Registrar.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_Registrar.OnHoverImage = global::ProyectoIntegrador2021.Properties.Resources.icons8_right_50px_1;
             this.btn_Registrar.OnPressedColor = System.Drawing.Color.Black;
@@ -227,12 +227,12 @@ namespace ProyectoIntegrador2021.UCs
             // txtbox_Registrar_Email
             // 
             this.txtbox_Registrar_Email.BackColor = System.Drawing.Color.Transparent;
-            this.txtbox_Registrar_Email.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtbox_Registrar_Email.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtbox_Registrar_Email.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.txtbox_Registrar_Email.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.txtbox_Registrar_Email.BorderSize = 1;
             this.txtbox_Registrar_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtbox_Registrar_Email.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtbox_Registrar_Email.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.txtbox_Registrar_Email.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.txtbox_Registrar_Email.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtbox_Registrar_Email.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_Registrar_Email.ForeColor = System.Drawing.Color.DarkGray;
@@ -251,12 +251,12 @@ namespace ProyectoIntegrador2021.UCs
             // txtbox_Registrar_Nombre_usuario
             // 
             this.txtbox_Registrar_Nombre_usuario.BackColor = System.Drawing.Color.Transparent;
-            this.txtbox_Registrar_Nombre_usuario.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtbox_Registrar_Nombre_usuario.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtbox_Registrar_Nombre_usuario.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.txtbox_Registrar_Nombre_usuario.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.txtbox_Registrar_Nombre_usuario.BorderSize = 1;
             this.txtbox_Registrar_Nombre_usuario.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtbox_Registrar_Nombre_usuario.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtbox_Registrar_Nombre_usuario.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
+            this.txtbox_Registrar_Nombre_usuario.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.txtbox_Registrar_Nombre_usuario.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtbox_Registrar_Nombre_usuario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_Registrar_Nombre_usuario.ForeColor = System.Drawing.Color.DarkGray;

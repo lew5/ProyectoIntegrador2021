@@ -1,18 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace ProyectoIntegrador2021
 {
     public static class Funciones
     {
+
         //PLACEHOLDER
         public static void placeHolderEnter(Guna.UI.WinForms.GunaTextBox txtbox, String txt)
         {
             if (txtbox.Text.Trim() == txt)
             {
                 txtbox.Clear();
-                txtbox.Font = new Font("Segoe UI", 12F,FontStyle.Bold);
-                txtbox.ForeColor = Color.FromArgb(64,64,64);
+                txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+                txtbox.ForeColor = Color.FromArgb(64, 64, 64);
                 txtbox.BaseColor = Color.White;
             }
         }
@@ -23,14 +26,14 @@ namespace ProyectoIntegrador2021
                 txtbox.Text = "   " + txt;
                 txtbox.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
                 txtbox.ForeColor = Color.DarkGray;
-                txtbox.BaseColor = Color.FromArgb(224, 224, 224);
+                txtbox.BaseColor = Color.FromArgb(237, 237, 237);
             }
         }
         //PLACEHOLDER CONTRASEÑA
         public static void placeHolderPassEnter(Guna.UI.WinForms.GunaTextBox txtbox, String txt, System.Windows.Forms.PictureBox pic)
         {
             if (txtbox.Text.Trim() == txt)
-            {              
+            {
                 txtbox.Clear();
                 txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
                 txtbox.UseSystemPasswordChar = true;
@@ -47,10 +50,10 @@ namespace ProyectoIntegrador2021
             if (txtbox.Text.Trim() == "")
             {
                 txtbox.Text = "   " + txt;
-                txtbox.Font = new Font("Segoe UI", 10F, FontStyle.Bold);               
+                txtbox.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
                 txtbox.ForeColor = Color.DarkGray;
-                pic.BackColor = Color.FromArgb(224, 224, 224);
-                txtbox.BaseColor = Color.FromArgb(224, 224, 224);
+                pic.BackColor = Color.FromArgb(237, 237, 237);
+                txtbox.BaseColor = Color.FromArgb(237, 237, 237);
                 txtbox.UseSystemPasswordChar = false;
                 txtbox.PasswordChar = '\0';
                 pic.Visible = false;

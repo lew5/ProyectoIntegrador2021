@@ -35,8 +35,9 @@ namespace ProyectoIntegrador2021.ventanas
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.ucPanelInicio1 = new ProyectoIntegrador2021.UCs.UCPanelInicio();
+            this.ucPanelClientes1 = new ProyectoIntegrador2021.UCs.UCPanelClientes();
             this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
-            this.ucPanelNuevoCliente1 = new ProyectoIntegrador2021.UCs.UCPanelNuevoCliente();
             this.panel2.SuspendLayout();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +64,8 @@ namespace ProyectoIntegrador2021.ventanas
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPanelNuevoCliente1);
+            this.pnlContenedor.Controls.Add(this.ucPanelInicio1);
+            this.pnlContenedor.Controls.Add(this.ucPanelClientes1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(200, 0);
             this.pnlContenedor.Name = "pnlContenedor";
@@ -78,6 +80,24 @@ namespace ProyectoIntegrador2021.ventanas
             // 
             this.gunaElipse1.TargetControl = this;
             // 
+            // ucPanelInicio1
+            // 
+            this.ucPanelInicio1.BackColor = System.Drawing.Color.GhostWhite;
+            this.ucPanelInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelInicio1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelInicio1.Name = "ucPanelInicio1";
+            this.ucPanelInicio1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelInicio1.TabIndex = 0;
+            // 
+            // ucPanelClientes1
+            // 
+            this.ucPanelClientes1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelClientes1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelClientes1.Name = "ucPanelClientes1";
+            this.ucPanelClientes1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelClientes1.TabIndex = 1;
+            this.ucPanelClientes1.Visible = false;
+            // 
             // ucMenu1
             // 
             this.ucMenu1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -86,15 +106,8 @@ namespace ProyectoIntegrador2021.ventanas
             this.ucMenu1.Name = "ucMenu1";
             this.ucMenu1.Size = new System.Drawing.Size(200, 546);
             this.ucMenu1.TabIndex = 2;
-            // 
-            // ucPanelNuevoCliente1
-            // 
-            this.ucPanelNuevoCliente1.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucPanelNuevoCliente1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPanelNuevoCliente1.Location = new System.Drawing.Point(0, 0);
-            this.ucPanelNuevoCliente1.Name = "ucPanelNuevoCliente1";
-            this.ucPanelNuevoCliente1.Size = new System.Drawing.Size(824, 546);
-            this.ucPanelNuevoCliente1.TabIndex = 0;
+            this.ucMenu1.Inicio_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Inicio_Click);
+            this.ucMenu1.Clientes_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Clientes_Click);
             // 
             // frmPrincipal
             // 
@@ -119,9 +132,10 @@ namespace ProyectoIntegrador2021.ventanas
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private UCs.UCMenu ucMenu1;
-        private System.Windows.Forms.Panel pnlContenedor;
         private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
-        private UCs.UCPanelNuevoCliente ucPanelNuevoCliente1;
+        private System.Windows.Forms.Panel pnlContenedor;
+        private UCs.UCPanelInicio ucPanelInicio1;
+        private UCs.UCPanelClientes ucPanelClientes1;
     }
 }
