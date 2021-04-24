@@ -133,7 +133,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             this.lblPagina.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPagina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
-            this.lblPagina.Location = new System.Drawing.Point(682, 491);
+            this.lblPagina.Location = new System.Drawing.Point(682, 486);
             this.lblPagina.Margin = new System.Windows.Forms.Padding(0);
             this.lblPagina.Name = "lblPagina";
             this.lblPagina.Size = new System.Drawing.Size(26, 25);
@@ -144,7 +144,7 @@ namespace ProyectoIntegrador2021.UCs
             // picboxPrevPage
             // 
             this.picboxPrevPage.Image = ((System.Drawing.Image)(resources.GetObject("picboxPrevPage.Image")));
-            this.picboxPrevPage.Location = new System.Drawing.Point(654, 491);
+            this.picboxPrevPage.Location = new System.Drawing.Point(654, 486);
             this.picboxPrevPage.Name = "picboxPrevPage";
             this.picboxPrevPage.Size = new System.Drawing.Size(25, 25);
             this.picboxPrevPage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -154,7 +154,7 @@ namespace ProyectoIntegrador2021.UCs
             // picboxNextPage
             // 
             this.picboxNextPage.Image = ((System.Drawing.Image)(resources.GetObject("picboxNextPage.Image")));
-            this.picboxNextPage.Location = new System.Drawing.Point(711, 491);
+            this.picboxNextPage.Location = new System.Drawing.Point(711, 486);
             this.picboxNextPage.Name = "picboxNextPage";
             this.picboxNextPage.Size = new System.Drawing.Size(25, 25);
             this.picboxNextPage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -318,7 +318,7 @@ namespace ProyectoIntegrador2021.UCs
             this.pnlTabla.LineRight = 2;
             this.pnlTabla.LineStyle = System.Windows.Forms.BorderStyle.None;
             this.pnlTabla.LineTop = 2;
-            this.pnlTabla.Location = new System.Drawing.Point(87, 234);
+            this.pnlTabla.Location = new System.Drawing.Point(87, 219);
             this.pnlTabla.Margin = new System.Windows.Forms.Padding(87, 0, 87, 60);
             this.pnlTabla.Name = "pnlTabla";
             this.pnlTabla.Padding = new System.Windows.Forms.Padding(1);
@@ -408,7 +408,7 @@ namespace ProyectoIntegrador2021.UCs
             this.panel3.Controls.Add(this.gunaLabel2);
             this.panel3.Controls.Add(this.gunaLabel6);
             this.panel3.Controls.Add(this.gunaLabel1);
-            this.panel3.Location = new System.Drawing.Point(87, 199);
+            this.panel3.Location = new System.Drawing.Point(87, 184);
             this.panel3.Margin = new System.Windows.Forms.Padding(87, 3, 87, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(650, 30);

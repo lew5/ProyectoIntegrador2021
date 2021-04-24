@@ -1,4 +1,5 @@
 ﻿using ProyectoIntegrador2021.UCs;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ProyectoIntegrador2021.ventanas
@@ -14,14 +15,38 @@ namespace ProyectoIntegrador2021.ventanas
 
         private void ucMenu1_Inicio_Click(object sender, System.EventArgs e)
         {
-            ucPanelClientes1.Hide();
-            ucPanelInicio1.Show();
+            mostrarSeccion<UCPanelInicio>();
         }
 
         private void ucMenu1_Clientes_Click(object sender, System.EventArgs e)
         {
-            ucPanelInicio1.Hide();
-            ucPanelClientes1.Show();       
+            mostrarSeccion<UCPanelClientes>();
+        }
+
+
+
+        //
+
+        private void mostrarSeccion<Seccion>() where Seccion : UserControl, new()
+        {
+            UserControl uc;
+            uc = pnlContenedor.Controls.OfType<Seccion>().FirstOrDefault();
+            if (uc == null)
+            {
+                uc = new Seccion();
+                pnlContenedor.Controls.Add(uc);
+                uc.Dock = DockStyle.Fill;
+                uc.BringToFront();
+                foreach (Control c in pnlContenedor.Controls)
+                    if (uc.Name != c.Name)
+                    {
+                        c.Dispose();
+                    }
+            }
+            else
+            {
+                uc.BringToFront();
+            }
         }
     }
 }

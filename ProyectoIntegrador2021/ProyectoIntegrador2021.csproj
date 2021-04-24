@@ -77,6 +77,9 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\Cliente.cs" />
+    <Compile Include="clases\Pedido.cs" />
+    <Compile Include="clases\Usuario.cs" />
     <Compile Include="Funciones.cs" />
     <Compile Include="UCs\UCCard.cs">
       <SubType>UserControl</SubType>
@@ -132,6 +135,12 @@
     <Compile Include="UCs\UCPanelNuevoCliente.Designer.cs">
       <DependentUpon>UCPanelNuevoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCPanelPerfilCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPanelPerfilCliente.Designer.cs">
+      <DependentUpon>UCPanelPerfilCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanas\frmInicio_sesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCPanelNuevoCliente.resx">
       <DependentUpon>UCPanelNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCPanelPerfilCliente.resx">
+      <DependentUpon>UCPanelPerfilCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanas\frmInicio_sesion.resx">
       <DependentUpon>frmInicio_sesion.cs</DependentUpon>

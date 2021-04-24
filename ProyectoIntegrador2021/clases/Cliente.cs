@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoIntegrador2021.clases
 {
-    class Pedido
+    class Cliente
     {
     }
 }
