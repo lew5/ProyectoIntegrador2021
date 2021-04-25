@@ -23,6 +23,10 @@ namespace ProyectoIntegrador2021.ventanas
             mostrarSeccion<UCPanelClientes>();
         }
 
+        private void ucPanelPerfilCliente1_Volver_Click(object sender, System.EventArgs e)
+        {
+            mostrarSeccion<UCPanelClientes>();
+        }
 
 
         //

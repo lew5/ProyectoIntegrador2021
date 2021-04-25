@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAGYktHRAD/AP8A/6C9p5MAAAEvSURBVEhL7ZW7TsNAEEWtNEhJASihoEzDr0DnH8i3QgokHg38
+        DQ8hmXOta5SY8WSxTJcjXVk7c2fs3WTs6sgkNE1zgU68TJFPfi/LoKBG7+gZnTkcorx98tcO52DcoC/U
+        8YpWTu+huPMdqts4HYPhEn3I3eMJndrWorXjfbSjpW2/IamzfZAz4BG1N9LV6wjV578lhjm6lTvgBV35
+        GqG6uVvlYMyeVMcR8bPTYihYoDtVFyDfwqV/Q4Voqy4Jyo+7QQcN1uhT3QIUX9s6Dhr05yBicI4OQuHS
+        DUqQb3g2Iij4338XRu0gmwO9OLM5yneEYYqJv0eztmEEyaneXee2xWC4QW9ym8FBUxztzpHqrp3OwVi7
+        QE9a8j2Rr/x70kGBjmP4bHeQD42blSP7VNU3WYVxXzEdrvoAAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="gunaDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

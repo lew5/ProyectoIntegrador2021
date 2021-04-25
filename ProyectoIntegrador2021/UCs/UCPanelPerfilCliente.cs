@@ -12,9 +12,40 @@ namespace ProyectoIntegrador2021.UCs
 {
     public partial class UCPanelPerfilCliente : UserControl
     {
+
+        public delegate void Evento(object sender, EventArgs e);
+        public event Evento Volver_Click;
+
         public UCPanelPerfilCliente()
         {
             InitializeComponent();
+        }
+        
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            picbox_Estado_Cliente.Focus();
+            pnlPerfilCliente.BringToFront();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            picbox_Estado_Cliente.Focus();
+            pnlEditarCliente.BringToFront();
+        }
+
+        private void lbl_Volver_MouseEnter(object sender, EventArgs e)
+        {
+            lbl_Volver.ForeColor = Color.FromArgb(254, 49, 108);
+        }
+
+        private void lbl_Volver_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_Volver.ForeColor = Color.Silver;
+        }
+
+        private void lbl_Volver_Click(object sender, EventArgs e)
+        {
+            Volver_Click(sender, e);
         }
     }
 }
