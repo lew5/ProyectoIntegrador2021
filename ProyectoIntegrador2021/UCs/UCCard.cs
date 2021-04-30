@@ -21,7 +21,7 @@ namespace ProyectoIntegrador2021.UCs
             InitializeComponent();
         }
 
-        private void MouseEnter(object sender, EventArgs e)
+        private void CardMouseEnter(object sender, EventArgs e)
         {
             ShadowPanel.ShadowShift = 4;
             ShadowPanel.BaseColor = _ColorFondoHover;
@@ -30,7 +30,7 @@ namespace ProyectoIntegrador2021.UCs
             picIcono.Image = _HoverImagen;
         }
 
-        private void MouseLeave(object sender, EventArgs e)
+        private void CardMouseLeave(object sender, EventArgs e)
         {
             ShadowPanel.ShadowShift = 2;
             ShadowPanel.BaseColor = _ColorFondo;

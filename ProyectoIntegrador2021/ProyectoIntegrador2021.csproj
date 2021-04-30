@@ -99,6 +99,12 @@
     <Compile Include="UCs\UCItemCliente.Designer.cs">
       <DependentUpon>UCItemCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCItemPedidoCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCItemPedidoCliente.Designer.cs">
+      <DependentUpon>UCItemPedidoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCs\UCMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCItemCliente.resx">
       <DependentUpon>UCItemCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCItemPedidoCliente.resx">
+      <DependentUpon>UCItemPedidoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>

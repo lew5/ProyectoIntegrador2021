@@ -27,6 +27,12 @@ namespace ProyectoIntegrador2021.UCs
             pnlPerfilCliente.BringToFront();
         }
 
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            picbox_Estado_Cliente.Focus();
+            pnlPedidosCliente.BringToFront();
+        }
+
         private void btnEditar_Click(object sender, EventArgs e)
         {
             picbox_Estado_Cliente.Focus();
@@ -47,5 +53,6 @@ namespace ProyectoIntegrador2021.UCs
         {
             Volver_Click(sender, e);
         }
+        
     }
 }

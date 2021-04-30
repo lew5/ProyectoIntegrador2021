@@ -48,8 +48,8 @@ namespace ProyectoIntegrador2021.UCs
             this.picIcono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picIcono.TabIndex = 1;
             this.picIcono.TabStop = false;
-            this.picIcono.MouseEnter += new System.EventHandler(this.MouseEnter);
-            this.picIcono.MouseLeave += new System.EventHandler(this.MouseLeave);
+            this.picIcono.MouseEnter += new System.EventHandler(this.CardMouseEnter);
+            this.picIcono.MouseLeave += new System.EventHandler(this.CardMouseLeave);
             // 
             // lblNumero
             // 
@@ -64,8 +64,8 @@ namespace ProyectoIntegrador2021.UCs
             this.lblNumero.Text = "0";
             this.lblNumero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblNumero.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            this.lblNumero.MouseEnter += new System.EventHandler(this.MouseEnter);
-            this.lblNumero.MouseLeave += new System.EventHandler(this.MouseLeave);
+            this.lblNumero.MouseEnter += new System.EventHandler(this.CardMouseEnter);
+            this.lblNumero.MouseLeave += new System.EventHandler(this.CardMouseLeave);
             // 
             // lblText
             // 
@@ -79,8 +79,8 @@ namespace ProyectoIntegrador2021.UCs
             this.lblText.TabIndex = 4;
             this.lblText.Text = "TEXTO";
             this.lblText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblText.MouseEnter += new System.EventHandler(this.MouseEnter);
-            this.lblText.MouseLeave += new System.EventHandler(this.MouseLeave);
+            this.lblText.MouseEnter += new System.EventHandler(this.CardMouseEnter);
+            this.lblText.MouseLeave += new System.EventHandler(this.CardMouseLeave);
             // 
             // ShadowPanel
             // 
@@ -99,8 +99,8 @@ namespace ProyectoIntegrador2021.UCs
             this.ShadowPanel.ShadowShift = 2;
             this.ShadowPanel.Size = new System.Drawing.Size(125, 125);
             this.ShadowPanel.TabIndex = 5;
-            this.ShadowPanel.MouseEnter += new System.EventHandler(this.MouseEnter);
-            this.ShadowPanel.MouseLeave += new System.EventHandler(this.MouseLeave);
+            this.ShadowPanel.MouseEnter += new System.EventHandler(this.CardMouseEnter);
+            this.ShadowPanel.MouseLeave += new System.EventHandler(this.CardMouseLeave);
             // 
             // UCCard
             // 
