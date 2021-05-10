@@ -70,14 +70,14 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // lblNuevoCliente_volver
             // 
-            this.lblNuevoCliente_volver.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNuevoCliente_volver.ForeColor = System.Drawing.Color.DarkGray;
+            this.lblNuevoCliente_volver.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevoCliente_volver.ForeColor = System.Drawing.Color.Silver;
             this.lblNuevoCliente_volver.Location = new System.Drawing.Point(40, 476);
             this.lblNuevoCliente_volver.Margin = new System.Windows.Forms.Padding(40);
             this.lblNuevoCliente_volver.Name = "lblNuevoCliente_volver";
             this.lblNuevoCliente_volver.Size = new System.Drawing.Size(73, 30);
             this.lblNuevoCliente_volver.TabIndex = 18;
-            this.lblNuevoCliente_volver.Text = "Volver";
+            this.lblNuevoCliente_volver.Text = "volver";
             this.lblNuevoCliente_volver.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblNuevoCliente_volver.Click += new System.EventHandler(this.lblNuevoCliente_volver_Click);
             // 

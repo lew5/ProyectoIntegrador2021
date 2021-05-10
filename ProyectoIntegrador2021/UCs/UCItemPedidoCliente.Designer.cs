@@ -30,7 +30,6 @@ namespace ProyectoIntegrador2021.UCs
         private void InitializeComponent()
         {
             this.lnlPnl_info = new Guna.UI.WinForms.GunaLinePanel();
-            this.lblEstado = new Guna.UI.WinForms.GunaLabel();
             this.lblFecha = new Guna.UI.WinForms.GunaLabel();
             this.lblCampania = new Guna.UI.WinForms.GunaLabel();
             this.lblTotal = new Guna.UI.WinForms.GunaLabel();
@@ -44,7 +43,6 @@ namespace ProyectoIntegrador2021.UCs
             // lnlPnl_info
             // 
             this.lnlPnl_info.BackColor = System.Drawing.Color.Transparent;
-            this.lnlPnl_info.Controls.Add(this.lblEstado);
             this.lnlPnl_info.Controls.Add(this.lblFecha);
             this.lnlPnl_info.Controls.Add(this.lblCampania);
             this.lnlPnl_info.Controls.Add(this.lblTotal);
@@ -56,35 +54,21 @@ namespace ProyectoIntegrador2021.UCs
             this.lnlPnl_info.Location = new System.Drawing.Point(10, 10);
             this.lnlPnl_info.Margin = new System.Windows.Forms.Padding(0);
             this.lnlPnl_info.Name = "lnlPnl_info";
-            this.lnlPnl_info.Size = new System.Drawing.Size(565, 30);
+            this.lnlPnl_info.Size = new System.Drawing.Size(537, 30);
             this.lnlPnl_info.TabIndex = 2;
             this.lnlPnl_info.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.lnlPnl_info.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
-            // 
-            // lblEstado
-            // 
-            this.lblEstado.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblEstado.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.ForeColor = System.Drawing.Color.DimGray;
-            this.lblEstado.Location = new System.Drawing.Point(485, 0);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(96, 30);
-            this.lblEstado.TabIndex = 4;
-            this.lblEstado.Text = "Finalizado";
-            this.lblEstado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblEstado.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
-            this.lblEstado.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
             // 
             // lblFecha
             // 
             this.lblFecha.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblFecha.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.Color.DimGray;
-            this.lblFecha.Location = new System.Drawing.Point(388, 0);
+            this.lblFecha.Location = new System.Drawing.Point(481, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(97, 30);
+            this.lblFecha.Size = new System.Drawing.Size(60, 30);
             this.lblFecha.TabIndex = 5;
-            this.lblFecha.Text = "24/4/2021";
+            this.lblFecha.Text = "DEBE";
             this.lblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblFecha.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.lblFecha.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
@@ -94,11 +78,11 @@ namespace ProyectoIntegrador2021.UCs
             this.lblCampania.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblCampania.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCampania.ForeColor = System.Drawing.Color.DimGray;
-            this.lblCampania.Location = new System.Drawing.Point(291, 0);
+            this.lblCampania.Location = new System.Drawing.Point(389, 0);
             this.lblCampania.Name = "lblCampania";
-            this.lblCampania.Size = new System.Drawing.Size(97, 30);
+            this.lblCampania.Size = new System.Drawing.Size(92, 30);
             this.lblCampania.TabIndex = 3;
-            this.lblCampania.Text = "2";
+            this.lblCampania.Text = "18 - 2019";
             this.lblCampania.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCampania.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.lblCampania.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
@@ -108,11 +92,11 @@ namespace ProyectoIntegrador2021.UCs
             this.lblTotal.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblTotal.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.DimGray;
-            this.lblTotal.Location = new System.Drawing.Point(194, 0);
+            this.lblTotal.Location = new System.Drawing.Point(297, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(97, 30);
+            this.lblTotal.Size = new System.Drawing.Size(92, 30);
             this.lblTotal.TabIndex = 2;
-            this.lblTotal.Text = "$15";
+            this.lblTotal.Text = "5";
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblTotal.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.lblTotal.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
@@ -124,9 +108,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lblCantidad.ForeColor = System.Drawing.Color.DimGray;
             this.lblCantidad.Location = new System.Drawing.Point(97, 0);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(97, 30);
+            this.lblCantidad.Size = new System.Drawing.Size(200, 30);
             this.lblCantidad.TabIndex = 1;
-            this.lblCantidad.Text = "3";
+            this.lblCantidad.Text = "PEINE NIKE DORADA";
             this.lblCantidad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCantidad.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.lblCantidad.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
@@ -147,7 +131,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // gunaShadowPanel1
             // 
-            this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaShadowPanel1.BackColor = System.Drawing.Color.White;
             this.gunaShadowPanel1.BaseColor = System.Drawing.Color.White;
             this.gunaShadowPanel1.Controls.Add(this.lnlPnl_info);
             this.gunaShadowPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -157,20 +141,20 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaShadowPanel1.Radius = 6;
             this.gunaShadowPanel1.ShadowColor = System.Drawing.Color.Transparent;
             this.gunaShadowPanel1.ShadowDepth = 255;
-            this.gunaShadowPanel1.Size = new System.Drawing.Size(585, 50);
+            this.gunaShadowPanel1.Size = new System.Drawing.Size(557, 50);
             this.gunaShadowPanel1.TabIndex = 6;
             // 
             // UCItemPedidoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.gunaShadowPanel1);
             this.Margin = new System.Windows.Forms.Padding(0);
-            this.MaximumSize = new System.Drawing.Size(585, 50);
-            this.MinimumSize = new System.Drawing.Size(585, 50);
+            this.MaximumSize = new System.Drawing.Size(557, 50);
+            this.MinimumSize = new System.Drawing.Size(557, 50);
             this.Name = "UCItemPedidoCliente";
-            this.Size = new System.Drawing.Size(585, 50);
+            this.Size = new System.Drawing.Size(557, 50);
             this.MouseEnter += new System.EventHandler(this.lnlPnl_info_MouseEnter);
             this.MouseLeave += new System.EventHandler(this.lnlPnl_info_MouseLeave);
             this.lnlPnl_info.ResumeLayout(false);
@@ -182,7 +166,6 @@ namespace ProyectoIntegrador2021.UCs
         #endregion
 
         private Guna.UI.WinForms.GunaLinePanel lnlPnl_info;
-        private Guna.UI.WinForms.GunaLabel lblEstado;
         private Guna.UI.WinForms.GunaLabel lblFecha;
         private Guna.UI.WinForms.GunaLabel lblCampania;
         private Guna.UI.WinForms.GunaLabel lblTotal;

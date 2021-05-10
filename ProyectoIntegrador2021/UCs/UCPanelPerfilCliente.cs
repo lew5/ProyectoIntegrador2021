@@ -21,6 +21,21 @@ namespace ProyectoIntegrador2021.UCs
             InitializeComponent();
         }
         
+        private void lbl_Volver_MouseEnter(object sender, EventArgs e)
+        {
+            lbl_Volver.ForeColor = Color.FromArgb(254, 49, 108);
+        }
+
+        private void lbl_Volver_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_Volver.ForeColor = Color.Silver;
+        }
+
+        private void lbl_Volver_Click(object sender, EventArgs e)
+        {
+            Volver_Click(sender, e);
+        }
+
         private void btnPerfil_Click(object sender, EventArgs e)
         {
             picbox_Estado_Cliente.Focus();
@@ -38,21 +53,5 @@ namespace ProyectoIntegrador2021.UCs
             picbox_Estado_Cliente.Focus();
             pnlEditarCliente.BringToFront();
         }
-
-        private void lbl_Volver_MouseEnter(object sender, EventArgs e)
-        {
-            lbl_Volver.ForeColor = Color.FromArgb(254, 49, 108);
-        }
-
-        private void lbl_Volver_MouseLeave(object sender, EventArgs e)
-        {
-            lbl_Volver.ForeColor = Color.Silver;
-        }
-
-        private void lbl_Volver_Click(object sender, EventArgs e)
-        {
-            Volver_Click(sender, e);
-        }
-        
     }
 }

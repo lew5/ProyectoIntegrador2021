@@ -31,16 +31,16 @@ namespace ProyectoIntegrador2021.UCs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCPanelPerfilCliente));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialCard1 = new ReaLTaiizor.Controls.MaterialCard();
+            this.picbox_Estado_Cliente = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnEditar = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnPedidos = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnPerfil = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.lblNombreUsuario = new Guna.UI.WinForms.GunaLabel();
             this.lbl_Volver = new Guna.UI.WinForms.GunaLabel();
-            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.pnlPedidosCliente = new System.Windows.Forms.Panel();
-            this.ucItemPedidoCliente5 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
-            this.ucItemPedidoCliente4 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
-            this.ucItemPedidoCliente3 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
-            this.ucItemPedidoCliente2 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
-            this.ucItemPedidoCliente1 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.gunaLinePanel15 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaLabel11 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
@@ -88,15 +88,16 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel8 = new Guna.UI.WinForms.GunaLinePanel();
             this.lbl_Perfil_Id_Cliente = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnEditar = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.btnPedidos = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.btnPerfil = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.picbox_Estado_Cliente = new System.Windows.Forms.PictureBox();
-            this.lblNombreUsuario = new Guna.UI.WinForms.GunaLabel();
+            this.pnlContenedor = new ReaLTaiizor.Controls.MaterialCard();
+            this.ucItemPedidoCliente5 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente4 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente3 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente2 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente1 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.panel1.SuspendLayout();
-            this.pnlContenedor.SuspendLayout();
+            this.materialCard1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).BeginInit();
+            this.panel2.SuspendLayout();
             this.pnlPedidosCliente.SuspendLayout();
             this.gunaLinePanel15.SuspendLayout();
             this.pnlEditarCliente.SuspendLayout();
@@ -114,16 +115,14 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.SuspendLayout();
             this.gunaLinePanel3.SuspendLayout();
             this.gunaLinePanel8.SuspendLayout();
-            this.gunaLinePanel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).BeginInit();
+            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.materialCard1);
             this.panel1.Controls.Add(this.lbl_Volver);
             this.panel1.Controls.Add(this.pnlContenedor);
-            this.panel1.Controls.Add(this.gunaLinePanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -131,31 +130,182 @@ namespace ProyectoIntegrador2021.UCs
             this.panel1.Size = new System.Drawing.Size(824, 546);
             this.panel1.TabIndex = 1;
             // 
+            // materialCard1
+            // 
+            this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard1.Controls.Add(this.picbox_Estado_Cliente);
+            this.materialCard1.Controls.Add(this.panel2);
+            this.materialCard1.Controls.Add(this.lblNombreUsuario);
+            this.materialCard1.Depth = 0;
+            this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard1.Location = new System.Drawing.Point(13, 13);
+            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            this.materialCard1.Name = "materialCard1";
+            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard1.Size = new System.Drawing.Size(200, 200);
+            this.materialCard1.TabIndex = 3;
+            // 
+            // picbox_Estado_Cliente
+            // 
+            this.picbox_Estado_Cliente.Image = ((System.Drawing.Image)(resources.GetObject("picbox_Estado_Cliente.Image")));
+            this.picbox_Estado_Cliente.Location = new System.Drawing.Point(168, 14);
+            this.picbox_Estado_Cliente.Name = "picbox_Estado_Cliente";
+            this.picbox_Estado_Cliente.Size = new System.Drawing.Size(18, 18);
+            this.picbox_Estado_Cliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picbox_Estado_Cliente.TabIndex = 3;
+            this.picbox_Estado_Cliente.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.btnEditar);
+            this.panel2.Controls.Add(this.btnPedidos);
+            this.panel2.Controls.Add(this.btnPerfil);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(14, 60);
+            this.panel2.Name = "panel2";
+            this.panel2.Padding = new System.Windows.Forms.Padding(4);
+            this.panel2.Size = new System.Drawing.Size(172, 126);
+            this.panel2.TabIndex = 5;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.AnimationHoverSpeed = 0.07F;
+            this.btnEditar.AnimationSpeed = 0.03F;
+            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEditar.BaseColor = System.Drawing.Color.White;
+            this.btnEditar.BorderColor = System.Drawing.Color.Black;
+            this.btnEditar.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btnEditar.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
+            this.btnEditar.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnEditar.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnEditar.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnEditar.CheckedImage")));
+            this.btnEditar.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnEditar.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnEditar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEditar.FocusedColor = System.Drawing.Color.Empty;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.Color.Silver;
+            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
+            this.btnEditar.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnEditar.LineColor = System.Drawing.Color.White;
+            this.btnEditar.Location = new System.Drawing.Point(4, 84);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.btnEditar.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnEditar.OnHoverForeColor = System.Drawing.Color.Silver;
+            this.btnEditar.OnHoverImage = null;
+            this.btnEditar.OnHoverLineColor = System.Drawing.Color.White;
+            this.btnEditar.OnPressedColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEditar.OnPressedDepth = 0;
+            this.btnEditar.Radius = 6;
+            this.btnEditar.Size = new System.Drawing.Size(164, 40);
+            this.btnEditar.TabIndex = 3;
+            this.btnEditar.Text = "     Editar";
+            this.btnEditar.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnPedidos
+            // 
+            this.btnPedidos.AnimationHoverSpeed = 0.07F;
+            this.btnPedidos.AnimationSpeed = 0.03F;
+            this.btnPedidos.BackColor = System.Drawing.Color.Transparent;
+            this.btnPedidos.BaseColor = System.Drawing.Color.White;
+            this.btnPedidos.BorderColor = System.Drawing.Color.Black;
+            this.btnPedidos.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
+            this.btnPedidos.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPedidos.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnPedidos.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.CheckedImage")));
+            this.btnPedidos.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPedidos.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnPedidos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPedidos.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPedidos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidos.ForeColor = System.Drawing.Color.Silver;
+            this.btnPedidos.Image = ((System.Drawing.Image)(resources.GetObject("btnPedidos.Image")));
+            this.btnPedidos.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnPedidos.LineColor = System.Drawing.Color.White;
+            this.btnPedidos.Location = new System.Drawing.Point(4, 44);
+            this.btnPedidos.Name = "btnPedidos";
+            this.btnPedidos.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.btnPedidos.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.Silver;
+            this.btnPedidos.OnHoverImage = null;
+            this.btnPedidos.OnHoverLineColor = System.Drawing.Color.White;
+            this.btnPedidos.OnPressedColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPedidos.OnPressedDepth = 0;
+            this.btnPedidos.Radius = 6;
+            this.btnPedidos.Size = new System.Drawing.Size(164, 40);
+            this.btnPedidos.TabIndex = 2;
+            this.btnPedidos.Text = "     Pedidos";
+            this.btnPedidos.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
+            // 
+            // btnPerfil
+            // 
+            this.btnPerfil.AnimationHoverSpeed = 0.07F;
+            this.btnPerfil.AnimationSpeed = 0.03F;
+            this.btnPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.btnPerfil.BaseColor = System.Drawing.Color.White;
+            this.btnPerfil.BorderColor = System.Drawing.Color.Black;
+            this.btnPerfil.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btnPerfil.Checked = true;
+            this.btnPerfil.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
+            this.btnPerfil.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPerfil.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnPerfil.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPerfil.CheckedImage")));
+            this.btnPerfil.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPerfil.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnPerfil.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPerfil.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPerfil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfil.ForeColor = System.Drawing.Color.Silver;
+            this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
+            this.btnPerfil.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnPerfil.LineColor = System.Drawing.Color.White;
+            this.btnPerfil.Location = new System.Drawing.Point(4, 4);
+            this.btnPerfil.Name = "btnPerfil";
+            this.btnPerfil.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.btnPerfil.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPerfil.OnHoverForeColor = System.Drawing.Color.Silver;
+            this.btnPerfil.OnHoverImage = null;
+            this.btnPerfil.OnHoverLineColor = System.Drawing.Color.White;
+            this.btnPerfil.OnPressedColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPerfil.OnPressedDepth = 0;
+            this.btnPerfil.Radius = 6;
+            this.btnPerfil.Size = new System.Drawing.Size(164, 40);
+            this.btnPerfil.TabIndex = 1;
+            this.btnPerfil.Text = "     Perfil";
+            this.btnPerfil.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
+            // 
+            // lblNombreUsuario
+            // 
+            this.lblNombreUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblNombreUsuario.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreUsuario.Location = new System.Drawing.Point(14, 14);
+            this.lblNombreUsuario.Name = "lblNombreUsuario";
+            this.lblNombreUsuario.Size = new System.Drawing.Size(172, 46);
+            this.lblNombreUsuario.TabIndex = 6;
+            this.lblNombreUsuario.Text = "Pepito";
+            this.lblNombreUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNombreUsuario.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
             // lbl_Volver
             // 
             this.lbl_Volver.AutoSize = true;
             this.lbl_Volver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbl_Volver.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Volver.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Volver.ForeColor = System.Drawing.Color.Silver;
-            this.lbl_Volver.Location = new System.Drawing.Point(84, 482);
+            this.lbl_Volver.Location = new System.Drawing.Point(80, 482);
             this.lbl_Volver.Name = "lbl_Volver";
-            this.lbl_Volver.Size = new System.Drawing.Size(58, 21);
+            this.lbl_Volver.Size = new System.Drawing.Size(67, 25);
             this.lbl_Volver.TabIndex = 2;
             this.lbl_Volver.Text = "volver";
             this.lbl_Volver.Click += new System.EventHandler(this.lbl_Volver_Click);
             this.lbl_Volver.MouseEnter += new System.EventHandler(this.lbl_Volver_MouseEnter);
             this.lbl_Volver.MouseLeave += new System.EventHandler(this.lbl_Volver_MouseLeave);
-            // 
-            // pnlContenedor
-            // 
-            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
-            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
-            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
-            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
-            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
-            this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
-            this.pnlContenedor.TabIndex = 1;
             // 
             // pnlPedidosCliente
             // 
@@ -167,74 +317,13 @@ namespace ProyectoIntegrador2021.UCs
             this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente1);
             this.pnlPedidosCliente.Controls.Add(this.gunaLinePanel15);
             this.pnlPedidosCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPedidosCliente.Location = new System.Drawing.Point(0, 0);
+            this.pnlPedidosCliente.Location = new System.Drawing.Point(14, 14);
             this.pnlPedidosCliente.Name = "pnlPedidosCliente";
-            this.pnlPedidosCliente.Size = new System.Drawing.Size(585, 520);
+            this.pnlPedidosCliente.Size = new System.Drawing.Size(557, 492);
             this.pnlPedidosCliente.TabIndex = 21;
-            // 
-            // ucItemPedidoCliente5
-            // 
-            this.ucItemPedidoCliente5.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucItemPedidoCliente5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedidoCliente5.Location = new System.Drawing.Point(0, 230);
-            this.ucItemPedidoCliente5.Margin = new System.Windows.Forms.Padding(0);
-            this.ucItemPedidoCliente5.MaximumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente5.MinimumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente5.Name = "ucItemPedidoCliente5";
-            this.ucItemPedidoCliente5.Size = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente5.TabIndex = 5;
-            // 
-            // ucItemPedidoCliente4
-            // 
-            this.ucItemPedidoCliente4.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucItemPedidoCliente4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedidoCliente4.Location = new System.Drawing.Point(0, 180);
-            this.ucItemPedidoCliente4.Margin = new System.Windows.Forms.Padding(0);
-            this.ucItemPedidoCliente4.MaximumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente4.MinimumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente4.Name = "ucItemPedidoCliente4";
-            this.ucItemPedidoCliente4.Size = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente4.TabIndex = 4;
-            // 
-            // ucItemPedidoCliente3
-            // 
-            this.ucItemPedidoCliente3.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucItemPedidoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedidoCliente3.Location = new System.Drawing.Point(0, 130);
-            this.ucItemPedidoCliente3.Margin = new System.Windows.Forms.Padding(0);
-            this.ucItemPedidoCliente3.MaximumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente3.MinimumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente3.Name = "ucItemPedidoCliente3";
-            this.ucItemPedidoCliente3.Size = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente3.TabIndex = 3;
-            // 
-            // ucItemPedidoCliente2
-            // 
-            this.ucItemPedidoCliente2.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucItemPedidoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedidoCliente2.Location = new System.Drawing.Point(0, 80);
-            this.ucItemPedidoCliente2.Margin = new System.Windows.Forms.Padding(0);
-            this.ucItemPedidoCliente2.MaximumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente2.MinimumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente2.Name = "ucItemPedidoCliente2";
-            this.ucItemPedidoCliente2.Size = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente2.TabIndex = 2;
-            // 
-            // ucItemPedidoCliente1
-            // 
-            this.ucItemPedidoCliente1.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucItemPedidoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedidoCliente1.Location = new System.Drawing.Point(0, 30);
-            this.ucItemPedidoCliente1.Margin = new System.Windows.Forms.Padding(0);
-            this.ucItemPedidoCliente1.MaximumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente1.MinimumSize = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente1.Name = "ucItemPedidoCliente1";
-            this.ucItemPedidoCliente1.Size = new System.Drawing.Size(585, 50);
-            this.ucItemPedidoCliente1.TabIndex = 1;
             // 
             // gunaLinePanel15
             // 
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel11);
             this.gunaLinePanel15.Controls.Add(this.gunaLabel9);
             this.gunaLinePanel15.Controls.Add(this.gunaLabel7);
             this.gunaLinePanel15.Controls.Add(this.gunaLabel5);
@@ -246,31 +335,19 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel15.Location = new System.Drawing.Point(0, 0);
             this.gunaLinePanel15.Name = "gunaLinePanel15";
             this.gunaLinePanel15.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
-            this.gunaLinePanel15.Size = new System.Drawing.Size(585, 30);
+            this.gunaLinePanel15.Size = new System.Drawing.Size(557, 30);
             this.gunaLinePanel15.TabIndex = 0;
-            // 
-            // gunaLabel11
-            // 
-            this.gunaLabel11.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel11.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel11.Location = new System.Drawing.Point(495, 2);
-            this.gunaLabel11.Name = "gunaLabel11";
-            this.gunaLabel11.Size = new System.Drawing.Size(97, 26);
-            this.gunaLabel11.TabIndex = 5;
-            this.gunaLabel11.Text = "ESTADO";
-            this.gunaLabel11.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // gunaLabel9
             // 
             this.gunaLabel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel9.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel9.Location = new System.Drawing.Point(398, 2);
+            this.gunaLabel9.Location = new System.Drawing.Point(491, 2);
             this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(97, 26);
+            this.gunaLabel9.Size = new System.Drawing.Size(60, 26);
             this.gunaLabel9.TabIndex = 4;
-            this.gunaLabel9.Text = "FECHA";
+            this.gunaLabel9.Text = "ESTADO";
             this.gunaLabel9.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // gunaLabel7
@@ -278,9 +355,9 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel7.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel7.Location = new System.Drawing.Point(301, 2);
+            this.gunaLabel7.Location = new System.Drawing.Point(399, 2);
             this.gunaLabel7.Name = "gunaLabel7";
-            this.gunaLabel7.Size = new System.Drawing.Size(97, 26);
+            this.gunaLabel7.Size = new System.Drawing.Size(92, 26);
             this.gunaLabel7.TabIndex = 3;
             this.gunaLabel7.Text = "CAMPAÑA";
             this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -290,11 +367,11 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel5.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel5.Location = new System.Drawing.Point(204, 2);
+            this.gunaLabel5.Location = new System.Drawing.Point(307, 2);
             this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(97, 26);
+            this.gunaLabel5.Size = new System.Drawing.Size(92, 26);
             this.gunaLabel5.TabIndex = 2;
-            this.gunaLabel5.Text = "TOTAL";
+            this.gunaLabel5.Text = "CANTIDAD";
             this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // gunaLabel3
@@ -304,9 +381,9 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel3.ForeColor = System.Drawing.Color.Silver;
             this.gunaLabel3.Location = new System.Drawing.Point(107, 2);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(97, 26);
+            this.gunaLabel3.Size = new System.Drawing.Size(200, 26);
             this.gunaLabel3.TabIndex = 1;
-            this.gunaLabel3.Text = "CANTIDAD";
+            this.gunaLabel3.Text = "NOMBRE";
             this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // gunaLabel2
@@ -323,7 +400,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // pnlEditarCliente
             // 
-            this.pnlEditarCliente.BackColor = System.Drawing.Color.GhostWhite;
+            this.pnlEditarCliente.BackColor = System.Drawing.Color.White;
             this.pnlEditarCliente.Controls.Add(this.btn_Guardar_Edicion_Cliente);
             this.pnlEditarCliente.Controls.Add(this.gunaLinePanel2);
             this.pnlEditarCliente.Controls.Add(this.gunaLinePanel10);
@@ -332,9 +409,9 @@ namespace ProyectoIntegrador2021.UCs
             this.pnlEditarCliente.Controls.Add(this.gunaLinePanel13);
             this.pnlEditarCliente.Controls.Add(this.gunaLinePanel14);
             this.pnlEditarCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlEditarCliente.Location = new System.Drawing.Point(0, 0);
+            this.pnlEditarCliente.Location = new System.Drawing.Point(14, 14);
             this.pnlEditarCliente.Name = "pnlEditarCliente";
-            this.pnlEditarCliente.Size = new System.Drawing.Size(585, 520);
+            this.pnlEditarCliente.Size = new System.Drawing.Size(557, 492);
             this.pnlEditarCliente.TabIndex = 1;
             // 
             // btn_Guardar_Edicion_Cliente
@@ -385,7 +462,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel2.Location = new System.Drawing.Point(0, 350);
             this.gunaLinePanel2.Name = "gunaLinePanel2";
             this.gunaLinePanel2.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel2.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel2.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel2.TabIndex = 27;
             // 
             // swt_Editar_Estado_Cliente
@@ -423,7 +500,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel10.Location = new System.Drawing.Point(0, 280);
             this.gunaLinePanel10.Name = "gunaLinePanel10";
             this.gunaLinePanel10.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel10.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel10.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel10.TabIndex = 25;
             // 
             // txtbox_Editar_Direccion_Cliente
@@ -444,9 +521,9 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Editar_Direccion_Cliente.PasswordChar = '\0';
             this.txtbox_Editar_Direccion_Cliente.Radius = 6;
             this.txtbox_Editar_Direccion_Cliente.SelectedText = "";
-            this.txtbox_Editar_Direccion_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.txtbox_Editar_Direccion_Cliente.Size = new System.Drawing.Size(287, 50);
             this.txtbox_Editar_Direccion_Cliente.TabIndex = 8;
-            this.txtbox_Editar_Direccion_Cliente.Text = "Asheeeeeeeee";
+            this.txtbox_Editar_Direccion_Cliente.Text = "DIRECCIÓN";
             // 
             // gunaLabel18
             // 
@@ -472,7 +549,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel11.Location = new System.Drawing.Point(0, 210);
             this.gunaLinePanel11.Name = "gunaLinePanel11";
             this.gunaLinePanel11.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel11.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel11.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel11.TabIndex = 24;
             // 
             // txtbox_Editar_Cedula_Cliente
@@ -493,7 +570,7 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Editar_Cedula_Cliente.PasswordChar = '\0';
             this.txtbox_Editar_Cedula_Cliente.Radius = 6;
             this.txtbox_Editar_Cedula_Cliente.SelectedText = "";
-            this.txtbox_Editar_Cedula_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.txtbox_Editar_Cedula_Cliente.Size = new System.Drawing.Size(287, 50);
             this.txtbox_Editar_Cedula_Cliente.TabIndex = 8;
             this.txtbox_Editar_Cedula_Cliente.Text = "11111111";
             // 
@@ -521,7 +598,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel12.Location = new System.Drawing.Point(0, 140);
             this.gunaLinePanel12.Name = "gunaLinePanel12";
             this.gunaLinePanel12.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel12.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel12.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel12.TabIndex = 23;
             // 
             // txtbox_Editar_Tel_Cliente
@@ -542,7 +619,7 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Editar_Tel_Cliente.PasswordChar = '\0';
             this.txtbox_Editar_Tel_Cliente.Radius = 6;
             this.txtbox_Editar_Tel_Cliente.SelectedText = "";
-            this.txtbox_Editar_Tel_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.txtbox_Editar_Tel_Cliente.Size = new System.Drawing.Size(287, 50);
             this.txtbox_Editar_Tel_Cliente.TabIndex = 8;
             this.txtbox_Editar_Tel_Cliente.Text = "000000000";
             // 
@@ -570,7 +647,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel13.Location = new System.Drawing.Point(0, 70);
             this.gunaLinePanel13.Name = "gunaLinePanel13";
             this.gunaLinePanel13.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel13.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel13.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel13.TabIndex = 22;
             // 
             // txtbox_Editar_Apellido_Cliente
@@ -591,9 +668,9 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Editar_Apellido_Cliente.PasswordChar = '\0';
             this.txtbox_Editar_Apellido_Cliente.Radius = 6;
             this.txtbox_Editar_Apellido_Cliente.SelectedText = "";
-            this.txtbox_Editar_Apellido_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.txtbox_Editar_Apellido_Cliente.Size = new System.Drawing.Size(287, 50);
             this.txtbox_Editar_Apellido_Cliente.TabIndex = 8;
-            this.txtbox_Editar_Apellido_Cliente.Text = "Olivera";
+            this.txtbox_Editar_Apellido_Cliente.Text = "OLIVERA";
             // 
             // gunaLabel24
             // 
@@ -619,7 +696,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel14.Location = new System.Drawing.Point(0, 0);
             this.gunaLinePanel14.Name = "gunaLinePanel14";
             this.gunaLinePanel14.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel14.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel14.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel14.TabIndex = 21;
             // 
             // txtbox_Editar_Nombre_Cliente
@@ -640,9 +717,9 @@ namespace ProyectoIntegrador2021.UCs
             this.txtbox_Editar_Nombre_Cliente.PasswordChar = '\0';
             this.txtbox_Editar_Nombre_Cliente.Radius = 6;
             this.txtbox_Editar_Nombre_Cliente.SelectedText = "";
-            this.txtbox_Editar_Nombre_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.txtbox_Editar_Nombre_Cliente.Size = new System.Drawing.Size(287, 50);
             this.txtbox_Editar_Nombre_Cliente.TabIndex = 7;
-            this.txtbox_Editar_Nombre_Cliente.Text = "Leandro";
+            this.txtbox_Editar_Nombre_Cliente.Text = "LEANDRO";
             // 
             // gunaLabel26
             // 
@@ -658,6 +735,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // pnlPerfilCliente
             // 
+            this.pnlPerfilCliente.BackColor = System.Drawing.Color.White;
             this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel9);
             this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel7);
             this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel6);
@@ -666,9 +744,9 @@ namespace ProyectoIntegrador2021.UCs
             this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel3);
             this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel8);
             this.pnlPerfilCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPerfilCliente.Location = new System.Drawing.Point(0, 0);
+            this.pnlPerfilCliente.Location = new System.Drawing.Point(14, 14);
             this.pnlPerfilCliente.Name = "pnlPerfilCliente";
-            this.pnlPerfilCliente.Size = new System.Drawing.Size(585, 520);
+            this.pnlPerfilCliente.Size = new System.Drawing.Size(557, 492);
             this.pnlPerfilCliente.TabIndex = 0;
             // 
             // gunaLinePanel9
@@ -677,13 +755,12 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel9.Controls.Add(this.lbl_Perfil_Estado_Cliente);
             this.gunaLinePanel9.Controls.Add(this.gunaLabel14);
             this.gunaLinePanel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel9.LineBottom = 1;
             this.gunaLinePanel9.LineColor = System.Drawing.Color.WhiteSmoke;
             this.gunaLinePanel9.LineStyle = System.Windows.Forms.BorderStyle.None;
             this.gunaLinePanel9.Location = new System.Drawing.Point(0, 420);
             this.gunaLinePanel9.Name = "gunaLinePanel9";
             this.gunaLinePanel9.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel9.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel9.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel9.TabIndex = 20;
             // 
             // lbl_Perfil_Estado_Cliente
@@ -693,9 +770,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Estado_Cliente.ForeColor = System.Drawing.Color.Green;
             this.lbl_Perfil_Estado_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Estado_Cliente.Name = "lbl_Perfil_Estado_Cliente";
-            this.lbl_Perfil_Estado_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Estado_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Estado_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Estado_Cliente.Text = "Activo";
+            this.lbl_Perfil_Estado_Cliente.Text = "ACTIVO";
             this.lbl_Perfil_Estado_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // gunaLabel14
@@ -722,7 +799,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel7.Location = new System.Drawing.Point(0, 350);
             this.gunaLinePanel7.Name = "gunaLinePanel7";
             this.gunaLinePanel7.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel7.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel7.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel7.TabIndex = 18;
             // 
             // lbl_Perfil_Direccion_Cliente
@@ -732,9 +809,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Direccion_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Direccion_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Direccion_Cliente.Name = "lbl_Perfil_Direccion_Cliente";
-            this.lbl_Perfil_Direccion_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Direccion_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Direccion_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Direccion_Cliente.Text = "Asheeee";
+            this.lbl_Perfil_Direccion_Cliente.Text = "DIRECCIÓN";
             this.lbl_Perfil_Direccion_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // gunaLabel10
@@ -761,7 +838,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel6.Location = new System.Drawing.Point(0, 280);
             this.gunaLinePanel6.Name = "gunaLinePanel6";
             this.gunaLinePanel6.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel6.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel6.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel6.TabIndex = 17;
             // 
             // lbl_Perfil_Cedula_Cliente
@@ -771,7 +848,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Cedula_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Cedula_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Cedula_Cliente.Name = "lbl_Perfil_Cedula_Cliente";
-            this.lbl_Perfil_Cedula_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Cedula_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Cedula_Cliente.TabIndex = 4;
             this.lbl_Perfil_Cedula_Cliente.Text = "1.111.111-1";
             this.lbl_Perfil_Cedula_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -800,7 +877,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel5.Location = new System.Drawing.Point(0, 210);
             this.gunaLinePanel5.Name = "gunaLinePanel5";
             this.gunaLinePanel5.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel5.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel5.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel5.TabIndex = 16;
             // 
             // lbl_Perfil_Tel_Cliente
@@ -810,7 +887,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Tel_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Tel_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Tel_Cliente.Name = "lbl_Perfil_Tel_Cliente";
-            this.lbl_Perfil_Tel_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Tel_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Tel_Cliente.TabIndex = 4;
             this.lbl_Perfil_Tel_Cliente.Text = "(000) 000 000";
             this.lbl_Perfil_Tel_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -839,7 +916,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.Location = new System.Drawing.Point(0, 140);
             this.gunaLinePanel4.Name = "gunaLinePanel4";
             this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel4.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel4.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel4.TabIndex = 15;
             // 
             // lbl_Perfil_Apellido_Cliente
@@ -849,9 +926,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Apellido_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Apellido_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Apellido_Cliente.Name = "lbl_Perfil_Apellido_Cliente";
-            this.lbl_Perfil_Apellido_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Apellido_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Apellido_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Apellido_Cliente.Text = "Olivera";
+            this.lbl_Perfil_Apellido_Cliente.Text = "OLIVERA";
             this.lbl_Perfil_Apellido_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // gunaLabel4
@@ -878,7 +955,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel3.Location = new System.Drawing.Point(0, 70);
             this.gunaLinePanel3.Name = "gunaLinePanel3";
             this.gunaLinePanel3.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel3.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel3.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel3.TabIndex = 14;
             // 
             // lbl_Perfil_Nombre_Cliente
@@ -888,9 +965,9 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Nombre_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Nombre_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Nombre_Cliente.Name = "lbl_Perfil_Nombre_Cliente";
-            this.lbl_Perfil_Nombre_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Nombre_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Nombre_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Nombre_Cliente.Text = "Leandro";
+            this.lbl_Perfil_Nombre_Cliente.Text = "LEANDRO";
             this.lbl_Perfil_Nombre_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // gunaLabel1
@@ -917,7 +994,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel8.Location = new System.Drawing.Point(0, 0);
             this.gunaLinePanel8.Name = "gunaLinePanel8";
             this.gunaLinePanel8.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel8.Size = new System.Drawing.Size(585, 70);
+            this.gunaLinePanel8.Size = new System.Drawing.Size(557, 70);
             this.gunaLinePanel8.TabIndex = 19;
             // 
             // lbl_Perfil_Id_Cliente
@@ -927,7 +1004,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Perfil_Id_Cliente.ForeColor = System.Drawing.Color.Black;
             this.lbl_Perfil_Id_Cliente.Location = new System.Drawing.Point(260, 10);
             this.lbl_Perfil_Id_Cliente.Name = "lbl_Perfil_Id_Cliente";
-            this.lbl_Perfil_Id_Cliente.Size = new System.Drawing.Size(315, 50);
+            this.lbl_Perfil_Id_Cliente.Size = new System.Drawing.Size(287, 50);
             this.lbl_Perfil_Id_Cliente.TabIndex = 4;
             this.lbl_Perfil_Id_Cliente.Text = "12";
             this.lbl_Perfil_Id_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -941,172 +1018,84 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel12.Name = "gunaLabel12";
             this.gunaLabel12.Size = new System.Drawing.Size(250, 50);
             this.gunaLabel12.TabIndex = 3;
-            this.gunaLabel12.Text = "ID:";
+            this.gunaLabel12.Text = "Id:";
             this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // gunaLinePanel1
+            // pnlContenedor
             // 
-            this.gunaLinePanel1.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel1.Controls.Add(this.panel2);
-            this.gunaLinePanel1.Controls.Add(this.picbox_Estado_Cliente);
-            this.gunaLinePanel1.Controls.Add(this.lblNombreUsuario);
-            this.gunaLinePanel1.LineBottom = 2;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel1.LineLeft = 2;
-            this.gunaLinePanel1.LineRight = 2;
-            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.LineTop = 2;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(13, 13);
-            this.gunaLinePanel1.Name = "gunaLinePanel1";
-            this.gunaLinePanel1.Padding = new System.Windows.Forms.Padding(2);
-            this.gunaLinePanel1.Size = new System.Drawing.Size(200, 200);
-            this.gunaLinePanel1.TabIndex = 0;
+            this.pnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
+            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
+            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
+            this.pnlContenedor.Depth = 0;
+            this.pnlContenedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Padding = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
+            this.pnlContenedor.TabIndex = 4;
             // 
-            // panel2
+            // ucItemPedidoCliente5
             // 
-            this.panel2.Controls.Add(this.btnEditar);
-            this.panel2.Controls.Add(this.btnPedidos);
-            this.panel2.Controls.Add(this.btnPerfil);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(2, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(16);
-            this.panel2.Size = new System.Drawing.Size(196, 152);
-            this.panel2.TabIndex = 4;
+            this.ucItemPedidoCliente5.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente5.Location = new System.Drawing.Point(0, 230);
+            this.ucItemPedidoCliente5.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente5.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.Name = "ucItemPedidoCliente5";
+            this.ucItemPedidoCliente5.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.TabIndex = 5;
             // 
-            // btnEditar
+            // ucItemPedidoCliente4
             // 
-            this.btnEditar.AnimationHoverSpeed = 0.07F;
-            this.btnEditar.AnimationSpeed = 0.03F;
-            this.btnEditar.BackColor = System.Drawing.Color.Transparent;
-            this.btnEditar.BaseColor = System.Drawing.Color.White;
-            this.btnEditar.BorderColor = System.Drawing.Color.Black;
-            this.btnEditar.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnEditar.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
-            this.btnEditar.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnEditar.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnEditar.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnEditar.CheckedImage")));
-            this.btnEditar.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnEditar.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnEditar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEditar.FocusedColor = System.Drawing.Color.Empty;
-            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.ForeColor = System.Drawing.Color.Silver;
-            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnEditar.LineColor = System.Drawing.Color.White;
-            this.btnEditar.Location = new System.Drawing.Point(16, 96);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.btnEditar.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnEditar.OnHoverForeColor = System.Drawing.Color.Silver;
-            this.btnEditar.OnHoverImage = null;
-            this.btnEditar.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnEditar.OnPressedColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEditar.OnPressedDepth = 0;
-            this.btnEditar.Radius = 6;
-            this.btnEditar.Size = new System.Drawing.Size(164, 40);
-            this.btnEditar.TabIndex = 3;
-            this.btnEditar.Text = "     Editar";
-            this.btnEditar.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            this.ucItemPedidoCliente4.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente4.Location = new System.Drawing.Point(0, 180);
+            this.ucItemPedidoCliente4.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente4.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.Name = "ucItemPedidoCliente4";
+            this.ucItemPedidoCliente4.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.TabIndex = 4;
             // 
-            // btnPedidos
+            // ucItemPedidoCliente3
             // 
-            this.btnPedidos.AnimationHoverSpeed = 0.07F;
-            this.btnPedidos.AnimationSpeed = 0.03F;
-            this.btnPedidos.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidos.BaseColor = System.Drawing.Color.White;
-            this.btnPedidos.BorderColor = System.Drawing.Color.Black;
-            this.btnPedidos.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
-            this.btnPedidos.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnPedidos.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnPedidos.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPedidos.CheckedImage")));
-            this.btnPedidos.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnPedidos.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPedidos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPedidos.FocusedColor = System.Drawing.Color.Empty;
-            this.btnPedidos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPedidos.ForeColor = System.Drawing.Color.Silver;
-            this.btnPedidos.Image = ((System.Drawing.Image)(resources.GetObject("btnPedidos.Image")));
-            this.btnPedidos.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnPedidos.LineColor = System.Drawing.Color.White;
-            this.btnPedidos.Location = new System.Drawing.Point(16, 56);
-            this.btnPedidos.Name = "btnPedidos";
-            this.btnPedidos.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.btnPedidos.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPedidos.OnHoverForeColor = System.Drawing.Color.Silver;
-            this.btnPedidos.OnHoverImage = null;
-            this.btnPedidos.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnPedidos.OnPressedColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPedidos.OnPressedDepth = 0;
-            this.btnPedidos.Radius = 6;
-            this.btnPedidos.Size = new System.Drawing.Size(164, 40);
-            this.btnPedidos.TabIndex = 2;
-            this.btnPedidos.Text = "     Pedidos";
-            this.btnPedidos.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
+            this.ucItemPedidoCliente3.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente3.Location = new System.Drawing.Point(0, 130);
+            this.ucItemPedidoCliente3.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente3.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.Name = "ucItemPedidoCliente3";
+            this.ucItemPedidoCliente3.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.TabIndex = 3;
             // 
-            // btnPerfil
+            // ucItemPedidoCliente2
             // 
-            this.btnPerfil.AnimationHoverSpeed = 0.07F;
-            this.btnPerfil.AnimationSpeed = 0.03F;
-            this.btnPerfil.BackColor = System.Drawing.Color.Transparent;
-            this.btnPerfil.BaseColor = System.Drawing.Color.White;
-            this.btnPerfil.BorderColor = System.Drawing.Color.Black;
-            this.btnPerfil.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.btnPerfil.Checked = true;
-            this.btnPerfil.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
-            this.btnPerfil.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnPerfil.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnPerfil.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPerfil.CheckedImage")));
-            this.btnPerfil.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnPerfil.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPerfil.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPerfil.FocusedColor = System.Drawing.Color.Empty;
-            this.btnPerfil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerfil.ForeColor = System.Drawing.Color.Silver;
-            this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnPerfil.LineColor = System.Drawing.Color.White;
-            this.btnPerfil.Location = new System.Drawing.Point(16, 16);
-            this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.btnPerfil.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPerfil.OnHoverForeColor = System.Drawing.Color.Silver;
-            this.btnPerfil.OnHoverImage = null;
-            this.btnPerfil.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnPerfil.OnPressedColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPerfil.OnPressedDepth = 0;
-            this.btnPerfil.Radius = 6;
-            this.btnPerfil.Size = new System.Drawing.Size(164, 40);
-            this.btnPerfil.TabIndex = 1;
-            this.btnPerfil.Text = "     Perfil";
-            this.btnPerfil.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
+            this.ucItemPedidoCliente2.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente2.Location = new System.Drawing.Point(0, 80);
+            this.ucItemPedidoCliente2.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente2.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.Name = "ucItemPedidoCliente2";
+            this.ucItemPedidoCliente2.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.TabIndex = 2;
             // 
-            // picbox_Estado_Cliente
+            // ucItemPedidoCliente1
             // 
-            this.picbox_Estado_Cliente.Image = ((System.Drawing.Image)(resources.GetObject("picbox_Estado_Cliente.Image")));
-            this.picbox_Estado_Cliente.Location = new System.Drawing.Point(177, 5);
-            this.picbox_Estado_Cliente.Name = "picbox_Estado_Cliente";
-            this.picbox_Estado_Cliente.Size = new System.Drawing.Size(18, 18);
-            this.picbox_Estado_Cliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picbox_Estado_Cliente.TabIndex = 3;
-            this.picbox_Estado_Cliente.TabStop = false;
-            // 
-            // lblNombreUsuario
-            // 
-            this.lblNombreUsuario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblNombreUsuario.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreUsuario.Location = new System.Drawing.Point(2, 2);
-            this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(196, 44);
-            this.lblNombreUsuario.TabIndex = 2;
-            this.lblNombreUsuario.Text = "Pepito";
-            this.lblNombreUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblNombreUsuario.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.ucItemPedidoCliente1.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente1.Location = new System.Drawing.Point(0, 30);
+            this.ucItemPedidoCliente1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente1.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.Name = "ucItemPedidoCliente1";
+            this.ucItemPedidoCliente1.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.TabIndex = 1;
             // 
             // UCPanelPerfilCliente
             // 
@@ -1120,7 +1109,9 @@ namespace ProyectoIntegrador2021.UCs
             this.Size = new System.Drawing.Size(824, 546);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.pnlContenedor.ResumeLayout(false);
+            this.materialCard1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.pnlPedidosCliente.ResumeLayout(false);
             this.gunaLinePanel15.ResumeLayout(false);
             this.pnlEditarCliente.ResumeLayout(false);
@@ -1138,9 +1129,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.ResumeLayout(false);
             this.gunaLinePanel3.ResumeLayout(false);
             this.gunaLinePanel8.ResumeLayout(false);
-            this.gunaLinePanel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).EndInit();
+            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1148,14 +1137,7 @@ namespace ProyectoIntegrador2021.UCs
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI.WinForms.GunaLinePanel gunaLinePanel1;
-        private Guna.UI.WinForms.GunaLabel lblNombreUsuario;
         private System.Windows.Forms.PictureBox picbox_Estado_Cliente;
-        private System.Windows.Forms.Panel panel2;
-        private Guna.UI.WinForms.GunaAdvenceButton btnEditar;
-        private Guna.UI.WinForms.GunaAdvenceButton btnPedidos;
-        private Guna.UI.WinForms.GunaAdvenceButton btnPerfil;
-        private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Panel pnlPerfilCliente;
         private Guna.UI.WinForms.GunaLinePanel gunaLinePanel9;
         private Guna.UI.WinForms.GunaLabel lbl_Perfil_Estado_Cliente;
@@ -1201,12 +1183,18 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaLabel lbl_Volver;
         private System.Windows.Forms.Panel pnlPedidosCliente;
         private Guna.UI.WinForms.GunaLinePanel gunaLinePanel15;
-        private Guna.UI.WinForms.GunaLabel gunaLabel11;
         private Guna.UI.WinForms.GunaLabel gunaLabel9;
         private Guna.UI.WinForms.GunaLabel gunaLabel7;
         private Guna.UI.WinForms.GunaLabel gunaLabel5;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private ReaLTaiizor.Controls.MaterialCard materialCard1;
+        private System.Windows.Forms.Panel panel2;
+        private Guna.UI.WinForms.GunaAdvenceButton btnEditar;
+        private Guna.UI.WinForms.GunaAdvenceButton btnPedidos;
+        private Guna.UI.WinForms.GunaAdvenceButton btnPerfil;
+        private Guna.UI.WinForms.GunaLabel lblNombreUsuario;
+        private ReaLTaiizor.Controls.MaterialCard pnlContenedor;
         private UCItemPedidoCliente ucItemPedidoCliente5;
         private UCItemPedidoCliente ucItemPedidoCliente4;
         private UCItemPedidoCliente ucItemPedidoCliente3;
