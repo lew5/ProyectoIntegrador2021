@@ -1,6 +1,7 @@
 ﻿using ProyectoIntegrador2021.UCs;
 using System.Linq;
 using System.Windows.Forms;
+using ProyectoIntegrador2021.secciones;
 
 namespace ProyectoIntegrador2021.ventanas
 {
@@ -20,7 +21,7 @@ namespace ProyectoIntegrador2021.ventanas
 
         private void ucMenu1_Clientes_Click(object sender, System.EventArgs e)
         {
-            mostrarSeccion<UCPanelClientes>();
+            mostrarSeccion<SeccionCliente>();
         }
 
         //??????
@@ -54,9 +55,14 @@ namespace ProyectoIntegrador2021.ventanas
             }
         }
 
+        private void ucMenu1_Ajustes_Click(object sender, System.EventArgs e)
+        {
+            mostrarSeccion<UCPanelPerfilCliente>();
+        }
+
         private void ucPanelPerfilCliente1_Volver_Click_1(object sender, System.EventArgs e)
         {
-
+            mostrarSeccion<UCPanelClientes>();
         }
     }
 }

@@ -29,195 +29,307 @@ namespace ProyectoIntegrador2021.UCs
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCPanelInicio));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
-            this.ucNuevoCliente3 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.ucNuevoCliente2 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.ucNuevoCliente1 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
+            this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.gunaGradient2Panel2 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.gunaGradient2Panel3 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.ucCardUsuarios = new ProyectoIntegrador2021.UCs.UCCard();
-            this.ucCardClieentes = new ProyectoIntegrador2021.UCs.UCCard();
-            this.ucCardPedidos = new ProyectoIntegrador2021.UCs.UCCard();
-            this.ucCardNuevoPedido = new ProyectoIntegrador2021.UCs.UCCard();
-            this.hopeDatePicker1 = new ReaLTaiizor.Controls.HopeDatePicker();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
+            this.materialCard1 = new ReaLTaiizor.Controls.MaterialCard();
+            this.materialCard2 = new ReaLTaiizor.Controls.MaterialCard();
+            this.gunaLabel11 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
             this.panel3.SuspendLayout();
-            this.gunaLinePanel1.SuspendLayout();
+            this.gunaGradient2Panel1.SuspendLayout();
+            this.gunaGradient2Panel2.SuspendLayout();
+            this.gunaGradient2Panel3.SuspendLayout();
+            this.gunaGradient2Panel4.SuspendLayout();
+            this.materialCard1.SuspendLayout();
+            this.materialCard2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.GhostWhite;
-            this.panel3.Controls.Add(this.gunaLinePanel1);
-            this.panel3.Controls.Add(this.ucCardUsuarios);
-            this.panel3.Controls.Add(this.ucCardClieentes);
-            this.panel3.Controls.Add(this.ucCardPedidos);
-            this.panel3.Controls.Add(this.ucCardNuevoPedido);
-            this.panel3.Controls.Add(this.hopeDatePicker1);
+            this.panel3.Controls.Add(this.materialCard2);
+            this.panel3.Controls.Add(this.materialCard1);
+            this.panel3.Controls.Add(this.gunaGradient2Panel4);
+            this.panel3.Controls.Add(this.gunaLabel3);
+            this.panel3.Controls.Add(this.gunaLabel2);
+            this.panel3.Controls.Add(this.gunaGradient2Panel3);
+            this.panel3.Controls.Add(this.gunaGradient2Panel2);
+            this.panel3.Controls.Add(this.gunaGradient2Panel1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
+            this.panel3.Padding = new System.Windows.Forms.Padding(30, 30, 30, 16);
             this.panel3.Size = new System.Drawing.Size(824, 546);
             this.panel3.TabIndex = 4;
             // 
-            // gunaLinePanel1
+            // gunaGradient2Panel1
             // 
-            this.gunaLinePanel1.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente3);
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente2);
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente1);
-            this.gunaLinePanel1.Controls.Add(this.gunaLabel1);
-            this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
-            this.gunaLinePanel1.LineLeft = 1;
-            this.gunaLinePanel1.LineRight = 1;
-            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.LineTop = 1;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(560, 300);
-            this.gunaLinePanel1.Margin = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel1.Name = "gunaLinePanel1";
-            this.gunaLinePanel1.Padding = new System.Windows.Forms.Padding(2);
-            this.gunaLinePanel1.Size = new System.Drawing.Size(250, 236);
-            this.gunaLinePanel1.TabIndex = 10;
+            this.gunaGradient2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel1.Controls.Add(this.gunaLabel8);
+            this.gunaGradient2Panel1.Controls.Add(this.gunaLabel1);
+            this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.Violet;
+            this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(227, 95);
+            this.gunaGradient2Panel1.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
+            this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
+            this.gunaGradient2Panel1.Radius = 8;
+            this.gunaGradient2Panel1.Size = new System.Drawing.Size(161, 100);
+            this.gunaGradient2Panel1.TabIndex = 1;
             // 
-            // ucNuevoCliente3
+            // gunaGradient2Panel2
             // 
-            this.ucNuevoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente3.Location = new System.Drawing.Point(2, 142);
-            this.ucNuevoCliente3.Name = "ucNuevoCliente3";
-            this.ucNuevoCliente3.Size = new System.Drawing.Size(246, 50);
-            this.ucNuevoCliente3.TabIndex = 3;
+            this.gunaGradient2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel2.Controls.Add(this.gunaLabel7);
+            this.gunaGradient2Panel2.Controls.Add(this.gunaLabel4);
+            this.gunaGradient2Panel2.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaGradient2Panel2.GradientColor2 = System.Drawing.Color.Violet;
+            this.gunaGradient2Panel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.gunaGradient2Panel2.Location = new System.Drawing.Point(33, 95);
+            this.gunaGradient2Panel2.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
+            this.gunaGradient2Panel2.Name = "gunaGradient2Panel2";
+            this.gunaGradient2Panel2.Radius = 8;
+            this.gunaGradient2Panel2.Size = new System.Drawing.Size(161, 100);
+            this.gunaGradient2Panel2.TabIndex = 2;
             // 
-            // ucNuevoCliente2
+            // gunaGradient2Panel3
             // 
-            this.ucNuevoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente2.Location = new System.Drawing.Point(2, 92);
-            this.ucNuevoCliente2.Name = "ucNuevoCliente2";
-            this.ucNuevoCliente2.Size = new System.Drawing.Size(246, 50);
-            this.ucNuevoCliente2.TabIndex = 2;
-            // 
-            // ucNuevoCliente1
-            // 
-            this.ucNuevoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente1.Location = new System.Drawing.Point(2, 42);
-            this.ucNuevoCliente1.Name = "ucNuevoCliente1";
-            this.ucNuevoCliente1.Size = new System.Drawing.Size(246, 50);
-            this.ucNuevoCliente1.TabIndex = 1;
+            this.gunaGradient2Panel3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel3.Controls.Add(this.gunaLabel9);
+            this.gunaGradient2Panel3.Controls.Add(this.gunaLabel6);
+            this.gunaGradient2Panel3.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaGradient2Panel3.GradientColor2 = System.Drawing.Color.Violet;
+            this.gunaGradient2Panel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.gunaGradient2Panel3.Location = new System.Drawing.Point(421, 95);
+            this.gunaGradient2Panel3.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
+            this.gunaGradient2Panel3.Name = "gunaGradient2Panel3";
+            this.gunaGradient2Panel3.Radius = 8;
+            this.gunaGradient2Panel3.Size = new System.Drawing.Size(161, 100);
+            this.gunaGradient2Panel3.TabIndex = 2;
             // 
             // gunaLabel1
             // 
+            this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel1.Location = new System.Drawing.Point(2, 2);
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI Light", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel1.Location = new System.Drawing.Point(0, 0);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(246, 40);
+            this.gunaLabel1.Size = new System.Drawing.Size(161, 50);
             this.gunaLabel1.TabIndex = 0;
-            this.gunaLabel1.Text = "Nuevos clientes";
-            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.gunaLabel1.Text = "VENTAS";
+            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // ucCardUsuarios
+            // gunaLabel4
             // 
-            this.ucCardUsuarios.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucCardUsuarios.ColorFondo = System.Drawing.Color.White;
-            this.ucCardUsuarios.ColorFondoHover = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.ucCardUsuarios.HoverImagen = ((System.Drawing.Image)(resources.GetObject("ucCardUsuarios.HoverImagen")));
-            this.ucCardUsuarios.Imagen = ((System.Drawing.Image)(resources.GetObject("ucCardUsuarios.Imagen")));
-            this.ucCardUsuarios.Location = new System.Drawing.Point(425, 20);
-            this.ucCardUsuarios.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.ucCardUsuarios.Name = "ucCardUsuarios";
-            this.ucCardUsuarios.Numero = "2";
-            this.ucCardUsuarios.Size = new System.Drawing.Size(125, 125);
-            this.ucCardUsuarios.TabIndex = 8;
-            this.ucCardUsuarios.TextColor = System.Drawing.Color.Silver;
-            this.ucCardUsuarios.TextColorHover = System.Drawing.Color.White;
-            this.ucCardUsuarios.Texto = "Usuarios";
-            this.ucCardUsuarios.VerNumero = true;
+            this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI Light", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel4.Location = new System.Drawing.Point(0, 0);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel4.TabIndex = 2;
+            this.gunaLabel4.Text = "PEDIDOS";
+            this.gunaLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel4.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // ucCardClieentes
+            // gunaLabel6
             // 
-            this.ucCardClieentes.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucCardClieentes.ColorFondo = System.Drawing.Color.White;
-            this.ucCardClieentes.ColorFondoHover = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.ucCardClieentes.HoverImagen = ((System.Drawing.Image)(resources.GetObject("ucCardClieentes.HoverImagen")));
-            this.ucCardClieentes.Imagen = ((System.Drawing.Image)(resources.GetObject("ucCardClieentes.Imagen")));
-            this.ucCardClieentes.Location = new System.Drawing.Point(290, 20);
-            this.ucCardClieentes.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.ucCardClieentes.Name = "ucCardClieentes";
-            this.ucCardClieentes.Numero = "12";
-            this.ucCardClieentes.Size = new System.Drawing.Size(125, 125);
-            this.ucCardClieentes.TabIndex = 7;
-            this.ucCardClieentes.TextColor = System.Drawing.Color.Silver;
-            this.ucCardClieentes.TextColorHover = System.Drawing.Color.White;
-            this.ucCardClieentes.Texto = "Clientes";
-            this.ucCardClieentes.VerNumero = true;
+            this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI Light", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel6.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel6.Location = new System.Drawing.Point(0, 0);
+            this.gunaLabel6.Name = "gunaLabel6";
+            this.gunaLabel6.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel6.TabIndex = 2;
+            this.gunaLabel6.Text = "CLIENTES";
+            this.gunaLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel6.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // ucCardPedidos
+            // gunaLabel2
             // 
-            this.ucCardPedidos.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucCardPedidos.ColorFondo = System.Drawing.Color.White;
-            this.ucCardPedidos.ColorFondoHover = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.ucCardPedidos.HoverImagen = ((System.Drawing.Image)(resources.GetObject("ucCardPedidos.HoverImagen")));
-            this.ucCardPedidos.Imagen = ((System.Drawing.Image)(resources.GetObject("ucCardPedidos.Imagen")));
-            this.ucCardPedidos.Location = new System.Drawing.Point(155, 20);
-            this.ucCardPedidos.Margin = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.ucCardPedidos.Name = "ucCardPedidos";
-            this.ucCardPedidos.Numero = "24";
-            this.ucCardPedidos.Size = new System.Drawing.Size(125, 125);
-            this.ucCardPedidos.TabIndex = 6;
-            this.ucCardPedidos.TextColor = System.Drawing.Color.Silver;
-            this.ucCardPedidos.TextColorHover = System.Drawing.Color.White;
-            this.ucCardPedidos.Texto = "Pedidos";
-            this.ucCardPedidos.VerNumero = true;
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.ForeColor = System.Drawing.Color.Black;
+            this.gunaLabel2.Location = new System.Drawing.Point(33, 30);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(422, 25);
+            this.gunaLabel2.TabIndex = 3;
+            this.gunaLabel2.Text = "Bienvenido al software de control de pedidos de";
+            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.gunaLabel2.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // ucCardNuevoPedido
+            // gunaLabel3
             // 
-            this.ucCardNuevoPedido.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucCardNuevoPedido.ColorFondo = System.Drawing.Color.White;
-            this.ucCardNuevoPedido.ColorFondoHover = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.ucCardNuevoPedido.HoverImagen = ((System.Drawing.Image)(resources.GetObject("ucCardNuevoPedido.HoverImagen")));
-            this.ucCardNuevoPedido.Imagen = ((System.Drawing.Image)(resources.GetObject("ucCardNuevoPedido.Imagen")));
-            this.ucCardNuevoPedido.Location = new System.Drawing.Point(20, 20);
-            this.ucCardNuevoPedido.Margin = new System.Windows.Forms.Padding(20, 20, 10, 20);
-            this.ucCardNuevoPedido.Name = "ucCardNuevoPedido";
-            this.ucCardNuevoPedido.Numero = "7";
-            this.ucCardNuevoPedido.Size = new System.Drawing.Size(125, 125);
-            this.ucCardNuevoPedido.TabIndex = 5;
-            this.ucCardNuevoPedido.TextColor = System.Drawing.Color.Silver;
-            this.ucCardNuevoPedido.TextColorHover = System.Drawing.Color.White;
-            this.ucCardNuevoPedido.Texto = "Nuevo pedido";
-            this.ucCardNuevoPedido.VerNumero = false;
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaLabel3.Location = new System.Drawing.Point(450, 30);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(66, 25);
+            this.gunaLabel3.TabIndex = 4;
+            this.gunaLabel3.Text = "AVON";
+            this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.gunaLabel3.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // hopeDatePicker1
+            // gunaGradient2Panel4
             // 
-            this.hopeDatePicker1.BackColor = System.Drawing.Color.White;
-            this.hopeDatePicker1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
-            this.hopeDatePicker1.Date = new System.DateTime(2021, 3, 31, 0, 0, 0, 0);
-            this.hopeDatePicker1.DayNames = "LMMJVSD";
-            this.hopeDatePicker1.DaysTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(98)))), ((int)(((byte)(102)))));
-            this.hopeDatePicker1.DayTextColorA = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(49)))), ((int)(((byte)(51)))));
-            this.hopeDatePicker1.DayTextColorB = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(147)))), ((int)(((byte)(153)))));
-            this.hopeDatePicker1.HeaderFormat = "MES {1} - AÑO {0} ";
-            this.hopeDatePicker1.HeaderTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(49)))), ((int)(((byte)(51)))));
-            this.hopeDatePicker1.HeadLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(231)))), ((int)(((byte)(237)))));
-            this.hopeDatePicker1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(238)))), ((int)(((byte)(245)))));
-            this.hopeDatePicker1.Location = new System.Drawing.Point(560, 20);
-            this.hopeDatePicker1.Margin = new System.Windows.Forms.Padding(0);
-            this.hopeDatePicker1.Name = "hopeDatePicker1";
-            this.hopeDatePicker1.NMColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(196)))), ((int)(((byte)(204)))));
-            this.hopeDatePicker1.NMHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.hopeDatePicker1.NYColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(196)))), ((int)(((byte)(204)))));
-            this.hopeDatePicker1.NYHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.hopeDatePicker1.PMColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(196)))), ((int)(((byte)(204)))));
-            this.hopeDatePicker1.PMHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.hopeDatePicker1.PYColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(196)))), ((int)(((byte)(204)))));
-            this.hopeDatePicker1.PYHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.hopeDatePicker1.SelectedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.hopeDatePicker1.SelectedTextColor = System.Drawing.Color.White;
-            this.hopeDatePicker1.Size = new System.Drawing.Size(250, 270);
-            this.hopeDatePicker1.TabIndex = 4;
-            this.hopeDatePicker1.Text = "hopeDatePicker1";
-            this.hopeDatePicker1.ValueTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(211)))));
+            this.gunaGradient2Panel4.BackColor = System.Drawing.Color.Transparent;
+            this.gunaGradient2Panel4.Controls.Add(this.gunaLabel10);
+            this.gunaGradient2Panel4.Controls.Add(this.gunaLabel5);
+            this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.Violet;
+            this.gunaGradient2Panel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.gunaGradient2Panel4.Location = new System.Drawing.Point(615, 95);
+            this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
+            this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
+            this.gunaGradient2Panel4.Radius = 8;
+            this.gunaGradient2Panel4.Size = new System.Drawing.Size(161, 100);
+            this.gunaGradient2Panel4.TabIndex = 3;
+            // 
+            // gunaLabel5
+            // 
+            this.gunaLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI Light", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel5.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel5.Location = new System.Drawing.Point(0, 0);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel5.TabIndex = 2;
+            this.gunaLabel5.Text = "USUARIOS";
+            this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel5.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gunaLabel7
+            // 
+            this.gunaLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel7.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel7.Location = new System.Drawing.Point(0, 50);
+            this.gunaLabel7.Name = "gunaLabel7";
+            this.gunaLabel7.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel7.TabIndex = 3;
+            this.gunaLabel7.Text = "2";
+            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel7.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gunaLabel8
+            // 
+            this.gunaLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel8.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel8.Location = new System.Drawing.Point(0, 50);
+            this.gunaLabel8.Name = "gunaLabel8";
+            this.gunaLabel8.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel8.TabIndex = 3;
+            this.gunaLabel8.Text = "32";
+            this.gunaLabel8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel8.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gunaLabel9
+            // 
+            this.gunaLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel9.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel9.Location = new System.Drawing.Point(0, 50);
+            this.gunaLabel9.Name = "gunaLabel9";
+            this.gunaLabel9.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel9.TabIndex = 3;
+            this.gunaLabel9.Text = "17";
+            this.gunaLabel9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel9.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gunaLabel10
+            // 
+            this.gunaLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel10.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel10.Location = new System.Drawing.Point(0, 50);
+            this.gunaLabel10.Name = "gunaLabel10";
+            this.gunaLabel10.Size = new System.Drawing.Size(161, 50);
+            this.gunaLabel10.TabIndex = 3;
+            this.gunaLabel10.Text = "3";
+            this.gunaLabel10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel10.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // materialCard1
+            // 
+            this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard1.Controls.Add(this.gunaLabel11);
+            this.materialCard1.Depth = 0;
+            this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard1.Location = new System.Drawing.Point(33, 226);
+            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            this.materialCard1.Name = "materialCard1";
+            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard1.Size = new System.Drawing.Size(355, 290);
+            this.materialCard1.TabIndex = 6;
+            // 
+            // materialCard2
+            // 
+            this.materialCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard2.Controls.Add(this.gunaLabel12);
+            this.materialCard2.Depth = 0;
+            this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard2.Location = new System.Drawing.Point(421, 226);
+            this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            this.materialCard2.Name = "materialCard2";
+            this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard2.Size = new System.Drawing.Size(355, 290);
+            this.materialCard2.TabIndex = 7;
+            // 
+            // gunaLabel11
+            // 
+            this.gunaLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel11.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel11.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel11.Location = new System.Drawing.Point(14, 14);
+            this.gunaLabel11.Name = "gunaLabel11";
+            this.gunaLabel11.Size = new System.Drawing.Size(327, 30);
+            this.gunaLabel11.TabIndex = 1;
+            this.gunaLabel11.Text = "VENTAS RECIENTES";
+            this.gunaLabel11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel11.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gunaLabel12
+            // 
+            this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel12.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel12.Location = new System.Drawing.Point(14, 14);
+            this.gunaLabel12.Name = "gunaLabel12";
+            this.gunaLabel12.Size = new System.Drawing.Size(327, 30);
+            this.gunaLabel12.TabIndex = 2;
+            this.gunaLabel12.Text = "CLIENTES RECIENTES";
+            this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel12.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
             // UCPanelInicio
             // 
@@ -228,7 +340,13 @@ namespace ProyectoIntegrador2021.UCs
             this.Name = "UCPanelInicio";
             this.Size = new System.Drawing.Size(824, 546);
             this.panel3.ResumeLayout(false);
-            this.gunaLinePanel1.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.gunaGradient2Panel1.ResumeLayout(false);
+            this.gunaGradient2Panel2.ResumeLayout(false);
+            this.gunaGradient2Panel3.ResumeLayout(false);
+            this.gunaGradient2Panel4.ResumeLayout(false);
+            this.materialCard1.ResumeLayout(false);
+            this.materialCard2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -236,15 +354,23 @@ namespace ProyectoIntegrador2021.UCs
         #endregion
 
         private System.Windows.Forms.Panel panel3;
-        private ReaLTaiizor.Controls.HopeDatePicker hopeDatePicker1;
-        private UCCard ucCardClieentes;
-        private UCCard ucCardPedidos;
-        private UCCard ucCardNuevoPedido;
-        private UCCard ucCardUsuarios;
-        private Guna.UI.WinForms.GunaLinePanel gunaLinePanel1;
+        private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel1;
+        private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel3;
+        private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private UCNuevoCliente ucNuevoCliente3;
-        private UCNuevoCliente ucNuevoCliente2;
-        private UCNuevoCliente ucNuevoCliente1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel6;
+        private Guna.UI.WinForms.GunaLabel gunaLabel4;
+        private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private Guna.UI.WinForms.GunaLabel gunaLabel3;
+        private Guna.UI.WinForms.GunaGradient2Panel gunaGradient2Panel4;
+        private Guna.UI.WinForms.GunaLabel gunaLabel5;
+        private Guna.UI.WinForms.GunaLabel gunaLabel10;
+        private Guna.UI.WinForms.GunaLabel gunaLabel9;
+        private Guna.UI.WinForms.GunaLabel gunaLabel7;
+        private Guna.UI.WinForms.GunaLabel gunaLabel8;
+        private ReaLTaiizor.Controls.MaterialCard materialCard1;
+        private ReaLTaiizor.Controls.MaterialCard materialCard2;
+        private Guna.UI.WinForms.GunaLabel gunaLabel12;
+        private Guna.UI.WinForms.GunaLabel gunaLabel11;
     }
 }

@@ -12,9 +12,18 @@ namespace ProyectoIntegrador2021.UCs
 {
     public partial class UCPanelNuevoCliente : UserControl
     {
+
+        public delegate void Evento(object sender, EventArgs e);
+        public event Evento Volver_Click;
+
         public UCPanelNuevoCliente()
         {
             InitializeComponent();
+        }
+
+        private void lblNuevoCliente_volver_Click(object sender, EventArgs e)
+        {
+            Volver_Click(sender,e);
         }
     }
 }

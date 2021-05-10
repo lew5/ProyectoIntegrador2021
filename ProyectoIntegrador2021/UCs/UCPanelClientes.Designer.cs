@@ -31,7 +31,7 @@ namespace ProyectoIntegrador2021.UCs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCPanelClientes));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnNuevoCliente = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnClientes_nuevo = new Guna.UI.WinForms.GunaAdvenceButton();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lblPagina = new Guna.UI.WinForms.GunaLabel();
             this.picboxPrevPage = new System.Windows.Forms.PictureBox();
@@ -65,7 +65,7 @@ namespace ProyectoIntegrador2021.UCs
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.GhostWhite;
-            this.panel1.Controls.Add(this.btnNuevoCliente);
+            this.panel1.Controls.Add(this.btnClientes_nuevo);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.lblPagina);
             this.panel1.Controls.Add(this.picboxPrevPage);
@@ -83,40 +83,41 @@ namespace ProyectoIntegrador2021.UCs
             this.panel1.Size = new System.Drawing.Size(824, 546);
             this.panel1.TabIndex = 0;
             // 
-            // btnNuevoCliente
+            // btnClientes_nuevo
             // 
-            this.btnNuevoCliente.AnimationHoverSpeed = 0.07F;
-            this.btnNuevoCliente.AnimationSpeed = 0.03F;
-            this.btnNuevoCliente.BackColor = System.Drawing.Color.Transparent;
-            this.btnNuevoCliente.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnNuevoCliente.BorderColor = System.Drawing.Color.Black;
-            this.btnNuevoCliente.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
-            this.btnNuevoCliente.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnNuevoCliente.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnNuevoCliente.CheckedImage = null;
-            this.btnNuevoCliente.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnNuevoCliente.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnNuevoCliente.FocusedColor = System.Drawing.Color.Empty;
-            this.btnNuevoCliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.Image = null;
-            this.btnNuevoCliente.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnNuevoCliente.LineColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.Location = new System.Drawing.Point(654, 108);
-            this.btnNuevoCliente.Name = "btnNuevoCliente";
-            this.btnNuevoCliente.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(39)))), ((int)(((byte)(98)))));
-            this.btnNuevoCliente.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnNuevoCliente.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.OnHoverImage = null;
-            this.btnNuevoCliente.OnHoverLineColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.OnPressedColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.OnPressedDepth = 0;
-            this.btnNuevoCliente.Radius = 4;
-            this.btnNuevoCliente.Size = new System.Drawing.Size(83, 30);
-            this.btnNuevoCliente.TabIndex = 14;
-            this.btnNuevoCliente.Text = "Nuevo";
-            this.btnNuevoCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnNuevoCliente.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnClientes_nuevo.AnimationHoverSpeed = 0.07F;
+            this.btnClientes_nuevo.AnimationSpeed = 0.03F;
+            this.btnClientes_nuevo.BackColor = System.Drawing.Color.Transparent;
+            this.btnClientes_nuevo.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnClientes_nuevo.BorderColor = System.Drawing.Color.Black;
+            this.btnClientes_nuevo.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
+            this.btnClientes_nuevo.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnClientes_nuevo.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnClientes_nuevo.CheckedImage = null;
+            this.btnClientes_nuevo.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnClientes_nuevo.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnClientes_nuevo.FocusedColor = System.Drawing.Color.Empty;
+            this.btnClientes_nuevo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes_nuevo.ForeColor = System.Drawing.Color.White;
+            this.btnClientes_nuevo.Image = null;
+            this.btnClientes_nuevo.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnClientes_nuevo.LineColor = System.Drawing.Color.White;
+            this.btnClientes_nuevo.Location = new System.Drawing.Point(654, 108);
+            this.btnClientes_nuevo.Name = "btnClientes_nuevo";
+            this.btnClientes_nuevo.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(39)))), ((int)(((byte)(98)))));
+            this.btnClientes_nuevo.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnClientes_nuevo.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnClientes_nuevo.OnHoverImage = null;
+            this.btnClientes_nuevo.OnHoverLineColor = System.Drawing.Color.White;
+            this.btnClientes_nuevo.OnPressedColor = System.Drawing.Color.White;
+            this.btnClientes_nuevo.OnPressedDepth = 0;
+            this.btnClientes_nuevo.Radius = 4;
+            this.btnClientes_nuevo.Size = new System.Drawing.Size(83, 30);
+            this.btnClientes_nuevo.TabIndex = 14;
+            this.btnClientes_nuevo.Text = "Nuevo";
+            this.btnClientes_nuevo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnClientes_nuevo.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnClientes_nuevo.Click += new System.EventHandler(this.btnClientes_nuevo_Click);
             // 
             // pictureBox3
             // 
@@ -160,6 +161,7 @@ namespace ProyectoIntegrador2021.UCs
             this.picboxNextPage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picboxNextPage.TabIndex = 10;
             this.picboxNextPage.TabStop = false;
+            this.picboxNextPage.Click += new System.EventHandler(this.picboxNextPage_Click);
             // 
             // btnInactivos
             // 
@@ -541,6 +543,6 @@ namespace ProyectoIntegrador2021.UCs
         private System.Windows.Forms.PictureBox picboxPrevPage;
         private Guna.UI.WinForms.GunaLabel lblPagina;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private Guna.UI.WinForms.GunaAdvenceButton btnNuevoCliente;
+        private Guna.UI.WinForms.GunaAdvenceButton btnClientes_nuevo;
     }
 }

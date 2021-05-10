@@ -81,6 +81,12 @@
     <Compile Include="clases\Pedido.cs" />
     <Compile Include="clases\Usuario.cs" />
     <Compile Include="Funciones.cs" />
+    <Compile Include="secciones\SeccionCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="secciones\SeccionCliente.Designer.cs">
+      <DependentUpon>SeccionCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCs\UCCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -172,6 +178,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="secciones\SeccionCliente.resx">
+      <DependentUpon>SeccionCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCCard.resx">
       <DependentUpon>UCCard.cs</DependentUpon>
     </EmbeddedResource>

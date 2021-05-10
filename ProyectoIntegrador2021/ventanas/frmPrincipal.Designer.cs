@@ -35,10 +35,10 @@ namespace ProyectoIntegrador2021.ventanas
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.ucPanelPerfilCliente1 = new ProyectoIntegrador2021.UCs.UCPanelPerfilCliente();
-            this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.ucPanelInicio1 = new ProyectoIntegrador2021.UCs.UCPanelInicio();
+            this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -81,24 +81,29 @@ namespace ProyectoIntegrador2021.ventanas
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPanelPerfilCliente1);
+            this.pnlContenedor.Controls.Add(this.ucPanelInicio1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(200, 0);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(824, 546);
             this.pnlContenedor.TabIndex = 3;
             // 
-            // ucPanelPerfilCliente1
+            // gunaDragControl1
             // 
-            this.ucPanelPerfilCliente1.BackColor = System.Drawing.Color.GhostWhite;
-            this.ucPanelPerfilCliente1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPanelPerfilCliente1.Location = new System.Drawing.Point(0, 0);
-            this.ucPanelPerfilCliente1.MaximumSize = new System.Drawing.Size(824, 546);
-            this.ucPanelPerfilCliente1.MinimumSize = new System.Drawing.Size(824, 546);
-            this.ucPanelPerfilCliente1.Name = "ucPanelPerfilCliente1";
-            this.ucPanelPerfilCliente1.Size = new System.Drawing.Size(824, 546);
-            this.ucPanelPerfilCliente1.TabIndex = 0;
-            this.ucPanelPerfilCliente1.Volver_Click += new ProyectoIntegrador2021.UCs.UCPanelPerfilCliente.Evento(this.ucPanelPerfilCliente1_Volver_Click_1);
+            this.gunaDragControl1.TargetControl = this.panel1;
+            // 
+            // gunaElipse1
+            // 
+            this.gunaElipse1.TargetControl = this;
+            // 
+            // ucPanelInicio1
+            // 
+            this.ucPanelInicio1.BackColor = System.Drawing.Color.GhostWhite;
+            this.ucPanelInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelInicio1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelInicio1.Name = "ucPanelInicio1";
+            this.ucPanelInicio1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelInicio1.TabIndex = 0;
             // 
             // ucMenu1
             // 
@@ -110,14 +115,7 @@ namespace ProyectoIntegrador2021.ventanas
             this.ucMenu1.TabIndex = 2;
             this.ucMenu1.Inicio_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Inicio_Click);
             this.ucMenu1.Clientes_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Clientes_Click);
-            // 
-            // gunaDragControl1
-            // 
-            this.gunaDragControl1.TargetControl = this.panel1;
-            // 
-            // gunaElipse1
-            // 
-            this.gunaElipse1.TargetControl = this;
+            this.ucMenu1.Ajustes_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Ajustes_Click);
             // 
             // frmPrincipal
             // 
@@ -148,6 +146,6 @@ namespace ProyectoIntegrador2021.ventanas
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private UCs.UCPanelPerfilCliente ucPanelPerfilCliente1;
+        private UCs.UCPanelInicio ucPanelInicio1;
     }
 }
