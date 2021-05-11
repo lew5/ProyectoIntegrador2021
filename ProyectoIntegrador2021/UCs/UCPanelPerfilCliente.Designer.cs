@@ -39,33 +39,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPerfil = new Guna.UI.WinForms.GunaAdvenceButton();
             this.lblNombreUsuario = new Guna.UI.WinForms.GunaLabel();
             this.lbl_Volver = new Guna.UI.WinForms.GunaLabel();
-            this.pnlPedidosCliente = new System.Windows.Forms.Panel();
-            this.gunaLinePanel15 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.pnlEditarCliente = new System.Windows.Forms.Panel();
-            this.btn_Guardar_Edicion_Cliente = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
-            this.swt_Editar_Estado_Cliente = new Guna.UI.WinForms.GunaGoogleSwitch();
-            this.gunaLabel16 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel10 = new Guna.UI.WinForms.GunaLinePanel();
-            this.txtbox_Editar_Direccion_Cliente = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel11 = new Guna.UI.WinForms.GunaLinePanel();
-            this.txtbox_Editar_Cedula_Cliente = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel20 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel12 = new Guna.UI.WinForms.GunaLinePanel();
-            this.txtbox_Editar_Tel_Cliente = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel22 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel13 = new Guna.UI.WinForms.GunaLinePanel();
-            this.txtbox_Editar_Apellido_Cliente = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel24 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel14 = new Guna.UI.WinForms.GunaLinePanel();
-            this.txtbox_Editar_Nombre_Cliente = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel26 = new Guna.UI.WinForms.GunaLabel();
+            this.pnlContenedor = new ReaLTaiizor.Controls.MaterialCard();
             this.pnlPerfilCliente = new System.Windows.Forms.Panel();
             this.gunaLinePanel9 = new Guna.UI.WinForms.GunaLinePanel();
             this.lbl_Perfil_Estado_Cliente = new Guna.UI.WinForms.GunaLabel();
@@ -88,25 +62,43 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel8 = new Guna.UI.WinForms.GunaLinePanel();
             this.lbl_Perfil_Id_Cliente = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
-            this.pnlContenedor = new ReaLTaiizor.Controls.MaterialCard();
+            this.pnlEditarCliente = new System.Windows.Forms.Panel();
+            this.btn_Guardar_Edicion_Cliente = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
+            this.swt_Editar_Estado_Cliente = new Guna.UI.WinForms.GunaGoogleSwitch();
+            this.gunaLabel16 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLinePanel10 = new Guna.UI.WinForms.GunaLinePanel();
+            this.txtbox_Editar_Direccion_Cliente = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLinePanel11 = new Guna.UI.WinForms.GunaLinePanel();
+            this.txtbox_Editar_Cedula_Cliente = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel20 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLinePanel12 = new Guna.UI.WinForms.GunaLinePanel();
+            this.txtbox_Editar_Tel_Cliente = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel22 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLinePanel13 = new Guna.UI.WinForms.GunaLinePanel();
+            this.txtbox_Editar_Apellido_Cliente = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel24 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLinePanel14 = new Guna.UI.WinForms.GunaLinePanel();
+            this.txtbox_Editar_Nombre_Cliente = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel26 = new Guna.UI.WinForms.GunaLabel();
+            this.pnlPedidosCliente = new System.Windows.Forms.Panel();
             this.ucItemPedidoCliente5 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.ucItemPedidoCliente4 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.ucItemPedidoCliente3 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.ucItemPedidoCliente2 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.ucItemPedidoCliente1 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.gunaLinePanel15 = new Guna.UI.WinForms.GunaLinePanel();
+            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.panel1.SuspendLayout();
             this.materialCard1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).BeginInit();
             this.panel2.SuspendLayout();
-            this.pnlPedidosCliente.SuspendLayout();
-            this.gunaLinePanel15.SuspendLayout();
-            this.pnlEditarCliente.SuspendLayout();
-            this.gunaLinePanel2.SuspendLayout();
-            this.gunaLinePanel10.SuspendLayout();
-            this.gunaLinePanel11.SuspendLayout();
-            this.gunaLinePanel12.SuspendLayout();
-            this.gunaLinePanel13.SuspendLayout();
-            this.gunaLinePanel14.SuspendLayout();
+            this.pnlContenedor.SuspendLayout();
             this.pnlPerfilCliente.SuspendLayout();
             this.gunaLinePanel9.SuspendLayout();
             this.gunaLinePanel7.SuspendLayout();
@@ -115,7 +107,15 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.SuspendLayout();
             this.gunaLinePanel3.SuspendLayout();
             this.gunaLinePanel8.SuspendLayout();
-            this.pnlContenedor.SuspendLayout();
+            this.pnlEditarCliente.SuspendLayout();
+            this.gunaLinePanel2.SuspendLayout();
+            this.gunaLinePanel10.SuspendLayout();
+            this.gunaLinePanel11.SuspendLayout();
+            this.gunaLinePanel12.SuspendLayout();
+            this.gunaLinePanel13.SuspendLayout();
+            this.gunaLinePanel14.SuspendLayout();
+            this.pnlPedidosCliente.SuspendLayout();
+            this.gunaLinePanel15.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -307,96 +307,309 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Volver.MouseEnter += new System.EventHandler(this.lbl_Volver_MouseEnter);
             this.lbl_Volver.MouseLeave += new System.EventHandler(this.lbl_Volver_MouseLeave);
             // 
-            // pnlPedidosCliente
+            // pnlContenedor
             // 
-            this.pnlPedidosCliente.BackColor = System.Drawing.Color.Transparent;
-            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente5);
-            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente4);
-            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente3);
-            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente2);
-            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente1);
-            this.pnlPedidosCliente.Controls.Add(this.gunaLinePanel15);
-            this.pnlPedidosCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPedidosCliente.Location = new System.Drawing.Point(14, 14);
-            this.pnlPedidosCliente.Name = "pnlPedidosCliente";
-            this.pnlPedidosCliente.Size = new System.Drawing.Size(557, 492);
-            this.pnlPedidosCliente.TabIndex = 21;
+            this.pnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
+            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
+            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
+            this.pnlContenedor.Depth = 0;
+            this.pnlContenedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Padding = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
+            this.pnlContenedor.TabIndex = 4;
             // 
-            // gunaLinePanel15
+            // pnlPerfilCliente
             // 
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel9);
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel7);
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel5);
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel3);
-            this.gunaLinePanel15.Controls.Add(this.gunaLabel2);
-            this.gunaLinePanel15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel15.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel15.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel15.Location = new System.Drawing.Point(0, 0);
-            this.gunaLinePanel15.Name = "gunaLinePanel15";
-            this.gunaLinePanel15.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
-            this.gunaLinePanel15.Size = new System.Drawing.Size(557, 30);
-            this.gunaLinePanel15.TabIndex = 0;
+            this.pnlPerfilCliente.BackColor = System.Drawing.Color.White;
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel9);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel7);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel6);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel5);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel4);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel3);
+            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel8);
+            this.pnlPerfilCliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPerfilCliente.Location = new System.Drawing.Point(14, 14);
+            this.pnlPerfilCliente.Name = "pnlPerfilCliente";
+            this.pnlPerfilCliente.Size = new System.Drawing.Size(557, 492);
+            this.pnlPerfilCliente.TabIndex = 0;
             // 
-            // gunaLabel9
+            // gunaLinePanel9
             // 
-            this.gunaLabel9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel9.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel9.Location = new System.Drawing.Point(491, 2);
-            this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(60, 26);
-            this.gunaLabel9.TabIndex = 4;
-            this.gunaLabel9.Text = "ESTADO";
-            this.gunaLabel9.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.gunaLinePanel9.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel9.Controls.Add(this.lbl_Perfil_Estado_Cliente);
+            this.gunaLinePanel9.Controls.Add(this.gunaLabel14);
+            this.gunaLinePanel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel9.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel9.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel9.Location = new System.Drawing.Point(0, 420);
+            this.gunaLinePanel9.Name = "gunaLinePanel9";
+            this.gunaLinePanel9.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel9.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel9.TabIndex = 20;
             // 
-            // gunaLabel7
+            // lbl_Perfil_Estado_Cliente
             // 
-            this.gunaLabel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel7.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel7.Location = new System.Drawing.Point(399, 2);
-            this.gunaLabel7.Name = "gunaLabel7";
-            this.gunaLabel7.Size = new System.Drawing.Size(92, 26);
-            this.gunaLabel7.TabIndex = 3;
-            this.gunaLabel7.Text = "CAMPAÑA";
-            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.lbl_Perfil_Estado_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Estado_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Estado_Cliente.ForeColor = System.Drawing.Color.Green;
+            this.lbl_Perfil_Estado_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Estado_Cliente.Name = "lbl_Perfil_Estado_Cliente";
+            this.lbl_Perfil_Estado_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Estado_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Estado_Cliente.Text = "ACTIVO";
+            this.lbl_Perfil_Estado_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // gunaLabel5
+            // gunaLabel14
             // 
-            this.gunaLabel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel5.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel5.Location = new System.Drawing.Point(307, 2);
-            this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(92, 26);
-            this.gunaLabel5.TabIndex = 2;
-            this.gunaLabel5.Text = "CANTIDAD";
-            this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.gunaLabel14.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel14.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel14.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel14.Name = "gunaLabel14";
+            this.gunaLabel14.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel14.TabIndex = 3;
+            this.gunaLabel14.Text = "Estado:";
+            this.gunaLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // gunaLabel3
+            // gunaLinePanel7
             // 
-            this.gunaLabel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel3.Location = new System.Drawing.Point(107, 2);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(200, 26);
-            this.gunaLabel3.TabIndex = 1;
-            this.gunaLabel3.Text = "NOMBRE";
-            this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.gunaLinePanel7.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel7.Controls.Add(this.lbl_Perfil_Direccion_Cliente);
+            this.gunaLinePanel7.Controls.Add(this.gunaLabel10);
+            this.gunaLinePanel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel7.LineBottom = 1;
+            this.gunaLinePanel7.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel7.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel7.Location = new System.Drawing.Point(0, 350);
+            this.gunaLinePanel7.Name = "gunaLinePanel7";
+            this.gunaLinePanel7.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel7.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel7.TabIndex = 18;
             // 
-            // gunaLabel2
+            // lbl_Perfil_Direccion_Cliente
             // 
-            this.gunaLabel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.ForeColor = System.Drawing.Color.Silver;
-            this.gunaLabel2.Location = new System.Drawing.Point(10, 2);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(97, 26);
-            this.gunaLabel2.TabIndex = 0;
-            this.gunaLabel2.Text = "CÓDIGO";
-            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.lbl_Perfil_Direccion_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Direccion_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Direccion_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Direccion_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Direccion_Cliente.Name = "lbl_Perfil_Direccion_Cliente";
+            this.lbl_Perfil_Direccion_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Direccion_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Direccion_Cliente.Text = "DIRECCIÓN";
+            this.lbl_Perfil_Direccion_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel10
+            // 
+            this.gunaLabel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel10.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel10.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel10.Name = "gunaLabel10";
+            this.gunaLabel10.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel10.TabIndex = 3;
+            this.gunaLabel10.Text = "Dirección:";
+            this.gunaLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLinePanel6
+            // 
+            this.gunaLinePanel6.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel6.Controls.Add(this.lbl_Perfil_Cedula_Cliente);
+            this.gunaLinePanel6.Controls.Add(this.gunaLabel8);
+            this.gunaLinePanel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel6.LineBottom = 1;
+            this.gunaLinePanel6.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel6.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel6.Location = new System.Drawing.Point(0, 280);
+            this.gunaLinePanel6.Name = "gunaLinePanel6";
+            this.gunaLinePanel6.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel6.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel6.TabIndex = 17;
+            // 
+            // lbl_Perfil_Cedula_Cliente
+            // 
+            this.lbl_Perfil_Cedula_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Cedula_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Cedula_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Cedula_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Cedula_Cliente.Name = "lbl_Perfil_Cedula_Cliente";
+            this.lbl_Perfil_Cedula_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Cedula_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Cedula_Cliente.Text = "1.111.111-1";
+            this.lbl_Perfil_Cedula_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel8
+            // 
+            this.gunaLabel8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel8.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel8.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel8.Name = "gunaLabel8";
+            this.gunaLabel8.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel8.TabIndex = 3;
+            this.gunaLabel8.Text = "Cédula:";
+            this.gunaLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLinePanel5
+            // 
+            this.gunaLinePanel5.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel5.Controls.Add(this.lbl_Perfil_Tel_Cliente);
+            this.gunaLinePanel5.Controls.Add(this.gunaLabel6);
+            this.gunaLinePanel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel5.LineBottom = 1;
+            this.gunaLinePanel5.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel5.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel5.Location = new System.Drawing.Point(0, 210);
+            this.gunaLinePanel5.Name = "gunaLinePanel5";
+            this.gunaLinePanel5.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel5.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel5.TabIndex = 16;
+            // 
+            // lbl_Perfil_Tel_Cliente
+            // 
+            this.lbl_Perfil_Tel_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Tel_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Tel_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Tel_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Tel_Cliente.Name = "lbl_Perfil_Tel_Cliente";
+            this.lbl_Perfil_Tel_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Tel_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Tel_Cliente.Text = "(000) 000 000";
+            this.lbl_Perfil_Tel_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel6
+            // 
+            this.gunaLabel6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel6.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel6.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel6.Name = "gunaLabel6";
+            this.gunaLabel6.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel6.TabIndex = 3;
+            this.gunaLabel6.Text = "Teléfono:";
+            this.gunaLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLinePanel4
+            // 
+            this.gunaLinePanel4.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel4.Controls.Add(this.lbl_Perfil_Apellido_Cliente);
+            this.gunaLinePanel4.Controls.Add(this.gunaLabel4);
+            this.gunaLinePanel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel4.LineBottom = 1;
+            this.gunaLinePanel4.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel4.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel4.Location = new System.Drawing.Point(0, 140);
+            this.gunaLinePanel4.Name = "gunaLinePanel4";
+            this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel4.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel4.TabIndex = 15;
+            // 
+            // lbl_Perfil_Apellido_Cliente
+            // 
+            this.lbl_Perfil_Apellido_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Apellido_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Apellido_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Apellido_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Apellido_Cliente.Name = "lbl_Perfil_Apellido_Cliente";
+            this.lbl_Perfil_Apellido_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Apellido_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Apellido_Cliente.Text = "OLIVERA";
+            this.lbl_Perfil_Apellido_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel4.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel4.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel4.TabIndex = 3;
+            this.gunaLabel4.Text = "Apellido:";
+            this.gunaLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLinePanel3
+            // 
+            this.gunaLinePanel3.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel3.Controls.Add(this.lbl_Perfil_Nombre_Cliente);
+            this.gunaLinePanel3.Controls.Add(this.gunaLabel1);
+            this.gunaLinePanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel3.LineBottom = 1;
+            this.gunaLinePanel3.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel3.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel3.Location = new System.Drawing.Point(0, 70);
+            this.gunaLinePanel3.Name = "gunaLinePanel3";
+            this.gunaLinePanel3.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel3.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel3.TabIndex = 14;
+            // 
+            // lbl_Perfil_Nombre_Cliente
+            // 
+            this.lbl_Perfil_Nombre_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Nombre_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Nombre_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Nombre_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Nombre_Cliente.Name = "lbl_Perfil_Nombre_Cliente";
+            this.lbl_Perfil_Nombre_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Nombre_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Nombre_Cliente.Text = "LEANDRO";
+            this.lbl_Perfil_Nombre_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel1.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel1.TabIndex = 3;
+            this.gunaLabel1.Text = "Nombre:";
+            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLinePanel8
+            // 
+            this.gunaLinePanel8.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel8.Controls.Add(this.lbl_Perfil_Id_Cliente);
+            this.gunaLinePanel8.Controls.Add(this.gunaLabel12);
+            this.gunaLinePanel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel8.LineBottom = 1;
+            this.gunaLinePanel8.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel8.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel8.Location = new System.Drawing.Point(0, 0);
+            this.gunaLinePanel8.Name = "gunaLinePanel8";
+            this.gunaLinePanel8.Padding = new System.Windows.Forms.Padding(10);
+            this.gunaLinePanel8.Size = new System.Drawing.Size(557, 70);
+            this.gunaLinePanel8.TabIndex = 19;
+            // 
+            // lbl_Perfil_Id_Cliente
+            // 
+            this.lbl_Perfil_Id_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Perfil_Id_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Perfil_Id_Cliente.ForeColor = System.Drawing.Color.Black;
+            this.lbl_Perfil_Id_Cliente.Location = new System.Drawing.Point(260, 10);
+            this.lbl_Perfil_Id_Cliente.Name = "lbl_Perfil_Id_Cliente";
+            this.lbl_Perfil_Id_Cliente.Size = new System.Drawing.Size(287, 50);
+            this.lbl_Perfil_Id_Cliente.TabIndex = 4;
+            this.lbl_Perfil_Id_Cliente.Text = "12";
+            this.lbl_Perfil_Id_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // gunaLabel12
+            // 
+            this.gunaLabel12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel12.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel12.Location = new System.Drawing.Point(10, 10);
+            this.gunaLabel12.Name = "gunaLabel12";
+            this.gunaLabel12.Size = new System.Drawing.Size(250, 50);
+            this.gunaLabel12.TabIndex = 3;
+            this.gunaLabel12.Text = "Id:";
+            this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pnlEditarCliente
             // 
@@ -733,309 +946,20 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel26.Text = "Nombre:";
             this.gunaLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pnlPerfilCliente
+            // pnlPedidosCliente
             // 
-            this.pnlPerfilCliente.BackColor = System.Drawing.Color.White;
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel9);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel7);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel6);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel5);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel4);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel3);
-            this.pnlPerfilCliente.Controls.Add(this.gunaLinePanel8);
-            this.pnlPerfilCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlPerfilCliente.Location = new System.Drawing.Point(14, 14);
-            this.pnlPerfilCliente.Name = "pnlPerfilCliente";
-            this.pnlPerfilCliente.Size = new System.Drawing.Size(557, 492);
-            this.pnlPerfilCliente.TabIndex = 0;
-            // 
-            // gunaLinePanel9
-            // 
-            this.gunaLinePanel9.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel9.Controls.Add(this.lbl_Perfil_Estado_Cliente);
-            this.gunaLinePanel9.Controls.Add(this.gunaLabel14);
-            this.gunaLinePanel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel9.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel9.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel9.Location = new System.Drawing.Point(0, 420);
-            this.gunaLinePanel9.Name = "gunaLinePanel9";
-            this.gunaLinePanel9.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel9.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel9.TabIndex = 20;
-            // 
-            // lbl_Perfil_Estado_Cliente
-            // 
-            this.lbl_Perfil_Estado_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Estado_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Estado_Cliente.ForeColor = System.Drawing.Color.Green;
-            this.lbl_Perfil_Estado_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Estado_Cliente.Name = "lbl_Perfil_Estado_Cliente";
-            this.lbl_Perfil_Estado_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Estado_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Estado_Cliente.Text = "ACTIVO";
-            this.lbl_Perfil_Estado_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel14
-            // 
-            this.gunaLabel14.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel14.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel14.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel14.Name = "gunaLabel14";
-            this.gunaLabel14.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel14.TabIndex = 3;
-            this.gunaLabel14.Text = "Estado:";
-            this.gunaLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel7
-            // 
-            this.gunaLinePanel7.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel7.Controls.Add(this.lbl_Perfil_Direccion_Cliente);
-            this.gunaLinePanel7.Controls.Add(this.gunaLabel10);
-            this.gunaLinePanel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel7.LineBottom = 1;
-            this.gunaLinePanel7.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel7.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel7.Location = new System.Drawing.Point(0, 350);
-            this.gunaLinePanel7.Name = "gunaLinePanel7";
-            this.gunaLinePanel7.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel7.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel7.TabIndex = 18;
-            // 
-            // lbl_Perfil_Direccion_Cliente
-            // 
-            this.lbl_Perfil_Direccion_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Direccion_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Direccion_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Direccion_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Direccion_Cliente.Name = "lbl_Perfil_Direccion_Cliente";
-            this.lbl_Perfil_Direccion_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Direccion_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Direccion_Cliente.Text = "DIRECCIÓN";
-            this.lbl_Perfil_Direccion_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel10
-            // 
-            this.gunaLabel10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel10.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel10.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel10.Name = "gunaLabel10";
-            this.gunaLabel10.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel10.TabIndex = 3;
-            this.gunaLabel10.Text = "Dirección:";
-            this.gunaLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel6
-            // 
-            this.gunaLinePanel6.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel6.Controls.Add(this.lbl_Perfil_Cedula_Cliente);
-            this.gunaLinePanel6.Controls.Add(this.gunaLabel8);
-            this.gunaLinePanel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel6.LineBottom = 1;
-            this.gunaLinePanel6.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel6.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel6.Location = new System.Drawing.Point(0, 280);
-            this.gunaLinePanel6.Name = "gunaLinePanel6";
-            this.gunaLinePanel6.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel6.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel6.TabIndex = 17;
-            // 
-            // lbl_Perfil_Cedula_Cliente
-            // 
-            this.lbl_Perfil_Cedula_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Cedula_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Cedula_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Cedula_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Cedula_Cliente.Name = "lbl_Perfil_Cedula_Cliente";
-            this.lbl_Perfil_Cedula_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Cedula_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Cedula_Cliente.Text = "1.111.111-1";
-            this.lbl_Perfil_Cedula_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel8
-            // 
-            this.gunaLabel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel8.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel8.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel8.Name = "gunaLabel8";
-            this.gunaLabel8.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel8.TabIndex = 3;
-            this.gunaLabel8.Text = "Cédula:";
-            this.gunaLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel5
-            // 
-            this.gunaLinePanel5.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel5.Controls.Add(this.lbl_Perfil_Tel_Cliente);
-            this.gunaLinePanel5.Controls.Add(this.gunaLabel6);
-            this.gunaLinePanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel5.LineBottom = 1;
-            this.gunaLinePanel5.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel5.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel5.Location = new System.Drawing.Point(0, 210);
-            this.gunaLinePanel5.Name = "gunaLinePanel5";
-            this.gunaLinePanel5.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel5.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel5.TabIndex = 16;
-            // 
-            // lbl_Perfil_Tel_Cliente
-            // 
-            this.lbl_Perfil_Tel_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Tel_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Tel_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Tel_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Tel_Cliente.Name = "lbl_Perfil_Tel_Cliente";
-            this.lbl_Perfil_Tel_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Tel_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Tel_Cliente.Text = "(000) 000 000";
-            this.lbl_Perfil_Tel_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel6
-            // 
-            this.gunaLabel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel6.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel6.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel6.TabIndex = 3;
-            this.gunaLabel6.Text = "Teléfono:";
-            this.gunaLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel4
-            // 
-            this.gunaLinePanel4.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel4.Controls.Add(this.lbl_Perfil_Apellido_Cliente);
-            this.gunaLinePanel4.Controls.Add(this.gunaLabel4);
-            this.gunaLinePanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel4.LineBottom = 1;
-            this.gunaLinePanel4.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel4.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel4.Location = new System.Drawing.Point(0, 140);
-            this.gunaLinePanel4.Name = "gunaLinePanel4";
-            this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel4.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel4.TabIndex = 15;
-            // 
-            // lbl_Perfil_Apellido_Cliente
-            // 
-            this.lbl_Perfil_Apellido_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Apellido_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Apellido_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Apellido_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Apellido_Cliente.Name = "lbl_Perfil_Apellido_Cliente";
-            this.lbl_Perfil_Apellido_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Apellido_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Apellido_Cliente.Text = "OLIVERA";
-            this.lbl_Perfil_Apellido_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel4
-            // 
-            this.gunaLabel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel4.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel4.TabIndex = 3;
-            this.gunaLabel4.Text = "Apellido:";
-            this.gunaLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel3
-            // 
-            this.gunaLinePanel3.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel3.Controls.Add(this.lbl_Perfil_Nombre_Cliente);
-            this.gunaLinePanel3.Controls.Add(this.gunaLabel1);
-            this.gunaLinePanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel3.LineBottom = 1;
-            this.gunaLinePanel3.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel3.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel3.Location = new System.Drawing.Point(0, 70);
-            this.gunaLinePanel3.Name = "gunaLinePanel3";
-            this.gunaLinePanel3.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel3.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel3.TabIndex = 14;
-            // 
-            // lbl_Perfil_Nombre_Cliente
-            // 
-            this.lbl_Perfil_Nombre_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Nombre_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Nombre_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Nombre_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Nombre_Cliente.Name = "lbl_Perfil_Nombre_Cliente";
-            this.lbl_Perfil_Nombre_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Nombre_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Nombre_Cliente.Text = "LEANDRO";
-            this.lbl_Perfil_Nombre_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel1
-            // 
-            this.gunaLabel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel1.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel1.TabIndex = 3;
-            this.gunaLabel1.Text = "Nombre:";
-            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLinePanel8
-            // 
-            this.gunaLinePanel8.BackColor = System.Drawing.Color.White;
-            this.gunaLinePanel8.Controls.Add(this.lbl_Perfil_Id_Cliente);
-            this.gunaLinePanel8.Controls.Add(this.gunaLabel12);
-            this.gunaLinePanel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLinePanel8.LineBottom = 1;
-            this.gunaLinePanel8.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel8.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel8.Location = new System.Drawing.Point(0, 0);
-            this.gunaLinePanel8.Name = "gunaLinePanel8";
-            this.gunaLinePanel8.Padding = new System.Windows.Forms.Padding(10);
-            this.gunaLinePanel8.Size = new System.Drawing.Size(557, 70);
-            this.gunaLinePanel8.TabIndex = 19;
-            // 
-            // lbl_Perfil_Id_Cliente
-            // 
-            this.lbl_Perfil_Id_Cliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_Perfil_Id_Cliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Perfil_Id_Cliente.ForeColor = System.Drawing.Color.Black;
-            this.lbl_Perfil_Id_Cliente.Location = new System.Drawing.Point(260, 10);
-            this.lbl_Perfil_Id_Cliente.Name = "lbl_Perfil_Id_Cliente";
-            this.lbl_Perfil_Id_Cliente.Size = new System.Drawing.Size(287, 50);
-            this.lbl_Perfil_Id_Cliente.TabIndex = 4;
-            this.lbl_Perfil_Id_Cliente.Text = "12";
-            this.lbl_Perfil_Id_Cliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // gunaLabel12
-            // 
-            this.gunaLabel12.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel12.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel12.Location = new System.Drawing.Point(10, 10);
-            this.gunaLabel12.Name = "gunaLabel12";
-            this.gunaLabel12.Size = new System.Drawing.Size(250, 50);
-            this.gunaLabel12.TabIndex = 3;
-            this.gunaLabel12.Text = "Id:";
-            this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pnlContenedor
-            // 
-            this.pnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
-            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
-            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
-            this.pnlContenedor.Depth = 0;
-            this.pnlContenedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
-            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(14);
-            this.pnlContenedor.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
-            this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Padding = new System.Windows.Forms.Padding(14);
-            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
-            this.pnlContenedor.TabIndex = 4;
+            this.pnlPedidosCliente.BackColor = System.Drawing.Color.Transparent;
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente5);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente4);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente3);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente2);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente1);
+            this.pnlPedidosCliente.Controls.Add(this.gunaLinePanel15);
+            this.pnlPedidosCliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPedidosCliente.Location = new System.Drawing.Point(14, 14);
+            this.pnlPedidosCliente.Name = "pnlPedidosCliente";
+            this.pnlPedidosCliente.Size = new System.Drawing.Size(557, 492);
+            this.pnlPedidosCliente.TabIndex = 21;
             // 
             // ucItemPedidoCliente5
             // 
@@ -1097,6 +1021,82 @@ namespace ProyectoIntegrador2021.UCs
             this.ucItemPedidoCliente1.Size = new System.Drawing.Size(557, 50);
             this.ucItemPedidoCliente1.TabIndex = 1;
             // 
+            // gunaLinePanel15
+            // 
+            this.gunaLinePanel15.Controls.Add(this.gunaLabel9);
+            this.gunaLinePanel15.Controls.Add(this.gunaLabel7);
+            this.gunaLinePanel15.Controls.Add(this.gunaLabel5);
+            this.gunaLinePanel15.Controls.Add(this.gunaLabel3);
+            this.gunaLinePanel15.Controls.Add(this.gunaLabel2);
+            this.gunaLinePanel15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLinePanel15.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel15.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel15.Location = new System.Drawing.Point(0, 0);
+            this.gunaLinePanel15.Name = "gunaLinePanel15";
+            this.gunaLinePanel15.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
+            this.gunaLinePanel15.Size = new System.Drawing.Size(557, 30);
+            this.gunaLinePanel15.TabIndex = 0;
+            // 
+            // gunaLabel9
+            // 
+            this.gunaLabel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel9.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel9.Location = new System.Drawing.Point(491, 2);
+            this.gunaLabel9.Name = "gunaLabel9";
+            this.gunaLabel9.Size = new System.Drawing.Size(60, 26);
+            this.gunaLabel9.TabIndex = 4;
+            this.gunaLabel9.Text = "ESTADO";
+            this.gunaLabel9.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // gunaLabel7
+            // 
+            this.gunaLabel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel7.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel7.Location = new System.Drawing.Point(399, 2);
+            this.gunaLabel7.Name = "gunaLabel7";
+            this.gunaLabel7.Size = new System.Drawing.Size(92, 26);
+            this.gunaLabel7.TabIndex = 3;
+            this.gunaLabel7.Text = "CAMPAÑA";
+            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // gunaLabel5
+            // 
+            this.gunaLabel5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel5.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel5.Location = new System.Drawing.Point(307, 2);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(92, 26);
+            this.gunaLabel5.TabIndex = 2;
+            this.gunaLabel5.Text = "CANTIDAD";
+            this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel3.Location = new System.Drawing.Point(107, 2);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(200, 26);
+            this.gunaLabel3.TabIndex = 1;
+            this.gunaLabel3.Text = "NOMBRE";
+            this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel2.Location = new System.Drawing.Point(10, 2);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(97, 26);
+            this.gunaLabel2.TabIndex = 0;
+            this.gunaLabel2.Text = "CÓDIGO";
+            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
             // UCPanelPerfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1112,15 +1112,7 @@ namespace ProyectoIntegrador2021.UCs
             this.materialCard1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.pnlPedidosCliente.ResumeLayout(false);
-            this.gunaLinePanel15.ResumeLayout(false);
-            this.pnlEditarCliente.ResumeLayout(false);
-            this.gunaLinePanel2.ResumeLayout(false);
-            this.gunaLinePanel10.ResumeLayout(false);
-            this.gunaLinePanel11.ResumeLayout(false);
-            this.gunaLinePanel12.ResumeLayout(false);
-            this.gunaLinePanel13.ResumeLayout(false);
-            this.gunaLinePanel14.ResumeLayout(false);
+            this.pnlContenedor.ResumeLayout(false);
             this.pnlPerfilCliente.ResumeLayout(false);
             this.gunaLinePanel9.ResumeLayout(false);
             this.gunaLinePanel7.ResumeLayout(false);
@@ -1129,7 +1121,15 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.ResumeLayout(false);
             this.gunaLinePanel3.ResumeLayout(false);
             this.gunaLinePanel8.ResumeLayout(false);
-            this.pnlContenedor.ResumeLayout(false);
+            this.pnlEditarCliente.ResumeLayout(false);
+            this.gunaLinePanel2.ResumeLayout(false);
+            this.gunaLinePanel10.ResumeLayout(false);
+            this.gunaLinePanel11.ResumeLayout(false);
+            this.gunaLinePanel12.ResumeLayout(false);
+            this.gunaLinePanel13.ResumeLayout(false);
+            this.gunaLinePanel14.ResumeLayout(false);
+            this.pnlPedidosCliente.ResumeLayout(false);
+            this.gunaLinePanel15.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

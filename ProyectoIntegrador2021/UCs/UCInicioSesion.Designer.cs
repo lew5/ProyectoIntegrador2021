@@ -148,6 +148,7 @@ namespace ProyectoIntegrador2021.UCs
             this.chbox_Permanecer_Conectado.Size = new System.Drawing.Size(174, 21);
             this.chbox_Permanecer_Conectado.TabIndex = 8;
             this.chbox_Permanecer_Conectado.Text = "Permanecer conectado";
+            this.chbox_Permanecer_Conectado.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
             // txtbox_Contrasenia
             // 
