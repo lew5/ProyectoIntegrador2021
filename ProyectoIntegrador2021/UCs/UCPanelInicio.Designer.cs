@@ -31,7 +31,16 @@ namespace ProyectoIntegrador2021.UCs
         {
             this.panel3 = new System.Windows.Forms.Panel();
             this.materialCard2 = new ReaLTaiizor.Controls.MaterialCard();
+            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
+            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
+            this.ucNuevoCliente4 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
+            this.ucNuevoCliente3 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
+            this.ucNuevoCliente2 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
+            this.ucNuevoCliente1 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
+            this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
             this.materialCard1 = new ReaLTaiizor.Controls.MaterialCard();
+            this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
+            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaLabel11 = new Guna.UI.WinForms.GunaLabel();
             this.gunaGradient2Panel4 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
@@ -47,23 +56,14 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaGradient2Panel1 = new Guna.UI.WinForms.GunaGradient2Panel();
             this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
-            this.ucNuevoCliente4 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.ucNuevoCliente3 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.ucNuevoCliente2 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.ucNuevoCliente1 = new ProyectoIntegrador2021.UCs.UCNuevoCliente();
-            this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
-            this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
             this.panel3.SuspendLayout();
             this.materialCard2.SuspendLayout();
+            this.gunaLinePanel1.SuspendLayout();
             this.materialCard1.SuspendLayout();
             this.gunaGradient2Panel4.SuspendLayout();
             this.gunaGradient2Panel3.SuspendLayout();
             this.gunaGradient2Panel2.SuspendLayout();
             this.gunaGradient2Panel1.SuspendLayout();
-            this.gunaLinePanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -80,7 +80,7 @@ namespace ProyectoIntegrador2021.UCs
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(30, 30, 30, 16);
+            this.panel3.Padding = new System.Windows.Forms.Padding(37, 30, 30, 16);
             this.panel3.Size = new System.Drawing.Size(824, 546);
             this.panel3.TabIndex = 4;
             // 
@@ -92,13 +92,82 @@ namespace ProyectoIntegrador2021.UCs
             this.materialCard2.Controls.Add(this.gunaLabel12);
             this.materialCard2.Depth = 0;
             this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard2.Location = new System.Drawing.Point(421, 226);
+            this.materialCard2.Location = new System.Drawing.Point(428, 226);
             this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             this.materialCard2.Name = "materialCard2";
             this.materialCard2.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard2.Size = new System.Drawing.Size(355, 290);
             this.materialCard2.TabIndex = 7;
+            // 
+            // gunaSeparator1
+            // 
+            this.gunaSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaSeparator1.Location = new System.Drawing.Point(77, 47);
+            this.gunaSeparator1.Name = "gunaSeparator1";
+            this.gunaSeparator1.Size = new System.Drawing.Size(200, 10);
+            this.gunaSeparator1.TabIndex = 4;
+            this.gunaSeparator1.Thickness = 2;
+            // 
+            // gunaLinePanel1
+            // 
+            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente4);
+            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente3);
+            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente2);
+            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente1);
+            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel1.Location = new System.Drawing.Point(14, 63);
+            this.gunaLinePanel1.Name = "gunaLinePanel1";
+            this.gunaLinePanel1.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
+            this.gunaLinePanel1.Size = new System.Drawing.Size(327, 213);
+            this.gunaLinePanel1.TabIndex = 3;
+            // 
+            // ucNuevoCliente4
+            // 
+            this.ucNuevoCliente4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucNuevoCliente4.Location = new System.Drawing.Point(0, 152);
+            this.ucNuevoCliente4.Name = "ucNuevoCliente4";
+            this.ucNuevoCliente4.Size = new System.Drawing.Size(327, 50);
+            this.ucNuevoCliente4.TabIndex = 3;
+            // 
+            // ucNuevoCliente3
+            // 
+            this.ucNuevoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucNuevoCliente3.Location = new System.Drawing.Point(0, 102);
+            this.ucNuevoCliente3.Name = "ucNuevoCliente3";
+            this.ucNuevoCliente3.Size = new System.Drawing.Size(327, 50);
+            this.ucNuevoCliente3.TabIndex = 2;
+            // 
+            // ucNuevoCliente2
+            // 
+            this.ucNuevoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucNuevoCliente2.Location = new System.Drawing.Point(0, 52);
+            this.ucNuevoCliente2.Name = "ucNuevoCliente2";
+            this.ucNuevoCliente2.Size = new System.Drawing.Size(327, 50);
+            this.ucNuevoCliente2.TabIndex = 1;
+            // 
+            // ucNuevoCliente1
+            // 
+            this.ucNuevoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucNuevoCliente1.Location = new System.Drawing.Point(0, 2);
+            this.ucNuevoCliente1.Name = "ucNuevoCliente1";
+            this.ucNuevoCliente1.Size = new System.Drawing.Size(327, 50);
+            this.ucNuevoCliente1.TabIndex = 0;
+            // 
+            // gunaLabel12
+            // 
+            this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.gunaLabel12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel12.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel12.Location = new System.Drawing.Point(14, 14);
+            this.gunaLabel12.Name = "gunaLabel12";
+            this.gunaLabel12.Size = new System.Drawing.Size(327, 30);
+            this.gunaLabel12.TabIndex = 2;
+            this.gunaLabel12.Text = "CLIENTES RECIENTES";
+            this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.gunaLabel12.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
             // materialCard1
             // 
@@ -108,13 +177,32 @@ namespace ProyectoIntegrador2021.UCs
             this.materialCard1.Controls.Add(this.gunaLabel11);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard1.Location = new System.Drawing.Point(33, 226);
+            this.materialCard1.Location = new System.Drawing.Point(40, 226);
             this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             this.materialCard1.Name = "materialCard1";
             this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard1.Size = new System.Drawing.Size(355, 290);
             this.materialCard1.TabIndex = 6;
+            // 
+            // gunaLinePanel2
+            // 
+            this.gunaLinePanel2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaLinePanel2.LineStyle = System.Windows.Forms.BorderStyle.None;
+            this.gunaLinePanel2.Location = new System.Drawing.Point(14, 63);
+            this.gunaLinePanel2.Name = "gunaLinePanel2";
+            this.gunaLinePanel2.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
+            this.gunaLinePanel2.Size = new System.Drawing.Size(327, 213);
+            this.gunaLinePanel2.TabIndex = 6;
+            // 
+            // gunaSeparator2
+            // 
+            this.gunaSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.gunaSeparator2.Location = new System.Drawing.Point(77, 47);
+            this.gunaSeparator2.Name = "gunaSeparator2";
+            this.gunaSeparator2.Size = new System.Drawing.Size(200, 10);
+            this.gunaSeparator2.TabIndex = 5;
+            this.gunaSeparator2.Thickness = 2;
             // 
             // gunaLabel11
             // 
@@ -138,7 +226,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaGradient2Panel4.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.gunaGradient2Panel4.GradientColor2 = System.Drawing.Color.Violet;
             this.gunaGradient2Panel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel4.Location = new System.Drawing.Point(615, 95);
+            this.gunaGradient2Panel4.Location = new System.Drawing.Point(622, 95);
             this.gunaGradient2Panel4.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
             this.gunaGradient2Panel4.Name = "gunaGradient2Panel4";
             this.gunaGradient2Panel4.Radius = 8;
@@ -179,7 +267,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaLabel3.Location = new System.Drawing.Point(450, 30);
+            this.gunaLabel3.Location = new System.Drawing.Point(464, 30);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(66, 25);
             this.gunaLabel3.TabIndex = 4;
@@ -193,7 +281,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.ForeColor = System.Drawing.Color.Black;
-            this.gunaLabel2.Location = new System.Drawing.Point(33, 30);
+            this.gunaLabel2.Location = new System.Drawing.Point(47, 30);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(422, 25);
             this.gunaLabel2.TabIndex = 3;
@@ -209,7 +297,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaGradient2Panel3.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.gunaGradient2Panel3.GradientColor2 = System.Drawing.Color.Violet;
             this.gunaGradient2Panel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel3.Location = new System.Drawing.Point(421, 95);
+            this.gunaGradient2Panel3.Location = new System.Drawing.Point(428, 95);
             this.gunaGradient2Panel3.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
             this.gunaGradient2Panel3.Name = "gunaGradient2Panel3";
             this.gunaGradient2Panel3.Radius = 8;
@@ -252,7 +340,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaGradient2Panel2.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.gunaGradient2Panel2.GradientColor2 = System.Drawing.Color.Violet;
             this.gunaGradient2Panel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel2.Location = new System.Drawing.Point(33, 95);
+            this.gunaGradient2Panel2.Location = new System.Drawing.Point(40, 95);
             this.gunaGradient2Panel2.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
             this.gunaGradient2Panel2.Name = "gunaGradient2Panel2";
             this.gunaGradient2Panel2.Radius = 8;
@@ -295,7 +383,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaGradient2Panel1.GradientColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
             this.gunaGradient2Panel1.GradientColor2 = System.Drawing.Color.Violet;
             this.gunaGradient2Panel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.gunaGradient2Panel1.Location = new System.Drawing.Point(227, 95);
+            this.gunaGradient2Panel1.Location = new System.Drawing.Point(234, 95);
             this.gunaGradient2Panel1.Margin = new System.Windows.Forms.Padding(3, 40, 30, 3);
             this.gunaGradient2Panel1.Name = "gunaGradient2Panel1";
             this.gunaGradient2Panel1.Radius = 8;
@@ -330,94 +418,6 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.gunaLabel1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
-            // gunaLinePanel1
-            // 
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente4);
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente3);
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente2);
-            this.gunaLinePanel1.Controls.Add(this.ucNuevoCliente1);
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(14, 63);
-            this.gunaLinePanel1.Name = "gunaLinePanel1";
-            this.gunaLinePanel1.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.gunaLinePanel1.Size = new System.Drawing.Size(327, 213);
-            this.gunaLinePanel1.TabIndex = 3;
-            // 
-            // gunaLabel12
-            // 
-            this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaLabel12.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel12.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel12.Location = new System.Drawing.Point(14, 14);
-            this.gunaLabel12.Name = "gunaLabel12";
-            this.gunaLabel12.Size = new System.Drawing.Size(327, 30);
-            this.gunaLabel12.TabIndex = 2;
-            this.gunaLabel12.Text = "CLIENTES RECIENTES";
-            this.gunaLabel12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.gunaLabel12.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            // 
-            // gunaSeparator1
-            // 
-            this.gunaSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaSeparator1.Location = new System.Drawing.Point(77, 47);
-            this.gunaSeparator1.Name = "gunaSeparator1";
-            this.gunaSeparator1.Size = new System.Drawing.Size(200, 10);
-            this.gunaSeparator1.TabIndex = 4;
-            this.gunaSeparator1.Thickness = 2;
-            // 
-            // ucNuevoCliente4
-            // 
-            this.ucNuevoCliente4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente4.Location = new System.Drawing.Point(0, 152);
-            this.ucNuevoCliente4.Name = "ucNuevoCliente4";
-            this.ucNuevoCliente4.Size = new System.Drawing.Size(327, 50);
-            this.ucNuevoCliente4.TabIndex = 3;
-            // 
-            // ucNuevoCliente3
-            // 
-            this.ucNuevoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente3.Location = new System.Drawing.Point(0, 102);
-            this.ucNuevoCliente3.Name = "ucNuevoCliente3";
-            this.ucNuevoCliente3.Size = new System.Drawing.Size(327, 50);
-            this.ucNuevoCliente3.TabIndex = 2;
-            // 
-            // ucNuevoCliente2
-            // 
-            this.ucNuevoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente2.Location = new System.Drawing.Point(0, 52);
-            this.ucNuevoCliente2.Name = "ucNuevoCliente2";
-            this.ucNuevoCliente2.Size = new System.Drawing.Size(327, 50);
-            this.ucNuevoCliente2.TabIndex = 1;
-            // 
-            // ucNuevoCliente1
-            // 
-            this.ucNuevoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucNuevoCliente1.Location = new System.Drawing.Point(0, 2);
-            this.ucNuevoCliente1.Name = "ucNuevoCliente1";
-            this.ucNuevoCliente1.Size = new System.Drawing.Size(327, 50);
-            this.ucNuevoCliente1.TabIndex = 0;
-            // 
-            // gunaSeparator2
-            // 
-            this.gunaSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaSeparator2.Location = new System.Drawing.Point(77, 47);
-            this.gunaSeparator2.Name = "gunaSeparator2";
-            this.gunaSeparator2.Size = new System.Drawing.Size(200, 10);
-            this.gunaSeparator2.TabIndex = 5;
-            this.gunaSeparator2.Thickness = 2;
-            // 
-            // gunaLinePanel2
-            // 
-            this.gunaLinePanel2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaLinePanel2.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel2.Location = new System.Drawing.Point(14, 63);
-            this.gunaLinePanel2.Name = "gunaLinePanel2";
-            this.gunaLinePanel2.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.gunaLinePanel2.Size = new System.Drawing.Size(327, 213);
-            this.gunaLinePanel2.TabIndex = 6;
-            // 
             // UCPanelInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -429,12 +429,12 @@ namespace ProyectoIntegrador2021.UCs
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.materialCard2.ResumeLayout(false);
+            this.gunaLinePanel1.ResumeLayout(false);
             this.materialCard1.ResumeLayout(false);
             this.gunaGradient2Panel4.ResumeLayout(false);
             this.gunaGradient2Panel3.ResumeLayout(false);
             this.gunaGradient2Panel2.ResumeLayout(false);
             this.gunaGradient2Panel1.ResumeLayout(false);
-            this.gunaLinePanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

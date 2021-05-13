@@ -32,8 +32,8 @@ namespace ProyectoIntegrador2021.UCs
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCMenu));
             this.gunaLinePanel3 = new Guna.UI.WinForms.GunaLinePanel();
             this.gunaLinePanel4 = new Guna.UI.WinForms.GunaLinePanel();
-            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btnAjustes = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnAbout = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
             this.btnUsuarios = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btnPedidos = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -67,8 +67,8 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // gunaLinePanel4
             // 
-            this.gunaLinePanel4.Controls.Add(this.gunaAdvenceButton1);
             this.gunaLinePanel4.Controls.Add(this.btnAjustes);
+            this.gunaLinePanel4.Controls.Add(this.btnAbout);
             this.gunaLinePanel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaLinePanel4.LineBottom = 1;
             this.gunaLinePanel4.LineColor = System.Drawing.Color.WhiteSmoke;
@@ -78,41 +78,6 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(20);
             this.gunaLinePanel4.Size = new System.Drawing.Size(198, 123);
             this.gunaLinePanel4.TabIndex = 3;
-            // 
-            // gunaAdvenceButton1
-            // 
-            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
-            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.gunaAdvenceButton1.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.CheckedImage")));
-            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.Silver;
-            this.gunaAdvenceButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.Image")));
-            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(25, 25);
-            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.Location = new System.Drawing.Point(20, 60);
-            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
-            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.Silver;
-            this.gunaAdvenceButton1.OnHoverImage = null;
-            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaAdvenceButton1.OnPressedDepth = 0;
-            this.gunaAdvenceButton1.Radius = 6;
-            this.gunaAdvenceButton1.Size = new System.Drawing.Size(158, 40);
-            this.gunaAdvenceButton1.TabIndex = 1;
-            this.gunaAdvenceButton1.Text = "     Ajustes";
-            this.gunaAdvenceButton1.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
             // btnAjustes
             // 
@@ -124,7 +89,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnAjustes.CheckedBorderColor = System.Drawing.Color.Black;
             this.btnAjustes.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
-            this.btnAjustes.CheckedImage = null;
+            this.btnAjustes.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnAjustes.CheckedImage")));
             this.btnAjustes.CheckedLineColor = System.Drawing.Color.DimGray;
             this.btnAjustes.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAjustes.Dock = System.Windows.Forms.DockStyle.Top;
@@ -134,7 +99,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.Image = ((System.Drawing.Image)(resources.GetObject("btnAjustes.Image")));
             this.btnAjustes.ImageSize = new System.Drawing.Size(25, 25);
             this.btnAjustes.LineColor = System.Drawing.Color.White;
-            this.btnAjustes.Location = new System.Drawing.Point(20, 20);
+            this.btnAjustes.Location = new System.Drawing.Point(20, 60);
             this.btnAjustes.Name = "btnAjustes";
             this.btnAjustes.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.btnAjustes.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -145,10 +110,46 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.OnPressedDepth = 0;
             this.btnAjustes.Radius = 6;
             this.btnAjustes.Size = new System.Drawing.Size(158, 40);
-            this.btnAjustes.TabIndex = 0;
-            this.btnAjustes.Text = "     About";
+            this.btnAjustes.TabIndex = 1;
+            this.btnAjustes.Text = "     Ajustes";
             this.btnAjustes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.btnAjustes.Click += new System.EventHandler(this.btnAjustes_Click);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.AnimationHoverSpeed = 0.07F;
+            this.btnAbout.AnimationSpeed = 0.03F;
+            this.btnAbout.BackColor = System.Drawing.Color.Transparent;
+            this.btnAbout.BaseColor = System.Drawing.Color.White;
+            this.btnAbout.BorderColor = System.Drawing.Color.Black;
+            this.btnAbout.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
+            this.btnAbout.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnAbout.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(49)))), ((int)(((byte)(108)))));
+            this.btnAbout.CheckedImage = null;
+            this.btnAbout.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnAbout.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnAbout.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAbout.FocusedColor = System.Drawing.Color.Empty;
+            this.btnAbout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbout.ForeColor = System.Drawing.Color.Silver;
+            this.btnAbout.Image = ((System.Drawing.Image)(resources.GetObject("btnAbout.Image")));
+            this.btnAbout.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnAbout.LineColor = System.Drawing.Color.White;
+            this.btnAbout.Location = new System.Drawing.Point(20, 20);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.btnAbout.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnAbout.OnHoverForeColor = System.Drawing.Color.Silver;
+            this.btnAbout.OnHoverImage = null;
+            this.btnAbout.OnHoverLineColor = System.Drawing.Color.White;
+            this.btnAbout.OnPressedColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAbout.OnPressedDepth = 0;
+            this.btnAbout.Radius = 6;
+            this.btnAbout.Size = new System.Drawing.Size(158, 40);
+            this.btnAbout.TabIndex = 0;
+            this.btnAbout.Text = "     About";
+            this.btnAbout.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // gunaLinePanel2
             // 
@@ -382,7 +383,7 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaAdvenceButton btnClientes;
         private Guna.UI.WinForms.GunaAdvenceButton btnUsuarios;
         private Guna.UI.WinForms.GunaLinePanel gunaLinePanel4;
+        private Guna.UI.WinForms.GunaAdvenceButton btnAbout;
         private Guna.UI.WinForms.GunaAdvenceButton btnAjustes;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
     }
 }

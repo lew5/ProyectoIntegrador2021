@@ -55,19 +55,14 @@ namespace ProyectoIntegrador2021.ventanas
             }
         }
 
-        private void ucMenu1_Ajustes_Click(object sender, System.EventArgs e)
-        {
-            mostrarSeccion<UCPanelPerfilCliente>();
-        }
-
         private void ucPanelPerfilCliente1_Volver_Click_1(object sender, System.EventArgs e)
         {
             mostrarSeccion<UCPanelClientes>();
         }
 
-        private void pictureBox1_Click(object sender, System.EventArgs e)
+        private void ucMenu1_Pedidos_Click(object sender, System.EventArgs e)
         {
-            mostrarSeccion<UCPedido>();
+            mostrarSeccion<SeccionPedidos>();
         }
     }
 }

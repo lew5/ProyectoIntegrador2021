@@ -29,13 +29,27 @@ namespace ProyectoIntegrador2021.secciones
         /// </summary>
         private void InitializeComponent()
         {
+            this.ucPedido1 = new ProyectoIntegrador2021.UCs.UCPedido();
             this.SuspendLayout();
+            // 
+            // ucPedido1
+            // 
+            this.ucPedido1.BackColor = System.Drawing.Color.GhostWhite;
+            this.ucPedido1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPedido1.Location = new System.Drawing.Point(0, 0);
+            this.ucPedido1.MaximumSize = new System.Drawing.Size(824, 546);
+            this.ucPedido1.MinimumSize = new System.Drawing.Size(824, 546);
+            this.ucPedido1.Name = "ucPedido1";
+            this.ucPedido1.Padding = new System.Windows.Forms.Padding(10);
+            this.ucPedido1.Size = new System.Drawing.Size(824, 546);
+            this.ucPedido1.TabIndex = 0;
             // 
             // SeccionPedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
+            this.Controls.Add(this.ucPedido1);
             this.MaximumSize = new System.Drawing.Size(824, 546);
             this.MinimumSize = new System.Drawing.Size(824, 546);
             this.Name = "SeccionPedidos";
@@ -45,5 +59,7 @@ namespace ProyectoIntegrador2021.secciones
         }
 
         #endregion
+
+        private UCs.UCPedido ucPedido1;
     }
 }

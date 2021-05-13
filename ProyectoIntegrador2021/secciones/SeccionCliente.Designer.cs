@@ -30,32 +30,22 @@ namespace ProyectoIntegrador2021.secciones
         private void InitializeComponent()
         {
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.ucPanelClientes = new ProyectoIntegrador2021.UCs.UCPanelClientes();
             this.ucPanelPerfilCliente = new ProyectoIntegrador2021.UCs.UCPanelPerfilCliente();
+            this.ucPanelClientes = new ProyectoIntegrador2021.UCs.UCPanelClientes();
             this.ucPanelNuevoCliente = new ProyectoIntegrador2021.UCs.UCPanelNuevoCliente();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPanelPerfilCliente);
             this.pnlContenedor.Controls.Add(this.ucPanelClientes);
             this.pnlContenedor.Controls.Add(this.ucPanelNuevoCliente);
+            this.pnlContenedor.Controls.Add(this.ucPanelPerfilCliente);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(0, 0);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(824, 546);
             this.pnlContenedor.TabIndex = 0;
-            // 
-            // ucPanelClientes
-            // 
-            this.ucPanelClientes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPanelClientes.Location = new System.Drawing.Point(0, 0);
-            this.ucPanelClientes.Name = "ucPanelClientes";
-            this.ucPanelClientes.Size = new System.Drawing.Size(824, 546);
-            this.ucPanelClientes.TabIndex = 0;
-            this.ucPanelClientes.Nuevo_Click += new ProyectoIntegrador2021.UCs.UCPanelClientes.Evento(this.ucPanelClientes_Nuevo_Click);
-            this.ucPanelClientes.Perfil_Click += new ProyectoIntegrador2021.UCs.UCPanelClientes.Evento(this.ucPanelClientes_Perfil_Click);
             // 
             // ucPanelPerfilCliente
             // 
@@ -68,6 +58,16 @@ namespace ProyectoIntegrador2021.secciones
             this.ucPanelPerfilCliente.Size = new System.Drawing.Size(824, 546);
             this.ucPanelPerfilCliente.TabIndex = 2;
             this.ucPanelPerfilCliente.Volver_Click += new ProyectoIntegrador2021.UCs.UCPanelPerfilCliente.Evento(this.ucPanelPerfilCliente_Volver_Click);
+            // 
+            // ucPanelClientes
+            // 
+            this.ucPanelClientes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelClientes.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelClientes.Name = "ucPanelClientes";
+            this.ucPanelClientes.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelClientes.TabIndex = 0;
+            this.ucPanelClientes.Nuevo_Click += new ProyectoIntegrador2021.UCs.UCPanelClientes.Evento(this.ucPanelClientes_Nuevo_Click);
+            this.ucPanelClientes.Perfil_Click += new ProyectoIntegrador2021.UCs.UCPanelClientes.Evento(this.ucPanelClientes_Perfil_Click);
             // 
             // ucPanelNuevoCliente
             // 

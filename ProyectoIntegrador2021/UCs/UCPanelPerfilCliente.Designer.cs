@@ -39,7 +39,6 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPerfil = new Guna.UI.WinForms.GunaAdvenceButton();
             this.lblNombreUsuario = new Guna.UI.WinForms.GunaLabel();
             this.lbl_Volver = new Guna.UI.WinForms.GunaLabel();
-            this.pnlContenedor = new ReaLTaiizor.Controls.MaterialCard();
             this.pnlPedidosCliente = new System.Windows.Forms.Panel();
             this.gunaLinePanel15 = new Guna.UI.WinForms.GunaLinePanel();
             this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
@@ -89,11 +88,17 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel14 = new Guna.UI.WinForms.GunaLinePanel();
             this.txtbox_Editar_Nombre_Cliente = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel26 = new Guna.UI.WinForms.GunaLabel();
+            this.pnlContenedor = new Guna.UI.WinForms.GunaElipsePanel();
+            this.ucItemPedidoCliente1 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente2 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente3 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente4 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente5 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
+            this.ucItemPedidoCliente6 = new ProyectoIntegrador2021.UCs.UCItemPedidoCliente();
             this.panel1.SuspendLayout();
             this.materialCard1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).BeginInit();
             this.panel2.SuspendLayout();
-            this.pnlContenedor.SuspendLayout();
             this.pnlPedidosCliente.SuspendLayout();
             this.gunaLinePanel15.SuspendLayout();
             this.pnlPerfilCliente.SuspendLayout();
@@ -111,13 +116,14 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel12.SuspendLayout();
             this.gunaLinePanel13.SuspendLayout();
             this.gunaLinePanel14.SuspendLayout();
+            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pnlContenedor);
             this.panel1.Controls.Add(this.materialCard1);
             this.panel1.Controls.Add(this.lbl_Volver);
-            this.panel1.Controls.Add(this.pnlContenedor);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -302,25 +308,15 @@ namespace ProyectoIntegrador2021.UCs
             this.lbl_Volver.MouseEnter += new System.EventHandler(this.lbl_Volver_MouseEnter);
             this.lbl_Volver.MouseLeave += new System.EventHandler(this.lbl_Volver_MouseLeave);
             // 
-            // pnlContenedor
-            // 
-            this.pnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
-            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
-            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
-            this.pnlContenedor.Depth = 0;
-            this.pnlContenedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
-            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(14);
-            this.pnlContenedor.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
-            this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Padding = new System.Windows.Forms.Padding(14);
-            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
-            this.pnlContenedor.TabIndex = 4;
-            // 
             // pnlPedidosCliente
             // 
             this.pnlPedidosCliente.BackColor = System.Drawing.Color.Transparent;
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente6);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente5);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente4);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente3);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente2);
+            this.pnlPedidosCliente.Controls.Add(this.ucItemPedidoCliente1);
             this.pnlPedidosCliente.Controls.Add(this.gunaLinePanel15);
             this.pnlPedidosCliente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlPedidosCliente.Location = new System.Drawing.Point(14, 14);
@@ -1027,6 +1023,93 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel26.Text = "Nombre:";
             this.gunaLabel26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // pnlContenedor
+            // 
+            this.pnlContenedor.BackColor = System.Drawing.Color.Transparent;
+            this.pnlContenedor.BaseColor = System.Drawing.Color.White;
+            this.pnlContenedor.Controls.Add(this.pnlPerfilCliente);
+            this.pnlContenedor.Controls.Add(this.pnlPedidosCliente);
+            this.pnlContenedor.Controls.Add(this.pnlEditarCliente);
+            this.pnlContenedor.Location = new System.Drawing.Point(226, 13);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Padding = new System.Windows.Forms.Padding(14);
+            this.pnlContenedor.Radius = 4;
+            this.pnlContenedor.Size = new System.Drawing.Size(585, 520);
+            this.pnlContenedor.TabIndex = 5;
+            // 
+            // ucItemPedidoCliente1
+            // 
+            this.ucItemPedidoCliente1.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente1.Location = new System.Drawing.Point(0, 30);
+            this.ucItemPedidoCliente1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente1.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.Name = "ucItemPedidoCliente1";
+            this.ucItemPedidoCliente1.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente1.TabIndex = 1;
+            // 
+            // ucItemPedidoCliente2
+            // 
+            this.ucItemPedidoCliente2.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente2.Location = new System.Drawing.Point(0, 80);
+            this.ucItemPedidoCliente2.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente2.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.Name = "ucItemPedidoCliente2";
+            this.ucItemPedidoCliente2.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente2.TabIndex = 2;
+            // 
+            // ucItemPedidoCliente3
+            // 
+            this.ucItemPedidoCliente3.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente3.Location = new System.Drawing.Point(0, 130);
+            this.ucItemPedidoCliente3.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente3.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.Name = "ucItemPedidoCliente3";
+            this.ucItemPedidoCliente3.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente3.TabIndex = 3;
+            // 
+            // ucItemPedidoCliente4
+            // 
+            this.ucItemPedidoCliente4.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente4.Location = new System.Drawing.Point(0, 180);
+            this.ucItemPedidoCliente4.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente4.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.Name = "ucItemPedidoCliente4";
+            this.ucItemPedidoCliente4.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente4.TabIndex = 4;
+            // 
+            // ucItemPedidoCliente5
+            // 
+            this.ucItemPedidoCliente5.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente5.Location = new System.Drawing.Point(0, 230);
+            this.ucItemPedidoCliente5.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente5.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.Name = "ucItemPedidoCliente5";
+            this.ucItemPedidoCliente5.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente5.TabIndex = 5;
+            // 
+            // ucItemPedidoCliente6
+            // 
+            this.ucItemPedidoCliente6.BackColor = System.Drawing.Color.White;
+            this.ucItemPedidoCliente6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ucItemPedidoCliente6.Location = new System.Drawing.Point(0, 280);
+            this.ucItemPedidoCliente6.Margin = new System.Windows.Forms.Padding(0);
+            this.ucItemPedidoCliente6.MaximumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente6.MinimumSize = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente6.Name = "ucItemPedidoCliente6";
+            this.ucItemPedidoCliente6.Size = new System.Drawing.Size(557, 50);
+            this.ucItemPedidoCliente6.TabIndex = 6;
+            // 
             // UCPanelPerfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1042,7 +1125,6 @@ namespace ProyectoIntegrador2021.UCs
             this.materialCard1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picbox_Estado_Cliente)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.pnlContenedor.ResumeLayout(false);
             this.pnlPedidosCliente.ResumeLayout(false);
             this.gunaLinePanel15.ResumeLayout(false);
             this.pnlPerfilCliente.ResumeLayout(false);
@@ -1060,6 +1142,7 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel12.ResumeLayout(false);
             this.gunaLinePanel13.ResumeLayout(false);
             this.gunaLinePanel14.ResumeLayout(false);
+            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1124,6 +1207,12 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaAdvenceButton btnPedidos;
         private Guna.UI.WinForms.GunaAdvenceButton btnPerfil;
         private Guna.UI.WinForms.GunaLabel lblNombreUsuario;
-        private ReaLTaiizor.Controls.MaterialCard pnlContenedor;
+        private Guna.UI.WinForms.GunaElipsePanel pnlContenedor;
+        private UCItemPedidoCliente ucItemPedidoCliente6;
+        private UCItemPedidoCliente ucItemPedidoCliente5;
+        private UCItemPedidoCliente ucItemPedidoCliente4;
+        private UCItemPedidoCliente ucItemPedidoCliente3;
+        private UCItemPedidoCliente ucItemPedidoCliente2;
+        private UCItemPedidoCliente ucItemPedidoCliente1;
     }
 }

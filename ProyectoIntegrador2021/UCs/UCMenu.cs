@@ -19,6 +19,7 @@ namespace ProyectoIntegrador2021.UCs
         public event Evento Pedidos_Click;
         public event Evento Usuarios_Click;
         public event Evento Ajustes_Click;
+        public event Evento About_Click;
         public UCMenu()
         {
             InitializeComponent();
@@ -42,6 +43,11 @@ namespace ProyectoIntegrador2021.UCs
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
             Usuarios_Click(sender, e);
+        }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            About_Click(sender, e);
         }
 
         private void btnAjustes_Click(object sender, EventArgs e)
