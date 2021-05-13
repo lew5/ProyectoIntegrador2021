@@ -55,3 +55,6 @@ C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCPanelPerfilCliente.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCItemPedidoCliente.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.secciones.SeccionCliente.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.secciones.SeccionPedidos.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCPedido.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCItemPedido.resources

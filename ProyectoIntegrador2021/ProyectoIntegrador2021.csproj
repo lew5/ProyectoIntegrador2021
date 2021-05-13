@@ -87,6 +87,12 @@
     <Compile Include="secciones\SeccionCliente.Designer.cs">
       <DependentUpon>SeccionCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="secciones\SeccionPedidos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="secciones\SeccionPedidos.Designer.cs">
+      <DependentUpon>SeccionPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCs\UCCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     </Compile>
     <Compile Include="UCs\UCItemCliente.Designer.cs">
       <DependentUpon>UCItemCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCs\UCItemPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCItemPedido.Designer.cs">
+      <DependentUpon>UCItemPedido.cs</DependentUpon>
     </Compile>
     <Compile Include="UCs\UCItemPedidoCliente.cs">
       <SubType>UserControl</SubType>
@@ -153,6 +165,12 @@
     <Compile Include="UCs\UCPanelPerfilCliente.Designer.cs">
       <DependentUpon>UCPanelPerfilCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCPedido.Designer.cs">
+      <DependentUpon>UCPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="ventanas\frmInicio_sesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +199,9 @@
     <EmbeddedResource Include="secciones\SeccionCliente.resx">
       <DependentUpon>SeccionCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="secciones\SeccionPedidos.resx">
+      <DependentUpon>SeccionPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCCard.resx">
       <DependentUpon>UCCard.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCItemCliente.resx">
       <DependentUpon>UCItemCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCItemPedido.resx">
+      <DependentUpon>UCItemPedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCItemPedidoCliente.resx">
       <DependentUpon>UCItemPedidoCliente.cs</DependentUpon>
@@ -213,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCPanelPerfilCliente.resx">
       <DependentUpon>UCPanelPerfilCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCPedido.resx">
+      <DependentUpon>UCPedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ventanas\frmInicio_sesion.resx">
       <DependentUpon>frmInicio_sesion.cs</DependentUpon>

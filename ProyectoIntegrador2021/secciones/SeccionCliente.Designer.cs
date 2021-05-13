@@ -38,8 +38,8 @@ namespace ProyectoIntegrador2021.secciones
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPanelClientes);
             this.pnlContenedor.Controls.Add(this.ucPanelPerfilCliente);
+            this.pnlContenedor.Controls.Add(this.ucPanelClientes);
             this.pnlContenedor.Controls.Add(this.ucPanelNuevoCliente);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(0, 0);

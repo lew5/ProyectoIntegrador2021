@@ -64,6 +64,11 @@ namespace ProyectoIntegrador2021.ventanas
         {
             mostrarSeccion<UCPanelClientes>();
         }
+
+        private void pictureBox1_Click(object sender, System.EventArgs e)
+        {
+            mostrarSeccion<UCPedido>();
+        }
     }
 }
 
