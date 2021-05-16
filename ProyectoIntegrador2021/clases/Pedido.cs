@@ -9,8 +9,9 @@ namespace PruebasDB.clases
 
     class Pedido
     {
+        private static Pedido instance = null;
         private string _codigo;
-        private int _cantidad;
+        private byte _cantidad;
         private double _total;
         private bool _estado;
         private DateTime _fecha;
@@ -21,8 +22,15 @@ namespace PruebasDB.clases
 
         }
 
+        public static Pedido Instance()
+        {
+            if (instance == null)
+                instance = new Pedido();
+            return instance;
+        }
+
         public string Codigo { get => _codigo; set => _codigo = value; }
-        public int Cantidad { get => _cantidad; set => _cantidad = value; }
+        public byte Cantidad { get => _cantidad; set => _cantidad = value; }
         public double Total { get => _total; set => _total = value; }
         public bool Estado { get => _estado; set => _estado = value; }
         public DateTime Fecha { get => _fecha; set => _fecha = value; }

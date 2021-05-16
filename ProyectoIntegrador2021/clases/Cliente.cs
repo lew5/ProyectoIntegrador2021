@@ -5,6 +5,7 @@ namespace PruebasDB.clases
 {
     class Cliente
     {
+        private static Cliente instance = null;
         private int _id;
         private int _usuario_id;
         private string _nombre;
@@ -22,6 +23,13 @@ namespace PruebasDB.clases
             if (_pedidos == null) _pedidos = new List<Pedido>();
             _pedidos.Add(elPedido);
             elPedido.ElCliente = this;
+        }
+
+        public static Cliente Instance()
+        {
+            if(instance==null)
+                instance=new Cliente();
+            return instance;
         }
 
         public int Id { get => _id; set => _id = value; }

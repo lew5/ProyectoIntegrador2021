@@ -31,8 +31,6 @@ namespace ProyectoIntegrador2021.UCs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCPedido));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ucItemPedido3 = new ProyectoIntegrador2021.UCs.UCItemPedido();
-            this.ucItemPedido1 = new ProyectoIntegrador2021.UCs.UCItemPedido();
             this.materialCard1 = new ReaLTaiizor.Controls.MaterialCard();
             this.panel2 = new System.Windows.Forms.Panel();
             this.linklblEliminarPedido = new Guna.UI.WinForms.GunaLinkLabel();
@@ -45,7 +43,6 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLabel25 = new Guna.UI.WinForms.GunaLabel();
             this.gunaVScrollBar1 = new Guna.UI.WinForms.GunaVScrollBar();
             this.lbl_Volver = new Guna.UI.WinForms.GunaLabel();
-            this.panel1.SuspendLayout();
             this.materialCard1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.gunaElipsePanel1.SuspendLayout();
@@ -53,42 +50,10 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.ucItemPedido3);
-            this.panel1.Controls.Add(this.ucItemPedido1);
             this.panel1.Location = new System.Drawing.Point(226, 13);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(585, 520);
             this.panel1.TabIndex = 1;
-            // 
-            // ucItemPedido3
-            // 
-            this.ucItemPedido3.Cantidad = ((byte)(1));
-            this.ucItemPedido3.Codigo = "555-555";
-            this.ucItemPedido3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedido3.Location = new System.Drawing.Point(0, 111);
-            this.ucItemPedido3.MaximumSize = new System.Drawing.Size(580, 111);
-            this.ucItemPedido3.MinimumSize = new System.Drawing.Size(580, 111);
-            this.ucItemPedido3.Name = "ucItemPedido3";
-            this.ucItemPedido3.Nombre = "nombre del producto";
-            this.ucItemPedido3.Precio = 20F;
-            this.ucItemPedido3.Size = new System.Drawing.Size(580, 111);
-            this.ucItemPedido3.TabIndex = 2;
-            this.ucItemPedido3.Total = 5F;
-            // 
-            // ucItemPedido1
-            // 
-            this.ucItemPedido1.Cantidad = ((byte)(1));
-            this.ucItemPedido1.Codigo = "555-555";
-            this.ucItemPedido1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucItemPedido1.Location = new System.Drawing.Point(0, 0);
-            this.ucItemPedido1.MaximumSize = new System.Drawing.Size(580, 111);
-            this.ucItemPedido1.MinimumSize = new System.Drawing.Size(580, 111);
-            this.ucItemPedido1.Name = "ucItemPedido1";
-            this.ucItemPedido1.Nombre = "nombre del producto";
-            this.ucItemPedido1.Precio = 20F;
-            this.ucItemPedido1.Size = new System.Drawing.Size(580, 111);
-            this.ucItemPedido1.TabIndex = 0;
-            this.ucItemPedido1.Total = 5F;
             // 
             // materialCard1
             // 
@@ -279,7 +244,6 @@ namespace ProyectoIntegrador2021.UCs
             this.Padding = new System.Windows.Forms.Padding(10);
             this.Size = new System.Drawing.Size(824, 546);
             this.Load += new System.EventHandler(this.UCPedido_Load);
-            this.panel1.ResumeLayout(false);
             this.materialCard1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -299,9 +263,7 @@ namespace ProyectoIntegrador2021.UCs
         private Guna.UI.WinForms.GunaLabel gunaLabel27;
         private Guna.UI.WinForms.GunaLabel lblSubtotal;
         private Guna.UI.WinForms.GunaLabel lblEstado;
-        private UCItemPedido ucItemPedido1;
         private Guna.UI.WinForms.GunaVScrollBar gunaVScrollBar1;
-        private UCItemPedido ucItemPedido3;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI.WinForms.GunaAdvenceButton btnAgregarProducto;
         private Guna.UI.WinForms.GunaLinkLabel linklblEliminarPedido;
