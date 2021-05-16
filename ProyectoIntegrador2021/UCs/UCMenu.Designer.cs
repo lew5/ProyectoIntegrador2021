@@ -51,17 +51,17 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // gunaLinePanel3
             // 
-            this.gunaLinePanel3.BackColor = System.Drawing.Color.White;
+            this.gunaLinePanel3.BackColor = System.Drawing.Color.GhostWhite;
             this.gunaLinePanel3.Controls.Add(this.gunaLinePanel4);
             this.gunaLinePanel3.Controls.Add(this.gunaLinePanel2);
             this.gunaLinePanel3.Controls.Add(this.gunaLinePanel1);
             this.gunaLinePanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gunaLinePanel3.LineColor = System.Drawing.Color.WhiteSmoke;
-            this.gunaLinePanel3.LineRight = 2;
+            this.gunaLinePanel3.LineColor = System.Drawing.Color.Gainsboro;
+            this.gunaLinePanel3.LineRight = 1;
             this.gunaLinePanel3.LineStyle = System.Windows.Forms.BorderStyle.None;
             this.gunaLinePanel3.Location = new System.Drawing.Point(0, 0);
             this.gunaLinePanel3.Name = "gunaLinePanel3";
-            this.gunaLinePanel3.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.gunaLinePanel3.Padding = new System.Windows.Forms.Padding(1, 0, 2, 0);
             this.gunaLinePanel3.Size = new System.Drawing.Size(200, 546);
             this.gunaLinePanel3.TabIndex = 2;
             // 
@@ -71,12 +71,12 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel4.Controls.Add(this.btnAbout);
             this.gunaLinePanel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaLinePanel4.LineBottom = 1;
-            this.gunaLinePanel4.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel4.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLinePanel4.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel4.Location = new System.Drawing.Point(0, 301);
+            this.gunaLinePanel4.Location = new System.Drawing.Point(1, 301);
             this.gunaLinePanel4.Name = "gunaLinePanel4";
             this.gunaLinePanel4.Padding = new System.Windows.Forms.Padding(20);
-            this.gunaLinePanel4.Size = new System.Drawing.Size(198, 123);
+            this.gunaLinePanel4.Size = new System.Drawing.Size(197, 123);
             this.gunaLinePanel4.TabIndex = 3;
             // 
             // btnAjustes
@@ -84,7 +84,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.AnimationHoverSpeed = 0.07F;
             this.btnAjustes.AnimationSpeed = 0.03F;
             this.btnAjustes.BackColor = System.Drawing.Color.Transparent;
-            this.btnAjustes.BaseColor = System.Drawing.Color.White;
+            this.btnAjustes.BaseColor = System.Drawing.Color.Transparent;
             this.btnAjustes.BorderColor = System.Drawing.Color.Black;
             this.btnAjustes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnAjustes.CheckedBorderColor = System.Drawing.Color.Black;
@@ -109,7 +109,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAjustes.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnAjustes.OnPressedDepth = 0;
             this.btnAjustes.Radius = 6;
-            this.btnAjustes.Size = new System.Drawing.Size(158, 40);
+            this.btnAjustes.Size = new System.Drawing.Size(157, 40);
             this.btnAjustes.TabIndex = 1;
             this.btnAjustes.Text = "     Ajustes";
             this.btnAjustes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -120,7 +120,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAbout.AnimationHoverSpeed = 0.07F;
             this.btnAbout.AnimationSpeed = 0.03F;
             this.btnAbout.BackColor = System.Drawing.Color.Transparent;
-            this.btnAbout.BaseColor = System.Drawing.Color.White;
+            this.btnAbout.BaseColor = System.Drawing.Color.Transparent;
             this.btnAbout.BorderColor = System.Drawing.Color.Black;
             this.btnAbout.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
             this.btnAbout.CheckedBorderColor = System.Drawing.Color.Black;
@@ -145,7 +145,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnAbout.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnAbout.OnPressedDepth = 0;
             this.btnAbout.Radius = 6;
-            this.btnAbout.Size = new System.Drawing.Size(158, 40);
+            this.btnAbout.Size = new System.Drawing.Size(157, 40);
             this.btnAbout.TabIndex = 0;
             this.btnAbout.Text = "     About";
             this.btnAbout.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -159,12 +159,12 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel2.Controls.Add(this.btnInicio);
             this.gunaLinePanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.gunaLinePanel2.LineBottom = 1;
-            this.gunaLinePanel2.LineColor = System.Drawing.Color.WhiteSmoke;
+            this.gunaLinePanel2.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLinePanel2.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel2.Location = new System.Drawing.Point(0, 101);
+            this.gunaLinePanel2.Location = new System.Drawing.Point(1, 101);
             this.gunaLinePanel2.Name = "gunaLinePanel2";
             this.gunaLinePanel2.Padding = new System.Windows.Forms.Padding(20);
-            this.gunaLinePanel2.Size = new System.Drawing.Size(198, 200);
+            this.gunaLinePanel2.Size = new System.Drawing.Size(197, 200);
             this.gunaLinePanel2.TabIndex = 2;
             // 
             // btnUsuarios
@@ -172,7 +172,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.AnimationHoverSpeed = 0.07F;
             this.btnUsuarios.AnimationSpeed = 0.03F;
             this.btnUsuarios.BackColor = System.Drawing.Color.Transparent;
-            this.btnUsuarios.BaseColor = System.Drawing.Color.White;
+            this.btnUsuarios.BaseColor = System.Drawing.Color.Transparent;
             this.btnUsuarios.BorderColor = System.Drawing.Color.Black;
             this.btnUsuarios.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
             this.btnUsuarios.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
@@ -198,7 +198,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnUsuarios.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnUsuarios.OnPressedDepth = 0;
             this.btnUsuarios.Radius = 6;
-            this.btnUsuarios.Size = new System.Drawing.Size(158, 40);
+            this.btnUsuarios.Size = new System.Drawing.Size(157, 40);
             this.btnUsuarios.TabIndex = 3;
             this.btnUsuarios.Text = "     Usuarios";
             this.btnUsuarios.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -209,7 +209,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.AnimationHoverSpeed = 0.07F;
             this.btnPedidos.AnimationSpeed = 0.03F;
             this.btnPedidos.BackColor = System.Drawing.Color.Transparent;
-            this.btnPedidos.BaseColor = System.Drawing.Color.White;
+            this.btnPedidos.BaseColor = System.Drawing.Color.Transparent;
             this.btnPedidos.BorderColor = System.Drawing.Color.Black;
             this.btnPedidos.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
             this.btnPedidos.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
@@ -235,7 +235,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnPedidos.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnPedidos.OnPressedDepth = 0;
             this.btnPedidos.Radius = 6;
-            this.btnPedidos.Size = new System.Drawing.Size(158, 40);
+            this.btnPedidos.Size = new System.Drawing.Size(157, 40);
             this.btnPedidos.TabIndex = 2;
             this.btnPedidos.Text = "     Pedidos";
             this.btnPedidos.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -246,7 +246,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.AnimationHoverSpeed = 0.07F;
             this.btnClientes.AnimationSpeed = 0.03F;
             this.btnClientes.BackColor = System.Drawing.Color.Transparent;
-            this.btnClientes.BaseColor = System.Drawing.Color.White;
+            this.btnClientes.BaseColor = System.Drawing.Color.Transparent;
             this.btnClientes.BorderColor = System.Drawing.Color.Black;
             this.btnClientes.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
             this.btnClientes.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(240)))));
@@ -272,7 +272,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnClientes.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnClientes.OnPressedDepth = 0;
             this.btnClientes.Radius = 6;
-            this.btnClientes.Size = new System.Drawing.Size(158, 40);
+            this.btnClientes.Size = new System.Drawing.Size(157, 40);
             this.btnClientes.TabIndex = 1;
             this.btnClientes.Text = "     Clientes";
             this.btnClientes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -283,7 +283,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.AnimationHoverSpeed = 0.07F;
             this.btnInicio.AnimationSpeed = 0.03F;
             this.btnInicio.BackColor = System.Drawing.Color.Transparent;
-            this.btnInicio.BaseColor = System.Drawing.Color.White;
+            this.btnInicio.BaseColor = System.Drawing.Color.Transparent;
             this.btnInicio.BorderColor = System.Drawing.Color.Black;
             this.btnInicio.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
             this.btnInicio.Checked = true;
@@ -310,7 +310,7 @@ namespace ProyectoIntegrador2021.UCs
             this.btnInicio.OnPressedColor = System.Drawing.Color.WhiteSmoke;
             this.btnInicio.OnPressedDepth = 0;
             this.btnInicio.Radius = 6;
-            this.btnInicio.Size = new System.Drawing.Size(158, 40);
+            this.btnInicio.Size = new System.Drawing.Size(157, 40);
             this.btnInicio.TabIndex = 0;
             this.btnInicio.Text = "     Inicio";
             this.btnInicio.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
@@ -324,10 +324,10 @@ namespace ProyectoIntegrador2021.UCs
             this.gunaLinePanel1.LineBottom = 1;
             this.gunaLinePanel1.LineColor = System.Drawing.Color.WhiteSmoke;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.gunaLinePanel1.Location = new System.Drawing.Point(0, 0);
+            this.gunaLinePanel1.Location = new System.Drawing.Point(1, 0);
             this.gunaLinePanel1.Name = "gunaLinePanel1";
             this.gunaLinePanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.gunaLinePanel1.Size = new System.Drawing.Size(198, 101);
+            this.gunaLinePanel1.Size = new System.Drawing.Size(197, 101);
             this.gunaLinePanel1.TabIndex = 1;
             // 
             // lblNombreUsuario
@@ -336,7 +336,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblNombreUsuario.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreUsuario.Location = new System.Drawing.Point(5, 61);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(188, 35);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(187, 35);
             this.lblNombreUsuario.TabIndex = 1;
             this.lblNombreUsuario.Text = "Leandro";
             this.lblNombreUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

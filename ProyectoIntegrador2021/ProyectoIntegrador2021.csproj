@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="clases\Cliente.cs" />
     <Compile Include="clases\Pedido.cs" />
+    <Compile Include="clases\Producto.cs" />
     <Compile Include="clases\Usuario.cs" />
     <Compile Include="database\DB.cs" />
     <Compile Include="Funciones.cs" />

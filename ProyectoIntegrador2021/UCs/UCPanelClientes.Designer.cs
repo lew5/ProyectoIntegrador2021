@@ -64,7 +64,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.GhostWhite;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.btnClientes_nuevo);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.lblPagina);

@@ -69,7 +69,7 @@ namespace PruebasDB.db
             }
             finally
             {
-                conexion().Close();
+                mySqlConnection.Close();
             }
         }
     }

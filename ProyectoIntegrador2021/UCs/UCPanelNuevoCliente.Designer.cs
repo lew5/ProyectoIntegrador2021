@@ -48,6 +48,7 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.lblNuevoCliente_volver);
             this.panel1.Controls.Add(this.gunaLabel5);
             this.panel1.Controls.Add(this.btnNuevoCliente_guardar);
@@ -70,12 +71,13 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // lblNuevoCliente_volver
             // 
+            this.lblNuevoCliente_volver.AutoSize = true;
             this.lblNuevoCliente_volver.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNuevoCliente_volver.ForeColor = System.Drawing.Color.Silver;
-            this.lblNuevoCliente_volver.Location = new System.Drawing.Point(40, 476);
+            this.lblNuevoCliente_volver.Location = new System.Drawing.Point(80, 482);
             this.lblNuevoCliente_volver.Margin = new System.Windows.Forms.Padding(40);
             this.lblNuevoCliente_volver.Name = "lblNuevoCliente_volver";
-            this.lblNuevoCliente_volver.Size = new System.Drawing.Size(73, 30);
+            this.lblNuevoCliente_volver.Size = new System.Drawing.Size(67, 25);
             this.lblNuevoCliente_volver.TabIndex = 18;
             this.lblNuevoCliente_volver.Text = "volver";
             this.lblNuevoCliente_volver.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -305,6 +307,7 @@ namespace ProyectoIntegrador2021.UCs
             this.Name = "UCPanelNuevoCliente";
             this.Size = new System.Drawing.Size(824, 546);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -39,24 +39,5 @@ namespace ProyectoIntegrador2021.secciones
             }
         }
 
-        private void ucPanelClientes_Nuevo_Click(object sender, EventArgs e)
-        {
-            ucPanelNuevoCliente.BringToFront();
-        }
-
-        private void ucPanelNuevoCliente_Volver_Click(object sender, EventArgs e)
-        {
-            ucPanelClientes.BringToFront();
-        }
-
-        private void ucPanelPerfilCliente_Volver_Click(object sender, EventArgs e)
-        {
-            ucPanelClientes.BringToFront();
-        }
-
-        private void ucPanelClientes_Perfil_Click(object sender, EventArgs e)
-        {
-            ucPanelPerfilCliente.BringToFront();
-        }
     }
 }

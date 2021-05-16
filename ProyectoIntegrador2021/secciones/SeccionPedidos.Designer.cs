@@ -34,7 +34,7 @@ namespace ProyectoIntegrador2021.secciones
             // 
             // ucPedido1
             // 
-            this.ucPedido1.BackColor = System.Drawing.Color.GhostWhite;
+            this.ucPedido1.BackColor = System.Drawing.Color.White;
             this.ucPedido1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucPedido1.Location = new System.Drawing.Point(0, 0);
             this.ucPedido1.MaximumSize = new System.Drawing.Size(824, 546);
@@ -48,7 +48,7 @@ namespace ProyectoIntegrador2021.secciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.ucPedido1);
             this.MaximumSize = new System.Drawing.Size(824, 546);
             this.MinimumSize = new System.Drawing.Size(824, 546);

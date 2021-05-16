@@ -38,19 +38,19 @@ namespace ProyectoIntegrador2021.UCs
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            picbox_Estado_Cliente.Focus();
+            lblNombreUsuario.Focus();
             pnlPerfilCliente.BringToFront();
         }
 
         private void btnPedidos_Click(object sender, EventArgs e)
         {
-            picbox_Estado_Cliente.Focus();
+            lblNombreUsuario.Focus();
             pnlPedidosCliente.BringToFront();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            picbox_Estado_Cliente.Focus();
+            lblNombreUsuario.Focus();
             pnlEditarCliente.BringToFront();
         }
     }

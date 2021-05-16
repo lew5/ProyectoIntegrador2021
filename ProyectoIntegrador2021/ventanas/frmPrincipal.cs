@@ -40,8 +40,8 @@ namespace ProyectoIntegrador2021.ventanas
             if (uc == null)
             {
                 uc = new Seccion();
+                uc.Dock = DockStyle.Fill;          
                 pnlContenedor.Controls.Add(uc);
-                uc.Dock = DockStyle.Fill;
                 uc.BringToFront();
                 foreach (Control c in pnlContenedor.Controls)
                     if (uc.Name != c.Name)
