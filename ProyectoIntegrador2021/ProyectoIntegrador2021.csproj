@@ -102,10 +102,10 @@
     <Compile Include="UCs\UCCard.Designer.cs">
       <DependentUpon>UCCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCs\UCInicioSesion.cs">
+    <Compile Include="UCs\sesion\UCInicioSesion.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCs\UCInicioSesion.Designer.cs">
+    <Compile Include="UCs\sesion\UCInicioSesion.Designer.cs">
       <DependentUpon>UCInicioSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="UCs\UCItemCliente.cs">
@@ -132,16 +132,10 @@
     <Compile Include="UCs\UCMenu.Designer.cs">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCs\UCNuevoCliente.cs">
+    <Compile Include="UCs\sesion\UCNuevoUsuario.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCs\UCNuevoCliente.Designer.cs">
-      <DependentUpon>UCNuevoCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCs\UCNuevoUsuario.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCs\UCNuevoUsuario.Designer.cs">
+    <Compile Include="UCs\sesion\UCNuevoUsuario.Designer.cs">
       <DependentUpon>UCNuevoUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="UCs\UCPanelClientes.cs">
@@ -208,7 +202,7 @@
     <EmbeddedResource Include="UCs\UCCard.resx">
       <DependentUpon>UCCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCs\UCInicioSesion.resx">
+    <EmbeddedResource Include="UCs\sesion\UCInicioSesion.resx">
       <DependentUpon>UCInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCItemCliente.resx">
@@ -223,10 +217,7 @@
     <EmbeddedResource Include="UCs\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCs\UCNuevoCliente.resx">
-      <DependentUpon>UCNuevoCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCs\UCNuevoUsuario.resx">
+    <EmbeddedResource Include="UCs\sesion\UCNuevoUsuario.resx">
       <DependentUpon>UCNuevoUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCs\UCPanelClientes.resx">

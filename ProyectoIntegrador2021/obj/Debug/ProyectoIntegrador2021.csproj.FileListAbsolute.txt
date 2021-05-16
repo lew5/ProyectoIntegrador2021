@@ -39,7 +39,6 @@ C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCCard.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCInicioSesion.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCMenu.resources
-C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCNuevoCliente.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCNuevoUsuario.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.UCs.UCPanelInicio.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.Form1.resources

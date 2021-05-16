@@ -38,7 +38,7 @@ namespace ProyectoIntegrador2021.ventanas
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.ucMenu1 = new ProyectoIntegrador2021.UCs.UCMenu();
-            this.ucPedido1 = new ProyectoIntegrador2021.UCs.UCPedido();
+            this.ucPanelClientes1 = new ProyectoIntegrador2021.UCs.UCPanelClientes();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -81,7 +81,7 @@ namespace ProyectoIntegrador2021.ventanas
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPedido1);
+            this.pnlContenedor.Controls.Add(this.ucPanelClientes1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(200, 0);
             this.pnlContenedor.Name = "pnlContenedor";
@@ -108,17 +108,13 @@ namespace ProyectoIntegrador2021.ventanas
             this.ucMenu1.Clientes_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Clientes_Click);
             this.ucMenu1.Pedidos_Click += new ProyectoIntegrador2021.UCs.UCMenu.Evento(this.ucMenu1_Pedidos_Click);
             // 
-            // ucPedido1
+            // ucPanelClientes1
             // 
-            this.ucPedido1.BackColor = System.Drawing.Color.White;
-            this.ucPedido1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPedido1.Location = new System.Drawing.Point(0, 0);
-            this.ucPedido1.MaximumSize = new System.Drawing.Size(824, 546);
-            this.ucPedido1.MinimumSize = new System.Drawing.Size(824, 546);
-            this.ucPedido1.Name = "ucPedido1";
-            this.ucPedido1.Padding = new System.Windows.Forms.Padding(10);
-            this.ucPedido1.Size = new System.Drawing.Size(824, 546);
-            this.ucPedido1.TabIndex = 0;
+            this.ucPanelClientes1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPanelClientes1.Location = new System.Drawing.Point(0, 0);
+            this.ucPanelClientes1.Name = "ucPanelClientes1";
+            this.ucPanelClientes1.Size = new System.Drawing.Size(824, 546);
+            this.ucPanelClientes1.TabIndex = 0;
             // 
             // frmPrincipal
             // 
@@ -149,6 +145,6 @@ namespace ProyectoIntegrador2021.ventanas
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private UCs.UCPedido ucPedido1;
+        private UCs.UCPanelClientes ucPanelClientes1;
     }
 }

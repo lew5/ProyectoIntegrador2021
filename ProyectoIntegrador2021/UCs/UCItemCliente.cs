@@ -18,7 +18,9 @@ namespace ProyectoIntegrador2021.UCs
         private String _Apellido = "APELLIDO";
         private String _Telefono = "TELÉFONO";
         private String _Cedula = "CÉDULA";
-        private Boolean _Estado = true;
+        private String _Pedidos = "0";
+        private String _PedidosPagos = "0";
+        private String _PedidosDebe = "0";
         public UCItemCliente()
         {
             InitializeComponent();
@@ -99,25 +101,42 @@ namespace ProyectoIntegrador2021.UCs
             }
         }
 
-        public Boolean Estado
+        public string Pedidos
         {
             get
             {
-                return _Estado;
+                return _Pedidos;
             }
             set
             {
-                _Estado = value;
-                if (_Estado)
-                {
-                    lblEstado.ForeColor = Color.LimeGreen;
-                    lblEstado.Text = "ACTIVO";
-                }
-                else
-                {
-                    lblEstado.ForeColor = Color.OrangeRed;
-                    lblEstado.Text = "INACTIVO";
-                }
+                _Pedidos = value;
+                lblPedios.Text = _Pedidos;
+            }
+        }
+
+        public string PedidosPagos
+        {
+            get
+            {
+                return _PedidosPagos;
+            }
+            set
+            {
+                _PedidosPagos = value;
+                lblPedidosPagos.Text = _PedidosPagos;
+            }
+        }
+
+        public string PedidosDebe
+        {
+            get
+            {
+                return _PedidosDebe;
+            }
+            set
+            {
+                _PedidosDebe = value;
+                lblPedidosDebe.Text = _PedidosDebe;
             }
         }
 

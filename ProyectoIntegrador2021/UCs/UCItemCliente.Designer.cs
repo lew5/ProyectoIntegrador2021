@@ -30,7 +30,9 @@ namespace ProyectoIntegrador2021.UCs
         private void InitializeComponent()
         {
             this.panel = new System.Windows.Forms.Panel();
-            this.lblEstado = new Guna.UI.WinForms.GunaLabel();
+            this.lblPedidosDebe = new Guna.UI.WinForms.GunaLabel();
+            this.lblPedidosPagos = new Guna.UI.WinForms.GunaLabel();
+            this.lblPedios = new Guna.UI.WinForms.GunaLabel();
             this.lblCedula = new Guna.UI.WinForms.GunaLabel();
             this.lblTelefono = new Guna.UI.WinForms.GunaLabel();
             this.lblApellido = new Guna.UI.WinForms.GunaLabel();
@@ -43,7 +45,9 @@ namespace ProyectoIntegrador2021.UCs
             // 
             // panel
             // 
-            this.panel.Controls.Add(this.lblEstado);
+            this.panel.Controls.Add(this.lblPedidosDebe);
+            this.panel.Controls.Add(this.lblPedidosPagos);
+            this.panel.Controls.Add(this.lblPedios);
             this.panel.Controls.Add(this.lblCedula);
             this.panel.Controls.Add(this.lblTelefono);
             this.panel.Controls.Add(this.lblApellido);
@@ -52,26 +56,56 @@ namespace ProyectoIntegrador2021.UCs
             this.panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel.Location = new System.Drawing.Point(0, 0);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(650, 48);
+            this.panel.Size = new System.Drawing.Size(768, 48);
             this.panel.TabIndex = 2;
             // 
-            // lblEstado
+            // lblPedidosDebe
             // 
-            this.lblEstado.BackColor = System.Drawing.Color.Transparent;
-            this.lblEstado.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblEstado.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblEstado.Location = new System.Drawing.Point(530, 0);
-            this.lblEstado.Margin = new System.Windows.Forms.Padding(0);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.lblEstado.Size = new System.Drawing.Size(120, 48);
-            this.lblEstado.TabIndex = 4;
-            this.lblEstado.Text = "ESTADO";
-            this.lblEstado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblEstado.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
-            this.lblEstado.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
-            this.lblEstado.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
+            this.lblPedidosDebe.BackColor = System.Drawing.Color.Transparent;
+            this.lblPedidosDebe.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblPedidosDebe.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedidosDebe.ForeColor = System.Drawing.Color.DimGray;
+            this.lblPedidosDebe.Location = new System.Drawing.Point(695, 0);
+            this.lblPedidosDebe.Margin = new System.Windows.Forms.Padding(0);
+            this.lblPedidosDebe.Name = "lblPedidosDebe";
+            this.lblPedidosDebe.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.lblPedidosDebe.Size = new System.Drawing.Size(75, 48);
+            this.lblPedidosDebe.TabIndex = 7;
+            this.lblPedidosDebe.Text = "5";
+            this.lblPedidosDebe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblPedidosPagos
+            // 
+            this.lblPedidosPagos.BackColor = System.Drawing.Color.Transparent;
+            this.lblPedidosPagos.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblPedidosPagos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedidosPagos.ForeColor = System.Drawing.Color.DimGray;
+            this.lblPedidosPagos.Location = new System.Drawing.Point(620, 0);
+            this.lblPedidosPagos.Margin = new System.Windows.Forms.Padding(0);
+            this.lblPedidosPagos.Name = "lblPedidosPagos";
+            this.lblPedidosPagos.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.lblPedidosPagos.Size = new System.Drawing.Size(75, 48);
+            this.lblPedidosPagos.TabIndex = 6;
+            this.lblPedidosPagos.Text = "5";
+            this.lblPedidosPagos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblPedios
+            // 
+            this.lblPedios.BackColor = System.Drawing.Color.Transparent;
+            this.lblPedios.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblPedios.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedios.ForeColor = System.Drawing.Color.DimGray;
+            this.lblPedios.Location = new System.Drawing.Point(530, 0);
+            this.lblPedios.Margin = new System.Windows.Forms.Padding(0);
+            this.lblPedios.Name = "lblPedios";
+            this.lblPedios.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.lblPedios.Size = new System.Drawing.Size(90, 48);
+            this.lblPedios.TabIndex = 4;
+            this.lblPedios.Text = "5";
+            this.lblPedios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblPedios.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
+            this.lblPedios.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
+            this.lblPedios.MouseLeave += new System.EventHandler(this.lblId_MouseLeave);
             // 
             // lblCedula
             // 
@@ -85,7 +119,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblCedula.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblCedula.Size = new System.Drawing.Size(120, 48);
             this.lblCedula.TabIndex = 3;
-            this.lblCedula.Text = "CÉDULA";
+            this.lblCedula.Text = "5.333.444-1";
             this.lblCedula.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCedula.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblCedula.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
@@ -103,7 +137,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblTelefono.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblTelefono.Size = new System.Drawing.Size(120, 48);
             this.lblTelefono.TabIndex = 2;
-            this.lblTelefono.Text = "TELÉFONO";
+            this.lblTelefono.Text = "(078) 333 222";
             this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblTelefono.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblTelefono.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
@@ -121,7 +155,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblApellido.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblApellido.Size = new System.Drawing.Size(120, 48);
             this.lblApellido.TabIndex = 1;
-            this.lblApellido.Text = "APELLIDO";
+            this.lblApellido.Text = "OLIVERA";
             this.lblApellido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblApellido.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblApellido.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
@@ -139,7 +173,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblNombre.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblNombre.Size = new System.Drawing.Size(120, 48);
             this.lblNombre.TabIndex = 5;
-            this.lblNombre.Text = "NOMBRE";
+            this.lblNombre.Text = "LEANDRO";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblNombre.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblNombre.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
@@ -157,7 +191,7 @@ namespace ProyectoIntegrador2021.UCs
             this.lblId.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.lblId.Size = new System.Drawing.Size(50, 48);
             this.lblId.TabIndex = 0;
-            this.lblId.Text = "ID";
+            this.lblId.Text = "4";
             this.lblId.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblId.DoubleClick += new System.EventHandler(this.lblEstado_DoubleClick);
             this.lblId.MouseEnter += new System.EventHandler(this.lblId_MouseEnter);
@@ -167,13 +201,13 @@ namespace ProyectoIntegrador2021.UCs
             // 
             this.LinePanel.Controls.Add(this.panel);
             this.LinePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LinePanel.LineBottom = 2;
+            this.LinePanel.LineBottom = 1;
             this.LinePanel.LineColor = System.Drawing.Color.WhiteSmoke;
             this.LinePanel.LineStyle = System.Windows.Forms.BorderStyle.None;
             this.LinePanel.Location = new System.Drawing.Point(0, 0);
             this.LinePanel.Name = "LinePanel";
             this.LinePanel.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.LinePanel.Size = new System.Drawing.Size(650, 50);
+            this.LinePanel.Size = new System.Drawing.Size(768, 50);
             this.LinePanel.TabIndex = 6;
             // 
             // UCItemCliente
@@ -183,7 +217,7 @@ namespace ProyectoIntegrador2021.UCs
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.LinePanel);
             this.Name = "UCItemCliente";
-            this.Size = new System.Drawing.Size(650, 50);
+            this.Size = new System.Drawing.Size(768, 50);
             this.panel.ResumeLayout(false);
             this.LinePanel.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -193,12 +227,14 @@ namespace ProyectoIntegrador2021.UCs
         #endregion
 
         private System.Windows.Forms.Panel panel;
-        private Guna.UI.WinForms.GunaLabel lblEstado;
+        private Guna.UI.WinForms.GunaLabel lblPedios;
         private Guna.UI.WinForms.GunaLabel lblCedula;
         private Guna.UI.WinForms.GunaLabel lblTelefono;
         private Guna.UI.WinForms.GunaLabel lblApellido;
         private Guna.UI.WinForms.GunaLabel lblNombre;
         private Guna.UI.WinForms.GunaLabel lblId;
         private Guna.UI.WinForms.GunaLinePanel LinePanel;
+        private Guna.UI.WinForms.GunaLabel lblPedidosDebe;
+        private Guna.UI.WinForms.GunaLabel lblPedidosPagos;
     }
 }
