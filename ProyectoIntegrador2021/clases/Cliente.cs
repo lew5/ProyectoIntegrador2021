@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace PruebasDB.clases
+namespace ProyectoIntegrador2021.clases
 {
     class Cliente
     {

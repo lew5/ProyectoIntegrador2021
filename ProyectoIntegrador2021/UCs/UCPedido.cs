@@ -1,4 +1,4 @@
-﻿using PruebasDB.clases;
+﻿using ProyectoIntegrador2021.clases;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -26,9 +26,9 @@ namespace ProyectoIntegrador2021.UCs
             for (int i = 0; i < 10; i++)
             {
                 pedido.Cantidad = Convert.ToByte(i);
-                UserControl uc = new UCItemPedido(pedido.Codigo, "Producto anashe", 20, pedido.Cantidad);
-                uc.Dock = DockStyle.Top;
-                panel1.Controls.Add(uc);
+                //UserControl uc = new UCItemPedido(pedido.Codigo, "Producto anashe", 20, pedido.Cantidad);
+                //uc.Dock = DockStyle.Top;
+                //panel1.Controls.Add(uc);
             }
 
         }

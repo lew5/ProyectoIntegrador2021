@@ -83,6 +83,16 @@ namespace ProyectoIntegrador2021.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_plus_math_20px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_plus_math_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_question_mark_60px {
             get {
                 object obj = ResourceManager.GetObject("icons8_question_mark_60px", resourceCulture);
@@ -106,6 +116,16 @@ namespace ProyectoIntegrador2021.Properties {
         internal static System.Drawing.Bitmap icons8_right_50px_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_right_50px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_subtract_20px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_subtract_20px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

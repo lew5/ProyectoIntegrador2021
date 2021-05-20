@@ -1,8 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
-using PruebasDB.clases;
+using ProyectoIntegrador2021.clases;
 using System.Windows.Forms;
 
-namespace PruebasDB.db
+namespace ProyectoIntegrador2021.db
 {
     class DB
     {

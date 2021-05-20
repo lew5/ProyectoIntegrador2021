@@ -291,5 +291,11 @@
   <ItemGroup>
     <None Include="Resources\icons8_question_mark_60px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_subtract_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_plus_math_20px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

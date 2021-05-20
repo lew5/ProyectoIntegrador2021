@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PruebasDB.clases
+namespace ProyectoIntegrador2021.clases
 {
 
     class Pedido
     {
         private static Pedido instance = null;
-        private string _codigo;
+        private int _id;
         private byte _cantidad;
         private double _total;
         private bool _estado;
@@ -29,7 +25,7 @@ namespace PruebasDB.clases
             return instance;
         }
 
-        public string Codigo { get => _codigo; set => _codigo = value; }
+        public int Id { get => _id; set => _id = value; }
         public byte Cantidad { get => _cantidad; set => _cantidad = value; }
         public double Total { get => _total; set => _total = value; }
         public bool Estado { get => _estado; set => _estado = value; }

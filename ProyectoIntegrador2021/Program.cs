@@ -17,7 +17,7 @@ namespace ProyectoIntegrador2021
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPrincipal());
+            Application.Run(new frmAgregarProductoPedido());
         }
     }
 }

@@ -72,3 +72,4 @@ C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\bin\Debug\MySql.Data.xml
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\ProyectoIntegrador2021\obj\Debug\ProyectoIntegrador2021.ventanas.frmAgregarProductoPedido.resources
