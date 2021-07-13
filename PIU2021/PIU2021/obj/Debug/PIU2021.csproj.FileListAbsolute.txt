@@ -1,0 +1,13 @@
+C:\Users\Lew\source\repos\PIU2021\PIU2021\bin\Debug\PIU2021.exe.config
+C:\Users\Lew\source\repos\PIU2021\PIU2021\bin\Debug\PIU2021.exe
+C:\Users\Lew\source\repos\PIU2021\PIU2021\bin\Debug\PIU2021.pdb
+C:\Users\Lew\source\repos\PIU2021\PIU2021\bin\Debug\Guna.UI.dll
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.AssemblyReference.cache
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.Main.resources
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.Properties.Resources.resources
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.UCMenu.resources
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.GenerateResource.cache
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.CoreCompileInputs.cache
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.CopyComplete
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.exe
+C:\Users\Lew\source\repos\PIU2021\PIU2021\obj\Debug\PIU2021.pdb
