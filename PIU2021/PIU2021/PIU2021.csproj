@@ -65,6 +65,18 @@
     <Compile Include="view\UCMenu.Designer.cs">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\ucPerfilCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\ucPerfilCliente.Designer.cs">
+      <DependentUpon>ucPerfilCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\UCSeccionPrfilCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCSeccionPrfilCliente.Designer.cs">
+      <DependentUpon>UCSeccionPrfilCliente.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="view\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +91,12 @@
     </Compile>
     <EmbeddedResource Include="view\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ucPerfilCliente.resx">
+      <DependentUpon>ucPerfilCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\UCSeccionPrfilCliente.resx">
+      <DependentUpon>UCSeccionPrfilCliente.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
