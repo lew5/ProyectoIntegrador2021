@@ -38,8 +38,6 @@ namespace PIU2021.view
             this.glblToolTipNuevoPedido = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEditarCliente = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEliminarCliente = new Guna.UI.WinForms.GunaLabel();
-            this.ucPerfilCliente = new PIU2021.view.ucPerfilCliente();
-            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -52,7 +50,6 @@ namespace PIU2021.view
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucPerfilCliente);
             this.pnlContenedor.Location = new System.Drawing.Point(236, 90);
             this.pnlContenedor.MaximumSize = new System.Drawing.Size(300, 445);
             this.pnlContenedor.MinimumSize = new System.Drawing.Size(300, 445);
@@ -83,6 +80,7 @@ namespace PIU2021.view
             this.gbtnNuevoPedido.OnPressedColor = System.Drawing.Color.Black;
             this.gbtnNuevoPedido.Size = new System.Drawing.Size(40, 40);
             this.gbtnNuevoPedido.TabIndex = 3;
+            this.gbtnNuevoPedido.Click += new System.EventHandler(this.gbtnNuevoPedido_Click);
             this.gbtnNuevoPedido.MouseEnter += new System.EventHandler(this.gbtnNuevoPedido_MouseEnter);
             this.gbtnNuevoPedido.MouseLeave += new System.EventHandler(this.gbtnNuevoPedido_MouseLeave);
             // 
@@ -109,6 +107,7 @@ namespace PIU2021.view
             this.gbtnEditarCliente.OnPressedColor = System.Drawing.Color.Black;
             this.gbtnEditarCliente.Size = new System.Drawing.Size(40, 40);
             this.gbtnEditarCliente.TabIndex = 4;
+            this.gbtnEditarCliente.Click += new System.EventHandler(this.gbtnEditarCliente_Click);
             this.gbtnEditarCliente.MouseEnter += new System.EventHandler(this.gbtnEditarCliente_MouseEnter);
             this.gbtnEditarCliente.MouseLeave += new System.EventHandler(this.gbtnEditarCliente_MouseLeave);
             // 
@@ -174,18 +173,6 @@ namespace PIU2021.view
             this.glblToolTipEliminarCliente.Text = "Eliminar cliente";
             this.glblToolTipEliminarCliente.Visible = false;
             // 
-            // ucPerfilCliente
-            // 
-            this.ucPerfilCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucPerfilCliente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucPerfilCliente.Location = new System.Drawing.Point(0, 0);
-            this.ucPerfilCliente.Margin = new System.Windows.Forms.Padding(0);
-            this.ucPerfilCliente.MaximumSize = new System.Drawing.Size(300, 445);
-            this.ucPerfilCliente.MinimumSize = new System.Drawing.Size(300, 445);
-            this.ucPerfilCliente.Name = "ucPerfilCliente";
-            this.ucPerfilCliente.Size = new System.Drawing.Size(300, 445);
-            this.ucPerfilCliente.TabIndex = 0;
-            // 
             // UCSeccionPrfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,7 +188,6 @@ namespace PIU2021.view
             this.Controls.Add(this.panel1);
             this.Name = "UCSeccionPrfilCliente";
             this.Size = new System.Drawing.Size(773, 576);
-            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,7 +197,6 @@ namespace PIU2021.view
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pnlContenedor;
-        private ucPerfilCliente ucPerfilCliente;
         private Guna.UI.WinForms.GunaCircleButton gbtnNuevoPedido;
         private Guna.UI.WinForms.GunaCircleButton gbtnEditarCliente;
         private Guna.UI.WinForms.GunaCircleButton gbtnEliminarCliente;

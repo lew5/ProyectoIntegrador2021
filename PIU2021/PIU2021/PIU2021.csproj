@@ -59,6 +59,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\UCEditarCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCEditarCliente.Designer.cs">
+      <DependentUpon>UCEditarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\UCMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -89,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\UCEditarCliente.resx">
+      <DependentUpon>UCEditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </EmbeddedResource>

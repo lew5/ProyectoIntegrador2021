@@ -5,6 +5,8 @@ namespace PIU2021.view
 {
     public partial class UCSeccionPrfilCliente : UserControl
     {
+        private ucPerfilCliente perfilCliente;
+        private UCEditarCliente editarCliente;
         public UCSeccionPrfilCliente()
         {
             InitializeComponent();
@@ -38,6 +40,38 @@ namespace PIU2021.view
         private void gbtnEliminarCliente_MouseLeave(object sender, EventArgs e)
         {
             glblToolTipEliminarCliente.Visible = false;
+        }
+
+        private void gbtnNuevoPedido_Click(object sender, EventArgs e)
+        {
+            if (perfilCliente == null)
+            {
+                perfilCliente = new ucPerfilCliente();
+                perfilCliente.Dock = DockStyle.Fill;
+                this.pnlContenedor.Controls.Add(perfilCliente);
+            }
+            else
+            {
+                editarCliente.Visible = false;
+                perfilCliente.Visible = true;
+                perfilCliente.BringToFront();
+            }
+        }
+
+        private void gbtnEditarCliente_Click(object sender, EventArgs e)
+        {
+            if (editarCliente == null)
+            {
+                editarCliente = new UCEditarCliente();
+                editarCliente.Dock = DockStyle.Fill;
+                this.pnlContenedor.Controls.Add(editarCliente);
+            }
+            else
+            {
+                perfilCliente.Visible = false;
+                editarCliente.Visible = true;
+                editarCliente.BringToFront();
+            }
         }
     }
 }
