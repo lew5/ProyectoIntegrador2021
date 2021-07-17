@@ -3,11 +3,11 @@ using System.Windows.Forms;
 
 namespace PIU2021.view
 {
-    public partial class UCSeccionPrfilCliente : UserControl
+    public partial class UCSeccionPerfilCliente : UserControl
     {
         private ucPerfilCliente perfilCliente;
         private UCEditarCliente editarCliente;
-        public UCSeccionPrfilCliente()
+        public UCSeccionPerfilCliente()
         {
             InitializeComponent();
         }
@@ -44,34 +44,24 @@ namespace PIU2021.view
 
         private void gbtnNuevoPedido_Click(object sender, EventArgs e)
         {
-            if (perfilCliente == null)
-            {
-                perfilCliente = new ucPerfilCliente();
-                perfilCliente.Dock = DockStyle.Fill;
-                this.pnlContenedor.Controls.Add(perfilCliente);
-            }
-            else
-            {
-                editarCliente.Visible = false;
-                perfilCliente.Visible = true;
-                perfilCliente.BringToFront();
-            }
+            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);
+            glblTitulo.Text = "Perfil cliente";
         }
 
         private void gbtnEditarCliente_Click(object sender, EventArgs e)
         {
-            if (editarCliente == null)
-            {
-                editarCliente = new UCEditarCliente();
-                editarCliente.Dock = DockStyle.Fill;
-                this.pnlContenedor.Controls.Add(editarCliente);
-            }
-            else
-            {
-                perfilCliente.Visible = false;
-                editarCliente.Visible = true;
-                editarCliente.BringToFront();
-            }
+            Main.MostrarUC<UCEditarCliente>(pnlContenedor);
+            glblTitulo.Text = "Editar cliente";
+        }
+
+        private void gcbtnAtras_Click(object sender, EventArgs e)
+        {
+            this.Dispose()
+;        }
+
+        private void UCSeccionPerfilCliente_Load(object sender, EventArgs e)
+        {
+            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);// ucPerfilCliente debe recibir Cliente como parámetro
         }
     }
 }

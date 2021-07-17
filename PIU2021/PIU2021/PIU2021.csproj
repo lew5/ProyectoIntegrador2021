@@ -71,17 +71,23 @@
     <Compile Include="view\UCMenu.Designer.cs">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\UCPedido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCPedido.Designer.cs">
+      <DependentUpon>UCPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\ucPerfilCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="view\ucPerfilCliente.Designer.cs">
       <DependentUpon>ucPerfilCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\UCSeccionPrfilCliente.cs">
+    <Compile Include="view\UCSeccionPerfilCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="view\UCSeccionPrfilCliente.Designer.cs">
-      <DependentUpon>UCSeccionPrfilCliente.cs</DependentUpon>
+    <Compile Include="view\UCSeccionPerfilCliente.Designer.cs">
+      <DependentUpon>UCSeccionPerfilCliente.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="view\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -101,11 +107,14 @@
     <EmbeddedResource Include="view\UCMenu.resx">
       <DependentUpon>UCMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\UCPedido.resx">
+      <DependentUpon>UCPedido.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\ucPerfilCliente.resx">
       <DependentUpon>ucPerfilCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\UCSeccionPrfilCliente.resx">
-      <DependentUpon>UCSeccionPrfilCliente.cs</DependentUpon>
+    <EmbeddedResource Include="view\UCSeccionPerfilCliente.resx">
+      <DependentUpon>UCSeccionPerfilCliente.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

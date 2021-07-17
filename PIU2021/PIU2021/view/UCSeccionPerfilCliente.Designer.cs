@@ -1,7 +1,7 @@
 ﻿
 namespace PIU2021.view
 {
-    partial class UCSeccionPrfilCliente
+    partial class UCSeccionPerfilCliente
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -29,8 +29,10 @@ namespace PIU2021.view
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCSeccionPrfilCliente));
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCSeccionPerfilCliente));
+            this.pnlNavBar = new System.Windows.Forms.Panel();
+            this.glblTitulo = new Guna.UI.WinForms.GunaLabel();
+            this.gcbtnAtras = new Guna.UI.WinForms.GunaCircleButton();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.gbtnNuevoPedido = new Guna.UI.WinForms.GunaCircleButton();
             this.gbtnEditarCliente = new Guna.UI.WinForms.GunaCircleButton();
@@ -38,15 +40,56 @@ namespace PIU2021.view
             this.glblToolTipNuevoPedido = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEditarCliente = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEliminarCliente = new Guna.UI.WinForms.GunaLabel();
+            this.pnlNavBar.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlNavBar
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(773, 60);
-            this.panel1.TabIndex = 1;
+            this.pnlNavBar.Controls.Add(this.glblTitulo);
+            this.pnlNavBar.Controls.Add(this.gcbtnAtras);
+            this.pnlNavBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlNavBar.Location = new System.Drawing.Point(0, 0);
+            this.pnlNavBar.Name = "pnlNavBar";
+            this.pnlNavBar.Padding = new System.Windows.Forms.Padding(10, 5, 0, 5);
+            this.pnlNavBar.Size = new System.Drawing.Size(773, 60);
+            this.pnlNavBar.TabIndex = 1;
+            // 
+            // glblTitulo
+            // 
+            this.glblTitulo.AutoSize = true;
+            this.glblTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.glblTitulo.Location = new System.Drawing.Point(297, 12);
+            this.glblTitulo.Name = "glblTitulo";
+            this.glblTitulo.Size = new System.Drawing.Size(168, 37);
+            this.glblTitulo.TabIndex = 1;
+            this.glblTitulo.Text = "Perfil cliente";
+            this.glblTitulo.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            // 
+            // gcbtnAtras
+            // 
+            this.gcbtnAtras.AnimationHoverSpeed = 0.07F;
+            this.gcbtnAtras.AnimationSpeed = 0.03F;
+            this.gcbtnAtras.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.gcbtnAtras.BorderColor = System.Drawing.Color.Black;
+            this.gcbtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.gcbtnAtras.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gcbtnAtras.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gcbtnAtras.FocusedColor = System.Drawing.Color.Empty;
+            this.gcbtnAtras.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gcbtnAtras.ForeColor = System.Drawing.Color.White;
+            this.gcbtnAtras.Image = ((System.Drawing.Image)(resources.GetObject("gcbtnAtras.Image")));
+            this.gcbtnAtras.ImageSize = new System.Drawing.Size(20, 20);
+            this.gcbtnAtras.Location = new System.Drawing.Point(10, 5);
+            this.gcbtnAtras.Name = "gcbtnAtras";
+            this.gcbtnAtras.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.gcbtnAtras.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gcbtnAtras.OnHoverForeColor = System.Drawing.Color.White;
+            this.gcbtnAtras.OnHoverImage = null;
+            this.gcbtnAtras.OnPressedColor = System.Drawing.Color.Black;
+            this.gcbtnAtras.Size = new System.Drawing.Size(50, 50);
+            this.gcbtnAtras.TabIndex = 0;
+            this.gcbtnAtras.Click += new System.EventHandler(this.gcbtnAtras_Click);
             // 
             // pnlContenedor
             // 
@@ -173,7 +216,7 @@ namespace PIU2021.view
             this.glblToolTipEliminarCliente.Text = "Eliminar cliente";
             this.glblToolTipEliminarCliente.Visible = false;
             // 
-            // UCSeccionPrfilCliente
+            // UCSeccionPerfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -185,9 +228,12 @@ namespace PIU2021.view
             this.Controls.Add(this.gbtnEditarCliente);
             this.Controls.Add(this.gbtnNuevoPedido);
             this.Controls.Add(this.pnlContenedor);
-            this.Controls.Add(this.panel1);
-            this.Name = "UCSeccionPrfilCliente";
+            this.Controls.Add(this.pnlNavBar);
+            this.Name = "UCSeccionPerfilCliente";
             this.Size = new System.Drawing.Size(773, 576);
+            this.Load += new System.EventHandler(this.UCSeccionPerfilCliente_Load);
+            this.pnlNavBar.ResumeLayout(false);
+            this.pnlNavBar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,7 +241,7 @@ namespace PIU2021.view
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlNavBar;
         private System.Windows.Forms.Panel pnlContenedor;
         private Guna.UI.WinForms.GunaCircleButton gbtnNuevoPedido;
         private Guna.UI.WinForms.GunaCircleButton gbtnEditarCliente;
@@ -203,5 +249,7 @@ namespace PIU2021.view
         private Guna.UI.WinForms.GunaLabel glblToolTipNuevoPedido;
         private Guna.UI.WinForms.GunaLabel glblToolTipEditarCliente;
         private Guna.UI.WinForms.GunaLabel glblToolTipEliminarCliente;
+        private Guna.UI.WinForms.GunaCircleButton gcbtnAtras;
+        private Guna.UI.WinForms.GunaLabel glblTitulo;
     }
 }

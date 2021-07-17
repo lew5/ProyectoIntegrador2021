@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gbtnNuevoPedido.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
-        HOkAAAAEZ0FNQQAAsY8L/GEFAAAAfElEQVRIS2MYBaNgFIDBHU5Zpnu8xSAMYkNF6QDu8qox3+OdCcIg
-        NlSUDmDUYrqB4WkxKJuADMWCWe5yO8MsBrGxqQFjcrIaKI/CDCcXg/M5qWDALB6woMYLgIbCLAZbQDcw
-        ajHdwMizGJhNQHkUnE+pnmVGwSgYmoCBAQBEBqZxMZazZwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="gbtnEditarCliente.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
-        HOkAAAAEZ0FNQQAAsY8L/GEFAAAAxElEQVRIS2MYBUMa/D8pLQzCUC59wLdTyrK/Tij1/zihOPPbMXkr
-        qDBtAbKlMEwXy4EWFSNbCsM0s/zZZikuGP3zhGItNsupHuew4IX5CrvlShOoajF6nGK3XGkCSB1YAzUA
-        toSEbjmQX0wXS2GYJomJkKUQrDQBluCoAoi1lK7BC8GjlpIJRi1FxcPBUlBBTndLQeDHSSU17JbBMA0s
-        BQH8FtPIUhDAbTENLQUB7BbT2FIQANehIMuRMN2bqaOAuoCBAQDrBvsT/b/L9AAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="gbtnEliminarCliente.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
-        HOkAAAAEZ0FNQQAAsY8L/GEFAAAAzElEQVRIS+2WsQrCMBCG46aO6jP4AOKikyAksRjTCN3FxQfo6ov4
-        gj5EbYiJ3HhIrhXscB98U+7+P5QOEcwgeRozDYVbom6qCYz9lrC7jL0u760uH5jpLM3AeHe8KmusgGLK
-        gLh8/lb8knbbHqzpY8qAOBph7+boj5Rj3IUYOp+bI58wy7gLMXS4mCQXU+BiklxMgYtJ9iqW7oiG5hh3
-        IYZOU5zWaGiGQZ1XEEMnCDHy2t6w4G820l3TLsR0JxizQF8ZmKqawRozBIR4Aze1BaYHgCL6AAAAAElF
-        TkSuQmCC
-</value>
-  </data>
 </root>

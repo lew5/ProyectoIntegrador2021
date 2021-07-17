@@ -31,14 +31,23 @@ namespace PIU2021
         {
             this.components = new System.ComponentModel.Container();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.ucMenu = new PIU2021.UCMenu();
-            this.ucSeccionPrfilCliente1 = new PIU2021.view.UCSeccionPrfilCliente();
             this.SuspendLayout();
             // 
             // gunaElipse1
             // 
             this.gunaElipse1.Radius = 20;
             this.gunaElipse1.TargetControl = this;
+            // 
+            // pnlContenedor
+            // 
+            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContenedor.Location = new System.Drawing.Point(250, 0);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(0);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Size = new System.Drawing.Size(774, 576);
+            this.pnlContenedor.TabIndex = 1;
             // 
             // ucMenu
             // 
@@ -50,15 +59,7 @@ namespace PIU2021
             this.ucMenu.Padding = new System.Windows.Forms.Padding(25);
             this.ucMenu.Size = new System.Drawing.Size(250, 576);
             this.ucMenu.TabIndex = 0;
-            // 
-            // ucSeccionPrfilCliente1
-            // 
-            this.ucSeccionPrfilCliente1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucSeccionPrfilCliente1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucSeccionPrfilCliente1.Location = new System.Drawing.Point(250, 0);
-            this.ucSeccionPrfilCliente1.Name = "ucSeccionPrfilCliente1";
-            this.ucSeccionPrfilCliente1.Size = new System.Drawing.Size(774, 576);
-            this.ucSeccionPrfilCliente1.TabIndex = 1;
+            this.ucMenu.ClientesClick += new System.EventHandler(this.ucMenu_ClientesClick);
             // 
             // Main
             // 
@@ -66,7 +67,7 @@ namespace PIU2021
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1024, 576);
-            this.Controls.Add(this.ucSeccionPrfilCliente1);
+            this.Controls.Add(this.pnlContenedor);
             this.Controls.Add(this.ucMenu);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -80,7 +81,7 @@ namespace PIU2021
         #endregion
 
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
+        private System.Windows.Forms.Panel pnlContenedor;
         private UCMenu ucMenu;
-        private view.UCSeccionPrfilCliente ucSeccionPrfilCliente1;
     }
 }

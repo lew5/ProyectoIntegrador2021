@@ -19,10 +19,11 @@ C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\P
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.Properties.Resources.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.UCMenu.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.ucPerfilCliente.resources
-C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCSeccionPrfilCliente.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.GenerateResource.cache
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.CoreCompileInputs.cache
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.csproj.CopyComplete
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.exe
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.pdb
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCEditarCliente.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCPedido.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCSeccionPerfilCliente.resources
