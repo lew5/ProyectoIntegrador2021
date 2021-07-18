@@ -12,6 +12,33 @@ namespace PIU2021.view
             InitializeComponent();
         }
 
+        private void UCSeccionPerfilCliente_Load(object sender, EventArgs e)
+        {
+            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);// ucPerfilCliente debe recibir Cliente como parámetro
+        }
+
+
+
+        private void gcbtnAtras_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void gbtnEditarCliente_Click(object sender, EventArgs e)
+        {
+            esconderBotones(true);
+            Main.MostrarUC<UCEditarCliente>(pnlContenedor);
+            glblTitulo.Text = "Editar cliente";
+        }
+
+        private void gbtnGuardar_Click(object sender, EventArgs e)
+        {
+            esconderBotones(false);
+            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);
+            glblTitulo.Text = "Perfil cliente";
+        }
+
+
         private void gbtnNuevoPedido_MouseEnter(object sender, EventArgs e)
         {
             glblToolTipNuevoPedido.Visible = true;
@@ -42,26 +69,33 @@ namespace PIU2021.view
             glblToolTipEliminarCliente.Visible = false;
         }
 
-        private void gbtnNuevoPedido_Click(object sender, EventArgs e)
+        private void gbtnGuardar_MouseEnter(object sender, EventArgs e)
         {
-            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);
-            glblTitulo.Text = "Perfil cliente";
+            glblToolTipGuardarCambios.Visible = true;
         }
 
-        private void gbtnEditarCliente_Click(object sender, EventArgs e)
+        private void gbtnGuardar_MouseLeave(object sender, EventArgs e)
         {
-            Main.MostrarUC<UCEditarCliente>(pnlContenedor);
-            glblTitulo.Text = "Editar cliente";
+            glblToolTipGuardarCambios.Visible = false;
         }
 
-        private void gcbtnAtras_Click(object sender, EventArgs e)
+        private void esconderBotones(bool t)
         {
-            this.Dispose()
-;        }
+            if (t)
+            {
+                gbtnNuevoPedido.Visible = false;
+                gbtnEditarCliente.Visible = false;
+                gbtnEliminarCliente.Visible = false;
+                gbtnGuardar.Visible = true;
+            }
+            else
+            {
+                gbtnNuevoPedido.Visible = true;
+                gbtnEditarCliente.Visible = true;
+                gbtnEliminarCliente.Visible = true;
+                gbtnGuardar.Visible = false;
+            }
 
-        private void UCSeccionPerfilCliente_Load(object sender, EventArgs e)
-        {
-            Main.MostrarUC<ucPerfilCliente>(pnlContenedor);// ucPerfilCliente debe recibir Cliente como parámetro
         }
     }
 }

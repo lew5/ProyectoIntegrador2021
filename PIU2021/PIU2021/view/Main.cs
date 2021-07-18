@@ -38,5 +38,10 @@ namespace PIU2021
         {
             MostrarUC<UCSeccionPerfilCliente>(pnlContenedor);
         }
+
+        private void ucMenu_PedidosoClick(object sender, EventArgs e)
+        {
+            MostrarUC<UCSeccionPedidos>(pnlContenedor);
+        }
     }
 }

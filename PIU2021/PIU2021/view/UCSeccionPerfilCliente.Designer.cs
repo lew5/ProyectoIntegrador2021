@@ -40,6 +40,8 @@ namespace PIU2021.view
             this.glblToolTipNuevoPedido = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEditarCliente = new Guna.UI.WinForms.GunaLabel();
             this.glblToolTipEliminarCliente = new Guna.UI.WinForms.GunaLabel();
+            this.gbtnGuardar = new Guna.UI.WinForms.GunaCircleButton();
+            this.glblToolTipGuardarCambios = new Guna.UI.WinForms.GunaLabel();
             this.pnlNavBar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -123,7 +125,6 @@ namespace PIU2021.view
             this.gbtnNuevoPedido.OnPressedColor = System.Drawing.Color.Black;
             this.gbtnNuevoPedido.Size = new System.Drawing.Size(40, 40);
             this.gbtnNuevoPedido.TabIndex = 3;
-            this.gbtnNuevoPedido.Click += new System.EventHandler(this.gbtnNuevoPedido_Click);
             this.gbtnNuevoPedido.MouseEnter += new System.EventHandler(this.gbtnNuevoPedido_MouseEnter);
             this.gbtnNuevoPedido.MouseLeave += new System.EventHandler(this.gbtnNuevoPedido_MouseLeave);
             // 
@@ -216,11 +217,53 @@ namespace PIU2021.view
             this.glblToolTipEliminarCliente.Text = "Eliminar cliente";
             this.glblToolTipEliminarCliente.Visible = false;
             // 
+            // gbtnGuardar
+            // 
+            this.gbtnGuardar.AnimationHoverSpeed = 0.07F;
+            this.gbtnGuardar.AnimationSpeed = 0.03F;
+            this.gbtnGuardar.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(33)))), ((int)(((byte)(41)))));
+            this.gbtnGuardar.BorderColor = System.Drawing.Color.Black;
+            this.gbtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.gbtnGuardar.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gbtnGuardar.FocusedColor = System.Drawing.Color.Empty;
+            this.gbtnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gbtnGuardar.ForeColor = System.Drawing.Color.White;
+            this.gbtnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("gbtnGuardar.Image")));
+            this.gbtnGuardar.ImageSize = new System.Drawing.Size(30, 30);
+            this.gbtnGuardar.Location = new System.Drawing.Point(700, 292);
+            this.gbtnGuardar.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.gbtnGuardar.Name = "gbtnGuardar";
+            this.gbtnGuardar.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(47)))), ((int)(((byte)(62)))));
+            this.gbtnGuardar.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gbtnGuardar.OnHoverForeColor = System.Drawing.Color.White;
+            this.gbtnGuardar.OnHoverImage = null;
+            this.gbtnGuardar.OnPressedColor = System.Drawing.Color.Black;
+            this.gbtnGuardar.Size = new System.Drawing.Size(40, 40);
+            this.gbtnGuardar.TabIndex = 9;
+            this.gbtnGuardar.Visible = false;
+            this.gbtnGuardar.Click += new System.EventHandler(this.gbtnGuardar_Click);
+            this.gbtnGuardar.MouseEnter += new System.EventHandler(this.gbtnGuardar_MouseEnter);
+            this.gbtnGuardar.MouseLeave += new System.EventHandler(this.gbtnGuardar_MouseLeave);
+            // 
+            // glblToolTipGuardarCambios
+            // 
+            this.glblToolTipGuardarCambios.AutoSize = true;
+            this.glblToolTipGuardarCambios.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.glblToolTipGuardarCambios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.glblToolTipGuardarCambios.Location = new System.Drawing.Point(577, 303);
+            this.glblToolTipGuardarCambios.Name = "glblToolTipGuardarCambios";
+            this.glblToolTipGuardarCambios.Size = new System.Drawing.Size(115, 19);
+            this.glblToolTipGuardarCambios.TabIndex = 10;
+            this.glblToolTipGuardarCambios.Text = "Guardar cambios";
+            this.glblToolTipGuardarCambios.Visible = false;
+            // 
             // UCSeccionPerfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.Controls.Add(this.glblToolTipGuardarCambios);
+            this.Controls.Add(this.gbtnGuardar);
             this.Controls.Add(this.glblToolTipEliminarCliente);
             this.Controls.Add(this.glblToolTipEditarCliente);
             this.Controls.Add(this.glblToolTipNuevoPedido);
@@ -251,5 +294,7 @@ namespace PIU2021.view
         private Guna.UI.WinForms.GunaLabel glblToolTipEliminarCliente;
         private Guna.UI.WinForms.GunaCircleButton gcbtnAtras;
         private Guna.UI.WinForms.GunaLabel glblTitulo;
+        private Guna.UI.WinForms.GunaCircleButton gbtnGuardar;
+        private Guna.UI.WinForms.GunaLabel glblToolTipGuardarCambios;
     }
 }

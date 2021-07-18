@@ -157,6 +157,7 @@ namespace PIU2021
             this.gbtnPedidos.Size = new System.Drawing.Size(200, 50);
             this.gbtnPedidos.TabIndex = 2;
             this.gbtnPedidos.Text = "  Pedidos";
+            this.gbtnPedidos.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.gbtnPedidos.Click += new System.EventHandler(this.gbtnPedidos_Click);
             // 
             // gbtnClientes
@@ -194,6 +195,7 @@ namespace PIU2021
             this.gbtnClientes.Size = new System.Drawing.Size(200, 50);
             this.gbtnClientes.TabIndex = 1;
             this.gbtnClientes.Text = "  Clientes";
+            this.gbtnClientes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.gbtnClientes.Click += new System.EventHandler(this.gbtnClientes_Click);
             // 
             // gbtnInicio
@@ -232,6 +234,7 @@ namespace PIU2021
             this.gbtnInicio.Size = new System.Drawing.Size(200, 50);
             this.gbtnInicio.TabIndex = 0;
             this.gbtnInicio.Text = "  Inicio";
+            this.gbtnInicio.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.gbtnInicio.Click += new System.EventHandler(this.gbtnInicio_Click);
             // 
             // gunaSeparator1
@@ -277,6 +280,7 @@ namespace PIU2021
             this.gbtnInfo.Size = new System.Drawing.Size(200, 50);
             this.gbtnInfo.TabIndex = 4;
             this.gbtnInfo.Text = "  Info";
+            this.gbtnInfo.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.gbtnInfo.Click += new System.EventHandler(this.gbtnInfo_Click);
             // 
             // gbtnAjustes
@@ -313,6 +317,7 @@ namespace PIU2021
             this.gbtnAjustes.Size = new System.Drawing.Size(200, 50);
             this.gbtnAjustes.TabIndex = 5;
             this.gbtnAjustes.Text = "  Ajustes";
+            this.gbtnAjustes.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             this.gbtnAjustes.Click += new System.EventHandler(this.gbtnAjustes_Click);
             // 
             // UCMenu

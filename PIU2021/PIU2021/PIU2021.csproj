@@ -51,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="view\CustomFlowLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="view\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +86,12 @@
     <Compile Include="view\ucPerfilCliente.Designer.cs">
       <DependentUpon>ucPerfilCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\UCSeccionPedidos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCSeccionPedidos.Designer.cs">
+      <DependentUpon>UCSeccionPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\UCSeccionPerfilCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\ucPerfilCliente.resx">
       <DependentUpon>ucPerfilCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\UCSeccionPedidos.resx">
+      <DependentUpon>UCSeccionPedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\UCSeccionPerfilCliente.resx">
       <DependentUpon>UCSeccionPerfilCliente.cs</DependentUpon>
