@@ -92,6 +92,12 @@
     <Compile Include="view\UCPedido.Designer.cs">
       <DependentUpon>UCPedido.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\UCPedido2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCPedido2.Designer.cs">
+      <DependentUpon>UCPedido2.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\ucPerfilCliente.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\UCPedido.resx">
       <DependentUpon>UCPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\UCPedido2.resx">
+      <DependentUpon>UCPedido2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\ucPerfilCliente.resx">
       <DependentUpon>ucPerfilCliente.cs</DependentUpon>

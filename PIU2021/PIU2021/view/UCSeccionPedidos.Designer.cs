@@ -37,10 +37,23 @@ namespace PIU2021.view
             this.gbtnOrdenarRecientes = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gVScrollBar = new Guna.UI.WinForms.GunaVScrollBar();
             this.flowpnlPedidos = new PIU2021.view.CustomFlowLayoutPanel();
-            this.ucPedido11 = new PIU2021.view.UCPedido();
-            this.ucPedido12 = new PIU2021.view.UCPedido();
-            this.ucPedido13 = new PIU2021.view.UCPedido();
-            this.ucPedido14 = new PIU2021.view.UCPedido();
+            this.ucPedido21 = new PIU2021.view.UCPedido2();
+            this.ucPedido22 = new PIU2021.view.UCPedido2();
+            this.ucPedido23 = new PIU2021.view.UCPedido2();
+            this.ucPedido24 = new PIU2021.view.UCPedido2();
+            this.ucPedido25 = new PIU2021.view.UCPedido2();
+            this.ucPedido26 = new PIU2021.view.UCPedido2();
+            this.ucPedido27 = new PIU2021.view.UCPedido2();
+            this.ucPedido28 = new PIU2021.view.UCPedido2();
+            this.ucPedido29 = new PIU2021.view.UCPedido2();
+            this.ucPedido210 = new PIU2021.view.UCPedido2();
+            this.ucPedido211 = new PIU2021.view.UCPedido2();
+            this.ucPedido212 = new PIU2021.view.UCPedido2();
+            this.ucPedido213 = new PIU2021.view.UCPedido2();
+            this.ucPedido214 = new PIU2021.view.UCPedido2();
+            this.ucPedido215 = new PIU2021.view.UCPedido2();
+            this.ucPedido216 = new PIU2021.view.UCPedido2();
+            this.ucPedido217 = new PIU2021.view.UCPedido2();
             this.pnlNavBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowpnlPedidos.SuspendLayout();
@@ -193,67 +206,189 @@ namespace PIU2021.view
             this.gVScrollBar.Size = new System.Drawing.Size(10, 463);
             this.gVScrollBar.TabIndex = 4;
             this.gVScrollBar.TabStop = false;
-            this.gVScrollBar.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
-            this.gVScrollBar.ThumbHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(58)))), ((int)(((byte)(114)))));
-            this.gVScrollBar.ThumbPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(38)))), ((int)(((byte)(94)))));
+            this.gVScrollBar.ThumbColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gVScrollBar.ThumbHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.gVScrollBar.ThumbPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
             this.gVScrollBar.Value = 1;
             this.gVScrollBar.Visible = false;
             // 
             // flowpnlPedidos
             // 
-            this.flowpnlPedidos.Controls.Add(this.ucPedido11);
-            this.flowpnlPedidos.Controls.Add(this.ucPedido12);
-            this.flowpnlPedidos.Controls.Add(this.ucPedido13);
-            this.flowpnlPedidos.Controls.Add(this.ucPedido14);
-            this.flowpnlPedidos.Location = new System.Drawing.Point(116, 110);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido21);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido22);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido23);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido24);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido25);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido26);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido27);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido28);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido29);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido210);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido211);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido212);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido213);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido214);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido215);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido216);
+            this.flowpnlPedidos.Controls.Add(this.ucPedido217);
+            this.flowpnlPedidos.Location = new System.Drawing.Point(106, 110);
             this.flowpnlPedidos.Margin = new System.Windows.Forms.Padding(0);
             this.flowpnlPedidos.Name = "flowpnlPedidos";
-            this.flowpnlPedidos.Size = new System.Drawing.Size(558, 466);
+            this.flowpnlPedidos.Size = new System.Drawing.Size(562, 466);
             this.flowpnlPedidos.TabIndex = 5;
             // 
-            // ucPedido11
+            // ucPedido21
             // 
-            this.ucPedido11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucPedido11.FechaPedido = "---";
-            this.ucPedido11.IdPedido = 0;
-            this.ucPedido11.Location = new System.Drawing.Point(10, 10);
-            this.ucPedido11.Margin = new System.Windows.Forms.Padding(10);
-            this.ucPedido11.Name = "ucPedido11";
-            this.ucPedido11.Size = new System.Drawing.Size(250, 160);
-            this.ucPedido11.TabIndex = 10;
+            this.ucPedido21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido21.Location = new System.Drawing.Point(0, 0);
+            this.ucPedido21.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido21.Name = "ucPedido21";
+            this.ucPedido21.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido21.TabIndex = 0;
             // 
-            // ucPedido12
+            // ucPedido22
             // 
-            this.ucPedido12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucPedido12.FechaPedido = "---";
-            this.ucPedido12.IdPedido = 0;
-            this.ucPedido12.Location = new System.Drawing.Point(280, 10);
-            this.ucPedido12.Margin = new System.Windows.Forms.Padding(10);
-            this.ucPedido12.Name = "ucPedido12";
-            this.ucPedido12.Size = new System.Drawing.Size(250, 160);
-            this.ucPedido12.TabIndex = 11;
+            this.ucPedido22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido22.Location = new System.Drawing.Point(0, 115);
+            this.ucPedido22.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido22.Name = "ucPedido22";
+            this.ucPedido22.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido22.TabIndex = 1;
             // 
-            // ucPedido13
+            // ucPedido23
             // 
-            this.ucPedido13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucPedido13.FechaPedido = "---";
-            this.ucPedido13.IdPedido = 0;
-            this.ucPedido13.Location = new System.Drawing.Point(10, 190);
-            this.ucPedido13.Margin = new System.Windows.Forms.Padding(10);
-            this.ucPedido13.Name = "ucPedido13";
-            this.ucPedido13.Size = new System.Drawing.Size(250, 160);
-            this.ucPedido13.TabIndex = 12;
+            this.ucPedido23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido23.Location = new System.Drawing.Point(0, 230);
+            this.ucPedido23.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido23.Name = "ucPedido23";
+            this.ucPedido23.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido23.TabIndex = 2;
             // 
-            // ucPedido14
+            // ucPedido24
             // 
-            this.ucPedido14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucPedido14.FechaPedido = "---";
-            this.ucPedido14.IdPedido = 0;
-            this.ucPedido14.Location = new System.Drawing.Point(280, 190);
-            this.ucPedido14.Margin = new System.Windows.Forms.Padding(10);
-            this.ucPedido14.Name = "ucPedido14";
-            this.ucPedido14.Size = new System.Drawing.Size(250, 160);
-            this.ucPedido14.TabIndex = 13;
+            this.ucPedido24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido24.Location = new System.Drawing.Point(0, 345);
+            this.ucPedido24.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido24.Name = "ucPedido24";
+            this.ucPedido24.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido24.TabIndex = 3;
+            // 
+            // ucPedido25
+            // 
+            this.ucPedido25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido25.Location = new System.Drawing.Point(0, 460);
+            this.ucPedido25.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido25.Name = "ucPedido25";
+            this.ucPedido25.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido25.TabIndex = 4;
+            // 
+            // ucPedido26
+            // 
+            this.ucPedido26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido26.Location = new System.Drawing.Point(0, 575);
+            this.ucPedido26.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido26.Name = "ucPedido26";
+            this.ucPedido26.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido26.TabIndex = 5;
+            // 
+            // ucPedido27
+            // 
+            this.ucPedido27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido27.Location = new System.Drawing.Point(0, 690);
+            this.ucPedido27.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido27.Name = "ucPedido27";
+            this.ucPedido27.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido27.TabIndex = 6;
+            // 
+            // ucPedido28
+            // 
+            this.ucPedido28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido28.Location = new System.Drawing.Point(0, 805);
+            this.ucPedido28.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido28.Name = "ucPedido28";
+            this.ucPedido28.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido28.TabIndex = 7;
+            // 
+            // ucPedido29
+            // 
+            this.ucPedido29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido29.Location = new System.Drawing.Point(0, 920);
+            this.ucPedido29.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido29.Name = "ucPedido29";
+            this.ucPedido29.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido29.TabIndex = 8;
+            // 
+            // ucPedido210
+            // 
+            this.ucPedido210.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido210.Location = new System.Drawing.Point(0, 1035);
+            this.ucPedido210.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido210.Name = "ucPedido210";
+            this.ucPedido210.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido210.TabIndex = 9;
+            // 
+            // ucPedido211
+            // 
+            this.ucPedido211.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido211.Location = new System.Drawing.Point(0, 1150);
+            this.ucPedido211.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido211.Name = "ucPedido211";
+            this.ucPedido211.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido211.TabIndex = 10;
+            // 
+            // ucPedido212
+            // 
+            this.ucPedido212.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido212.Location = new System.Drawing.Point(0, 1265);
+            this.ucPedido212.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido212.Name = "ucPedido212";
+            this.ucPedido212.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido212.TabIndex = 11;
+            // 
+            // ucPedido213
+            // 
+            this.ucPedido213.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido213.Location = new System.Drawing.Point(0, 1380);
+            this.ucPedido213.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido213.Name = "ucPedido213";
+            this.ucPedido213.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido213.TabIndex = 12;
+            // 
+            // ucPedido214
+            // 
+            this.ucPedido214.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido214.Location = new System.Drawing.Point(0, 1495);
+            this.ucPedido214.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido214.Name = "ucPedido214";
+            this.ucPedido214.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido214.TabIndex = 13;
+            // 
+            // ucPedido215
+            // 
+            this.ucPedido215.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido215.Location = new System.Drawing.Point(0, 1610);
+            this.ucPedido215.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido215.Name = "ucPedido215";
+            this.ucPedido215.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido215.TabIndex = 14;
+            // 
+            // ucPedido216
+            // 
+            this.ucPedido216.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido216.Location = new System.Drawing.Point(0, 1725);
+            this.ucPedido216.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido216.Name = "ucPedido216";
+            this.ucPedido216.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido216.TabIndex = 15;
+            // 
+            // ucPedido217
+            // 
+            this.ucPedido217.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucPedido217.Location = new System.Drawing.Point(0, 1840);
+            this.ucPedido217.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
+            this.ucPedido217.Name = "ucPedido217";
+            this.ucPedido217.Size = new System.Drawing.Size(544, 100);
+            this.ucPedido217.TabIndex = 16;
             // 
             // UCSeccionPedidos
             // 
@@ -284,9 +419,22 @@ namespace PIU2021.view
         private Guna.UI.WinForms.GunaAdvenceButton gbtnNuevoPedido;
         private Guna.UI.WinForms.GunaVScrollBar gVScrollBar;
         private CustomFlowLayoutPanel flowpnlPedidos;
-        private UCPedido ucPedido11;
-        private UCPedido ucPedido12;
-        private UCPedido ucPedido13;
-        private UCPedido ucPedido14;
+        private UCPedido2 ucPedido21;
+        private UCPedido2 ucPedido22;
+        private UCPedido2 ucPedido23;
+        private UCPedido2 ucPedido24;
+        private UCPedido2 ucPedido25;
+        private UCPedido2 ucPedido26;
+        private UCPedido2 ucPedido27;
+        private UCPedido2 ucPedido28;
+        private UCPedido2 ucPedido29;
+        private UCPedido2 ucPedido210;
+        private UCPedido2 ucPedido211;
+        private UCPedido2 ucPedido212;
+        private UCPedido2 ucPedido213;
+        private UCPedido2 ucPedido214;
+        private UCPedido2 ucPedido215;
+        private UCPedido2 ucPedido216;
+        private UCPedido2 ucPedido217;
     }
 }
