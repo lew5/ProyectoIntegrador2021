@@ -32,7 +32,7 @@ namespace PIU2021
             this.components = new System.ComponentModel.Container();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.ucSeccionPedidos1 = new PIU2021.view.UCSeccionPedidos();
+            this.ucSeccionNuevoPedido1 = new PIU2021.view.UCSeccionNuevoPedido();
             this.ucMenu = new PIU2021.UCMenu();
             this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
@@ -44,7 +44,7 @@ namespace PIU2021
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucSeccionPedidos1);
+            this.pnlContenedor.Controls.Add(this.ucSeccionNuevoPedido1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(250, 0);
             this.pnlContenedor.Margin = new System.Windows.Forms.Padding(0);
@@ -52,15 +52,17 @@ namespace PIU2021
             this.pnlContenedor.Size = new System.Drawing.Size(774, 576);
             this.pnlContenedor.TabIndex = 1;
             // 
-            // ucSeccionPedidos1
+            // ucSeccionNuevoPedido1
             // 
-            this.ucSeccionPedidos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucSeccionPedidos1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucSeccionPedidos1.Location = new System.Drawing.Point(0, 0);
-            this.ucSeccionPedidos1.Margin = new System.Windows.Forms.Padding(0);
-            this.ucSeccionPedidos1.Name = "ucSeccionPedidos1";
-            this.ucSeccionPedidos1.Size = new System.Drawing.Size(774, 576);
-            this.ucSeccionPedidos1.TabIndex = 0;
+            this.ucSeccionNuevoPedido1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucSeccionNuevoPedido1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucSeccionNuevoPedido1.Location = new System.Drawing.Point(0, 0);
+            this.ucSeccionNuevoPedido1.Margin = new System.Windows.Forms.Padding(0);
+            this.ucSeccionNuevoPedido1.MaximumSize = new System.Drawing.Size(773, 576);
+            this.ucSeccionNuevoPedido1.MinimumSize = new System.Drawing.Size(773, 576);
+            this.ucSeccionNuevoPedido1.Name = "ucSeccionNuevoPedido1";
+            this.ucSeccionNuevoPedido1.Size = new System.Drawing.Size(773, 576);
+            this.ucSeccionNuevoPedido1.TabIndex = 0;
             // 
             // ucMenu
             // 
@@ -98,6 +100,6 @@ namespace PIU2021
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private System.Windows.Forms.Panel pnlContenedor;
         private UCMenu ucMenu;
-        private view.UCSeccionPedidos ucSeccionPedidos1;
+        private view.UCSeccionNuevoPedido ucSeccionNuevoPedido1;
     }
 }
