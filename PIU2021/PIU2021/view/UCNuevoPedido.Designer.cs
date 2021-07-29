@@ -32,7 +32,7 @@ namespace PIU2021.view
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCNuevoPedido));
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
-            this.gtxtBoxClienteId = new Guna.UI.WinForms.GunaTextBox();
+            this.gtxtboxClienteId = new Guna.UI.WinForms.GunaTextBox();
             this.glblCambiarCliente = new Guna.UI.WinForms.GunaLabel();
             this.glblNombreCliente = new Guna.UI.WinForms.GunaLabel();
             this.gcpbFotoPerfil = new Guna.UI.WinForms.GunaCirclePictureBox();
@@ -44,18 +44,18 @@ namespace PIU2021.view
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipsePanel4 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gtxtboxPrecio = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipsePanel5 = new Guna.UI.WinForms.GunaElipsePanel();
             this.gtxtboxDescripcion = new Guna.UI.WinForms.GunaTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gunaElipsePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gcpbFotoPerfil)).BeginInit();
             this.gunaElipsePanel2.SuspendLayout();
             this.gunaElipsePanel3.SuspendLayout();
             this.gunaElipsePanel4.SuspendLayout();
-            this.gunaElipsePanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gunaElipsePanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaLabel1
@@ -75,7 +75,7 @@ namespace PIU2021.view
             // 
             this.gunaElipsePanel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaElipsePanel1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.gunaElipsePanel1.Controls.Add(this.gtxtBoxClienteId);
+            this.gunaElipsePanel1.Controls.Add(this.gtxtboxClienteId);
             this.gunaElipsePanel1.Controls.Add(this.glblCambiarCliente);
             this.gunaElipsePanel1.Controls.Add(this.glblNombreCliente);
             this.gunaElipsePanel1.Controls.Add(this.gcpbFotoPerfil);
@@ -88,27 +88,29 @@ namespace PIU2021.view
             this.gunaElipsePanel1.Size = new System.Drawing.Size(500, 80);
             this.gunaElipsePanel1.TabIndex = 1;
             // 
-            // gtxtBoxClienteId
+            // gtxtboxClienteId
             // 
-            this.gtxtBoxClienteId.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.gtxtBoxClienteId.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.gtxtBoxClienteId.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gtxtBoxClienteId.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gtxtBoxClienteId.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.gtxtBoxClienteId.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.gtxtBoxClienteId.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
-            this.gtxtBoxClienteId.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtxtBoxClienteId.ForeColor = System.Drawing.Color.Gray;
-            this.gtxtBoxClienteId.Location = new System.Drawing.Point(5, 5);
-            this.gtxtBoxClienteId.MaxLength = 6;
-            this.gtxtBoxClienteId.Name = "gtxtBoxClienteId";
-            this.gtxtBoxClienteId.PasswordChar = '\0';
-            this.gtxtBoxClienteId.SelectedText = "";
-            this.gtxtBoxClienteId.Size = new System.Drawing.Size(490, 70);
-            this.gtxtBoxClienteId.TabIndex = 5;
-            this.gtxtBoxClienteId.Text = "ID DEL CLIENTE";
-            this.gtxtBoxClienteId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gtxtBoxClienteId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtBoxClienteId_KeyPress);
+            this.gtxtboxClienteId.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.gtxtboxClienteId.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.gtxtboxClienteId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gtxtboxClienteId.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gtxtboxClienteId.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.gtxtboxClienteId.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.gtxtboxClienteId.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
+            this.gtxtboxClienteId.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gtxtboxClienteId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.gtxtboxClienteId.Location = new System.Drawing.Point(5, 5);
+            this.gtxtboxClienteId.MaxLength = 4;
+            this.gtxtboxClienteId.Name = "gtxtboxClienteId";
+            this.gtxtboxClienteId.PasswordChar = '\0';
+            this.gtxtboxClienteId.SelectedText = "";
+            this.gtxtboxClienteId.Size = new System.Drawing.Size(490, 70);
+            this.gtxtboxClienteId.TabIndex = 5;
+            this.gtxtboxClienteId.Text = "ID DEL CLIENTE";
+            this.gtxtboxClienteId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gtxtboxClienteId.Enter += new System.EventHandler(this.gtxtboxClienteId_Enter);
+            this.gtxtboxClienteId.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtboxClienteId_KeyPress);
+            this.gtxtboxClienteId.Leave += new System.EventHandler(this.gtxtboxClienteId_Leave);
             // 
             // glblCambiarCliente
             // 
@@ -185,15 +187,16 @@ namespace PIU2021.view
             this.gtxtboxCodigoProducto.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.gtxtboxCodigoProducto.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
             this.gtxtboxCodigoProducto.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtxtboxCodigoProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
+            this.gtxtboxCodigoProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.gtxtboxCodigoProducto.Location = new System.Drawing.Point(5, 5);
-            this.gtxtboxCodigoProducto.MaxLength = 5;
+            this.gtxtboxCodigoProducto.MaxLength = 6;
             this.gtxtboxCodigoProducto.Name = "gtxtboxCodigoProducto";
             this.gtxtboxCodigoProducto.PasswordChar = '\0';
             this.gtxtboxCodigoProducto.SelectedText = "";
             this.gtxtboxCodigoProducto.Size = new System.Drawing.Size(230, 70);
             this.gtxtboxCodigoProducto.TabIndex = 1;
             this.gtxtboxCodigoProducto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gtxtboxCodigoProducto.Enter += new System.EventHandler(this.gtxtboxCodigoProducto_Enter);
             this.gtxtboxCodigoProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtboxSoloNumeros_KeyPress);
             this.gtxtboxCodigoProducto.LostFocus += new System.EventHandler(this.gtxtCodigoProducto_LostFocus);
             // 
@@ -220,7 +223,7 @@ namespace PIU2021.view
             this.gtxtboxCantidad.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.gtxtboxCantidad.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
             this.gtxtboxCantidad.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtxtboxCantidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
+            this.gtxtboxCantidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.gtxtboxCantidad.Location = new System.Drawing.Point(5, 5);
             this.gtxtboxCantidad.MaxLength = 2;
             this.gtxtboxCantidad.Name = "gtxtboxCantidad";
@@ -228,6 +231,7 @@ namespace PIU2021.view
             this.gtxtboxCantidad.SelectedText = "";
             this.gtxtboxCantidad.Size = new System.Drawing.Size(230, 70);
             this.gtxtboxCantidad.TabIndex = 1;
+            this.gtxtboxCantidad.Text = "1";
             this.gtxtboxCantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gtxtboxCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtboxSoloNumeros_KeyPress);
             // 
@@ -269,6 +273,16 @@ namespace PIU2021.view
             this.gunaElipsePanel4.Size = new System.Drawing.Size(500, 80);
             this.gunaElipsePanel4.TabIndex = 6;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(20, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // gtxtboxPrecio
             // 
             this.gtxtboxPrecio.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
@@ -279,7 +293,7 @@ namespace PIU2021.view
             this.gtxtboxPrecio.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.gtxtboxPrecio.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
             this.gtxtboxPrecio.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtxtboxPrecio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
+            this.gtxtboxPrecio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(120)))), ((int)(((byte)(17)))));
             this.gtxtboxPrecio.Location = new System.Drawing.Point(5, 5);
             this.gtxtboxPrecio.MaxLength = 6;
             this.gtxtboxPrecio.Name = "gtxtboxPrecio";
@@ -325,7 +339,7 @@ namespace PIU2021.view
             this.gtxtboxDescripcion.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.gtxtboxDescripcion.FocusedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
             this.gtxtboxDescripcion.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gtxtboxDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
+            this.gtxtboxDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.gtxtboxDescripcion.Location = new System.Drawing.Point(5, 5);
             this.gtxtboxDescripcion.MaxLength = 110;
             this.gtxtboxDescripcion.Name = "gtxtboxDescripcion";
@@ -333,17 +347,8 @@ namespace PIU2021.view
             this.gtxtboxDescripcion.SelectedText = "";
             this.gtxtboxDescripcion.Size = new System.Drawing.Size(490, 70);
             this.gtxtboxDescripcion.TabIndex = 1;
+            this.gtxtboxDescripcion.Text = "Sin descripción";
             this.gtxtboxDescripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // UCNuevoPedido
             // 
@@ -369,8 +374,8 @@ namespace PIU2021.view
             this.gunaElipsePanel3.ResumeLayout(false);
             this.gunaElipsePanel4.ResumeLayout(false);
             this.gunaElipsePanel4.PerformLayout();
-            this.gunaElipsePanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gunaElipsePanel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -395,7 +400,7 @@ namespace PIU2021.view
         private Guna.UI.WinForms.GunaCirclePictureBox gcpbFotoPerfil;
         private Guna.UI.WinForms.GunaLabel glblNombreCliente;
         private Guna.UI.WinForms.GunaLabel glblCambiarCliente;
-        private Guna.UI.WinForms.GunaTextBox gtxtBoxClienteId;
+        private Guna.UI.WinForms.GunaTextBox gtxtboxClienteId;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

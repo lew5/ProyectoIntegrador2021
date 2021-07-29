@@ -5,7 +5,8 @@ namespace PIU2021.view
 {
     public partial class UCSeccionPedidos : UserControl
     {
-        Guna.UI.Lib.ScrollBar.PanelScrollHelper vScroll;
+        private Guna.UI.Lib.ScrollBar.PanelScrollHelper vScroll;
+        
         public UCSeccionPedidos()
         {
             InitializeComponent();
@@ -15,6 +16,11 @@ namespace PIU2021.view
         {
             vScroll = new Guna.UI.Lib.ScrollBar.PanelScrollHelper(flowpnlPedidos, gVScrollBar, true);
             flowpnlPedidos.HorizontalScroll.Visible = false;
+        }
+
+        private void gbtnNuevoPedido_Click(object sender, EventArgs e)
+        {
+            Main.MostrarUC<UCSeccionNuevoPedido>(this.Parent);
         }
     }
 }

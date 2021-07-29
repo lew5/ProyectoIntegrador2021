@@ -8,7 +8,7 @@ namespace PIU2021
     public partial class Main : Form
     {
 
-        public static void MostrarUC<UC>(Panel p) where UC : UserControl, new()
+        public static void MostrarUC<UC>(Control p) where UC : UserControl, new()
         {
             UserControl uc;
             uc = p.Controls.OfType<UC>().FirstOrDefault();
@@ -39,7 +39,7 @@ namespace PIU2021
             MostrarUC<UCSeccionPerfilCliente>(pnlContenedor);
         }
 
-        private void ucMenu_PedidosoClick(object sender, EventArgs e)
+        private void ucMenu_PedidosClick(object sender, EventArgs e)
         {
             MostrarUC<UCSeccionPedidos>(pnlContenedor);
         }

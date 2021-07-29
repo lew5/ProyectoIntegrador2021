@@ -16,5 +16,22 @@ namespace PIU2021.view
         {
             InitializeComponent();
         }
+
+        private void gcbtnAtras_Click(object sender, EventArgs e)
+        {
+            Main.MostrarUC<UCSeccionPedidos>(this.Parent);
+        }
+
+        private void gbtnGuardar_Click(object sender, EventArgs e)
+        {
+            if (ucNuevoPedido.validarCampos())
+            {
+                MessageBox.Show(ucNuevoPedido.validarCampos().ToString());
+            }
+            else
+            {
+                MessageBox.Show(ucNuevoPedido.validarCampos().ToString());
+            }
+        }
     }
 }

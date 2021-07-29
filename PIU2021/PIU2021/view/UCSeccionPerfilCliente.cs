@@ -5,8 +5,6 @@ namespace PIU2021.view
 {
     public partial class UCSeccionPerfilCliente : UserControl
     {
-        private ucPerfilCliente perfilCliente;
-        private UCEditarCliente editarCliente;
         public UCSeccionPerfilCliente()
         {
             InitializeComponent();

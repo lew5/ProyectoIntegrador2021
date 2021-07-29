@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PIU2021.view
@@ -18,6 +11,11 @@ namespace PIU2021.view
             InitializeComponent();
         }
 
+        public bool validarCampos()
+        {
+            return gtxtboxCodigoProducto.Text.Trim().Length == 7 && gtxtboxPrecio.Text.Trim() != "";
+        }
+
         private void cambiarCliente(bool b)
         {
             if (b)
@@ -25,14 +23,14 @@ namespace PIU2021.view
                 gcpbFotoPerfil.Visible = false;
                 glblCambiarCliente.Visible = false;
                 glblNombreCliente.Visible = false;
-                gtxtBoxClienteId.Visible = true;
+                gtxtboxClienteId.Visible = true;
             }
             else
             {
                 gcpbFotoPerfil.Visible = true;
                 glblCambiarCliente.Visible = true;
                 glblNombreCliente.Visible = true;
-                gtxtBoxClienteId.Visible = false;
+                gtxtboxClienteId.Visible = false;
             }
         }
 
@@ -41,30 +39,38 @@ namespace PIU2021.view
             cambiarCliente(true);
         }
 
-        private void gtxtBoxClienteId_KeyPress(object sender, KeyPressEventArgs e)
+        private void gtxtboxClienteId_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //if (e.KeyChar == (char)Keys.Enter)
-            //{
-            //    if (gtxtBoxClienteId.Text.Trim() != "")
-            //    {
-            //        cambiarCliente(false);
-            //    }
-
-            //}
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            if (e.KeyChar == (char)Keys.Enter)
             {
-                e.Handled = true;
-                MessageBox.Show("enter");
+                if (gtxtboxClienteId.Text.Trim() != "")
+                {
+                    cambiarCliente(false);
+                }
+
             }
+            //if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            //{
+            //    e.Handled = true;
+            //    MessageBox.Show("enter");
+            //}
         }
 
         private void gtxtCodigoProducto_LostFocus(object sender, EventArgs e)
         {
-            //RegexOptions options = RegexOptions.None;
-            //Regex regex = new Regex(@"[ ]{2,}", options);
-            gtxtboxCodigoProducto.Text = Regex.Replace(gtxtboxCodigoProducto.Text.Trim(), ".{3}", "$0-");
-            gtxtboxCodigoProducto.Text = gtxtboxCodigoProducto.Text.Remove(gtxtboxCodigoProducto.Text.Length -1,1);
+            if (gtxtboxCodigoProducto.Text.Length == 6 && !gtxtboxCodigoProducto.Text.Contains("-"))
+            {
+                gtxtboxCodigoProducto.Text = Regex.Replace(gtxtboxCodigoProducto.Text.Trim(), ".{3}", "$0-");
+                gtxtboxCodigoProducto.Text = gtxtboxCodigoProducto.Text.Remove(gtxtboxCodigoProducto.Text.Length - 1, 1);
+            }
 
+        }
+        private void gtxtboxCodigoProducto_Enter(object sender, EventArgs e)
+        {
+            if (gtxtboxCodigoProducto.Text.Length == 7)
+            {
+                gtxtboxCodigoProducto.Text = gtxtboxCodigoProducto.Text.Remove(3, 1);
+            }
         }
 
         private void gtxtboxSoloNumeros_KeyPress(object sender, KeyPressEventArgs e)
@@ -72,6 +78,22 @@ namespace PIU2021.view
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void gtxtboxClienteId_Enter(object sender, EventArgs e)
+        {
+            if (gtxtboxClienteId.Text.Trim().Equals("ID DEL CLIENTE"))
+            {
+                gtxtboxClienteId.Text = "";
+            }
+        }
+
+        private void gtxtboxClienteId_Leave(object sender, EventArgs e)
+        {
+            if (gtxtboxClienteId.Text.Trim() == "")
+            {
+                gtxtboxClienteId.Text = "ID DEL CLIENTE";
             }
         }
     }

@@ -89,11 +89,11 @@ namespace PIU2021.view
             this.gbtnNuevoPedido.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gbtnNuevoPedido.FocusedColor = System.Drawing.Color.Empty;
             this.gbtnNuevoPedido.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbtnNuevoPedido.ForeColor = System.Drawing.Color.White;
+            this.gbtnNuevoPedido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(172)))), ((int)(((byte)(195)))));
             this.gbtnNuevoPedido.Image = null;
             this.gbtnNuevoPedido.ImageSize = new System.Drawing.Size(20, 20);
             this.gbtnNuevoPedido.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gbtnNuevoPedido.Location = new System.Drawing.Point(510, 10);
+            this.gbtnNuevoPedido.Location = new System.Drawing.Point(518, 10);
             this.gbtnNuevoPedido.Margin = new System.Windows.Forms.Padding(60, 0, 0, 0);
             this.gbtnNuevoPedido.Name = "gbtnNuevoPedido";
             this.gbtnNuevoPedido.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(48)))), ((int)(((byte)(104)))));
@@ -108,11 +108,12 @@ namespace PIU2021.view
             this.gbtnNuevoPedido.Text = "Nuevo pedido";
             this.gbtnNuevoPedido.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gbtnNuevoPedido.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
+            this.gbtnNuevoPedido.Click += new System.EventHandler(this.gbtnNuevoPedido_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(116, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(106, 14);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 32);
@@ -140,7 +141,7 @@ namespace PIU2021.view
             this.gbtnOrdenarAntiguos.Image = null;
             this.gbtnOrdenarAntiguos.ImageSize = new System.Drawing.Size(20, 20);
             this.gbtnOrdenarAntiguos.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gbtnOrdenarAntiguos.Location = new System.Drawing.Point(303, 14);
+            this.gbtnOrdenarAntiguos.Location = new System.Drawing.Point(293, 14);
             this.gbtnOrdenarAntiguos.Margin = new System.Windows.Forms.Padding(0);
             this.gbtnOrdenarAntiguos.Name = "gbtnOrdenarAntiguos";
             this.gbtnOrdenarAntiguos.OnHoverBaseColor = System.Drawing.Color.Transparent;
@@ -177,7 +178,7 @@ namespace PIU2021.view
             this.gbtnOrdenarRecientes.Image = null;
             this.gbtnOrdenarRecientes.ImageSize = new System.Drawing.Size(20, 20);
             this.gbtnOrdenarRecientes.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gbtnOrdenarRecientes.Location = new System.Drawing.Point(188, 14);
+            this.gbtnOrdenarRecientes.Location = new System.Drawing.Point(178, 14);
             this.gbtnOrdenarRecientes.Margin = new System.Windows.Forms.Padding(40, 0, 15, 0);
             this.gbtnOrdenarRecientes.Name = "gbtnOrdenarRecientes";
             this.gbtnOrdenarRecientes.OnHoverBaseColor = System.Drawing.Color.Transparent;
@@ -231,10 +232,10 @@ namespace PIU2021.view
             this.flowpnlPedidos.Controls.Add(this.ucPedido215);
             this.flowpnlPedidos.Controls.Add(this.ucPedido216);
             this.flowpnlPedidos.Controls.Add(this.ucPedido217);
-            this.flowpnlPedidos.Location = new System.Drawing.Point(106, 110);
+            this.flowpnlPedidos.Location = new System.Drawing.Point(106, 80);
             this.flowpnlPedidos.Margin = new System.Windows.Forms.Padding(0);
             this.flowpnlPedidos.Name = "flowpnlPedidos";
-            this.flowpnlPedidos.Size = new System.Drawing.Size(562, 466);
+            this.flowpnlPedidos.Size = new System.Drawing.Size(562, 496);
             this.flowpnlPedidos.TabIndex = 5;
             // 
             // ucPedido21

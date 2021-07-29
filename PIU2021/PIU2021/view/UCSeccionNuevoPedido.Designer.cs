@@ -35,7 +35,7 @@ namespace PIU2021.view
             this.gcbtnAtras = new Guna.UI.WinForms.GunaCircleButton();
             this.gbtnVerCarrito = new Guna.UI.WinForms.GunaCircleButton();
             this.gbtnGuardar = new Guna.UI.WinForms.GunaCircleButton();
-            this.ucNuevoPedido1 = new PIU2021.view.UCNuevoPedido();
+            this.ucNuevoPedido = new PIU2021.view.UCNuevoPedido();
             this.pnlNavBar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +85,7 @@ namespace PIU2021.view
             this.gcbtnAtras.OnPressedColor = System.Drawing.Color.Black;
             this.gcbtnAtras.Size = new System.Drawing.Size(50, 50);
             this.gcbtnAtras.TabIndex = 0;
+            this.gcbtnAtras.Click += new System.EventHandler(this.gcbtnAtras_Click);
             // 
             // gbtnVerCarrito
             // 
@@ -134,14 +135,15 @@ namespace PIU2021.view
             this.gbtnGuardar.OnPressedColor = System.Drawing.Color.Black;
             this.gbtnGuardar.Size = new System.Drawing.Size(40, 40);
             this.gbtnGuardar.TabIndex = 11;
+            this.gbtnGuardar.Click += new System.EventHandler(this.gbtnGuardar_Click);
             // 
-            // ucNuevoPedido1
+            // ucNuevoPedido
             // 
-            this.ucNuevoPedido1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucNuevoPedido1.Location = new System.Drawing.Point(136, 100);
-            this.ucNuevoPedido1.Name = "ucNuevoPedido1";
-            this.ucNuevoPedido1.Size = new System.Drawing.Size(500, 430);
-            this.ucNuevoPedido1.TabIndex = 3;
+            this.ucNuevoPedido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.ucNuevoPedido.Location = new System.Drawing.Point(136, 100);
+            this.ucNuevoPedido.Name = "ucNuevoPedido";
+            this.ucNuevoPedido.Size = new System.Drawing.Size(500, 430);
+            this.ucNuevoPedido.TabIndex = 3;
             // 
             // UCSeccionNuevoPedido
             // 
@@ -150,7 +152,7 @@ namespace PIU2021.view
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.Controls.Add(this.gbtnGuardar);
             this.Controls.Add(this.gbtnVerCarrito);
-            this.Controls.Add(this.ucNuevoPedido1);
+            this.Controls.Add(this.ucNuevoPedido);
             this.Controls.Add(this.pnlNavBar);
             this.MaximumSize = new System.Drawing.Size(773, 576);
             this.MinimumSize = new System.Drawing.Size(773, 576);
@@ -167,7 +169,7 @@ namespace PIU2021.view
         private System.Windows.Forms.Panel pnlNavBar;
         private Guna.UI.WinForms.GunaLabel glblTitulo;
         private Guna.UI.WinForms.GunaCircleButton gcbtnAtras;
-        private UCNuevoPedido ucNuevoPedido1;
+        private UCNuevoPedido ucNuevoPedido;
         private Guna.UI.WinForms.GunaCircleButton gbtnVerCarrito;
         private Guna.UI.WinForms.GunaCircleButton gbtnGuardar;
     }

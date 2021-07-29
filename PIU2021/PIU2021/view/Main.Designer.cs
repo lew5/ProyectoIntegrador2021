@@ -33,8 +33,6 @@ namespace PIU2021
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.ucMenu = new PIU2021.UCMenu();
-            this.ucSeccionPedidos1 = new PIU2021.view.UCSeccionPedidos();
-            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaElipse1
@@ -44,7 +42,6 @@ namespace PIU2021
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.ucSeccionPedidos1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(250, 0);
             this.pnlContenedor.Margin = new System.Windows.Forms.Padding(0);
@@ -63,17 +60,7 @@ namespace PIU2021
             this.ucMenu.Size = new System.Drawing.Size(250, 576);
             this.ucMenu.TabIndex = 0;
             this.ucMenu.ClientesClick += new System.EventHandler(this.ucMenu_ClientesClick);
-            this.ucMenu.PedidosoClick += new System.EventHandler(this.ucMenu_PedidosoClick);
-            // 
-            // ucSeccionPedidos1
-            // 
-            this.ucSeccionPedidos1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.ucSeccionPedidos1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucSeccionPedidos1.Location = new System.Drawing.Point(0, 0);
-            this.ucSeccionPedidos1.Margin = new System.Windows.Forms.Padding(0);
-            this.ucSeccionPedidos1.Name = "ucSeccionPedidos1";
-            this.ucSeccionPedidos1.Size = new System.Drawing.Size(774, 576);
-            this.ucSeccionPedidos1.TabIndex = 0;
+            this.ucMenu.PedidosClick += new System.EventHandler(this.ucMenu_PedidosClick);
             // 
             // Main
             // 
@@ -88,7 +75,6 @@ namespace PIU2021
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
-            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,8 +82,7 @@ namespace PIU2021
         #endregion
 
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
-        private System.Windows.Forms.Panel pnlContenedor;
         private UCMenu ucMenu;
-        private view.UCSeccionPedidos ucSeccionPedidos1;
+        public System.Windows.Forms.Panel pnlContenedor;
     }
 }

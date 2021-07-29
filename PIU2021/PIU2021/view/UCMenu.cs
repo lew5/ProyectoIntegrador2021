@@ -8,7 +8,7 @@ namespace PIU2021
 
         public event EventHandler InicioClick;
         public event EventHandler ClientesClick;
-        public event EventHandler PedidosoClick;
+        public event EventHandler PedidosClick;
         public event EventHandler InfoClick;
         public event EventHandler AjustesClick;
 
@@ -29,7 +29,7 @@ namespace PIU2021
 
         private void gbtnPedidos_Click(object sender, EventArgs e)
         {
-            PedidosoClick?.Invoke(this, e);
+            PedidosClick?.Invoke(this, e);
         }
 
         private void gbtnInfo_Click(object sender, EventArgs e)

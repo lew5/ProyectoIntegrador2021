@@ -62,11 +62,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\UCDetallePedido.cs">
+    <Compile Include="view\UCSeccionDetallePedido.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="view\UCDetallePedido.Designer.cs">
-      <DependentUpon>UCDetallePedido.cs</DependentUpon>
+    <Compile Include="view\UCSeccionDetallePedido.Designer.cs">
+      <DependentUpon>UCSeccionDetallePedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\UCProducto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\UCProducto.Designer.cs">
+      <DependentUpon>UCProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="view\UCEditarCliente.cs">
       <SubType>UserControl</SubType>
@@ -134,8 +140,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="view\UCDetallePedido.resx">
-      <DependentUpon>UCDetallePedido.cs</DependentUpon>
+    <EmbeddedResource Include="view\UCSeccionDetallePedido.resx">
+      <DependentUpon>UCSeccionDetallePedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\UCProducto.resx">
+      <DependentUpon>UCProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\UCEditarCliente.resx">
       <DependentUpon>UCEditarCliente.cs</DependentUpon>
