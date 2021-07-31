@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -13,7 +14,7 @@ namespace PIU2021.view
 
         public bool validarCampos()
         {
-            return gtxtboxCodigoProducto.Text.Trim().Length == 7 && gtxtboxPrecio.Text.Trim() != "";
+            return gtxtboxCodigoProducto.Text.Trim().Length == 7 && gtxtboxPrecio.Text.Trim() != "" && gtxtboxClienteId.Text.Length <= 4;
         }
 
         private void cambiarCliente(bool b)
@@ -41,19 +42,10 @@ namespace PIU2021.view
 
         private void gtxtboxClienteId_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Enter)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
-                if (gtxtboxClienteId.Text.Trim() != "")
-                {
-                    cambiarCliente(false);
-                }
-
+                e.Handled = true;
             }
-            //if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            //{
-            //    e.Handled = true;
-            //    MessageBox.Show("enter");
-            //}
         }
 
         private void gtxtCodigoProducto_LostFocus(object sender, EventArgs e)
@@ -94,6 +86,49 @@ namespace PIU2021.view
             if (gtxtboxClienteId.Text.Trim() == "")
             {
                 gtxtboxClienteId.Text = "ID DEL CLIENTE";
+            }
+            else
+            {
+                cambiarCliente(false);
+            }
+        }
+
+        private void gtxtboxCantidad_Leave(object sender, EventArgs e)
+        {
+            if (gtxtboxCantidad.Text.Trim().Equals("") || gtxtboxCantidad.Text.Trim().Equals("0"))
+            {
+                gtxtboxCantidad.Text = "1";
+            }
+        }
+
+        private void gtxtboxPrecio_Leave(object sender, EventArgs e)
+        {
+            if (gtxtboxPrecio.Text.Trim().Length <= 6 && gtxtboxPrecio.Text.Trim().Length != 0)
+            {
+                gtxtboxPrecio.Text = string.Format(CultureInfo.CreateSpecificCulture("es-UY"), "{0:c}", double.Parse(gtxtboxPrecio.Text));
+                gtxtboxPrecio.Text = gtxtboxPrecio.Text.Trim().Replace("$U", "");
+            }
+            
+        }
+
+        private void gtxtboxPrecio_Enter(object sender, EventArgs e)
+        {
+            gtxtboxPrecio.Text = gtxtboxPrecio.Text.Trim().Replace(",00", "").Replace("$U", "").Replace(",","").Replace(".","");
+        }
+
+        private void gtxtboxDescripcion_Enter(object sender, EventArgs e)
+        {
+            if (gtxtboxDescripcion.Text.Trim().Equals("Sin descripción"))
+            {
+                gtxtboxDescripcion.Text = "";
+            }
+        }
+
+        private void gtxtboxDescripcion_Leave(object sender, EventArgs e)
+        {
+            if (gtxtboxDescripcion.Text.Trim() == "")
+            {
+                gtxtboxDescripcion.Text = "Sin descripción";
             }
         }
     }

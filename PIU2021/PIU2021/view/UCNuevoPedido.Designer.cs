@@ -234,6 +234,7 @@ namespace PIU2021.view
             this.gtxtboxCantidad.Text = "1";
             this.gtxtboxCantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gtxtboxCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtboxSoloNumeros_KeyPress);
+            this.gtxtboxCantidad.Leave += new System.EventHandler(this.gtxtboxCantidad_Leave);
             // 
             // gunaLabel3
             // 
@@ -302,7 +303,9 @@ namespace PIU2021.view
             this.gtxtboxPrecio.Size = new System.Drawing.Size(490, 70);
             this.gtxtboxPrecio.TabIndex = 1;
             this.gtxtboxPrecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gtxtboxPrecio.Enter += new System.EventHandler(this.gtxtboxPrecio_Enter);
             this.gtxtboxPrecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.gtxtboxSoloNumeros_KeyPress);
+            this.gtxtboxPrecio.Leave += new System.EventHandler(this.gtxtboxPrecio_Leave);
             // 
             // gunaLabel5
             // 
@@ -349,6 +352,8 @@ namespace PIU2021.view
             this.gtxtboxDescripcion.TabIndex = 1;
             this.gtxtboxDescripcion.Text = "Sin descripción";
             this.gtxtboxDescripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gtxtboxDescripcion.Enter += new System.EventHandler(this.gtxtboxDescripcion_Enter);
+            this.gtxtboxDescripcion.Leave += new System.EventHandler(this.gtxtboxDescripcion_Leave);
             // 
             // UCNuevoPedido
             // 
