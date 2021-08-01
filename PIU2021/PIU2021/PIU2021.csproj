@@ -54,6 +54,9 @@
     <Compile Include="view\CustomFlowLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="view\CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="view\Main.cs">
       <SubType>Form</SubType>
     </Compile>
