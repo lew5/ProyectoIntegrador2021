@@ -115,12 +115,12 @@ namespace PIU2021.view
             this.glblFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.glblFecha.Font = new System.Drawing.Font("Segoe UI", 16F);
             this.glblFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(187)))), ((int)(((byte)(187)))));
-            this.glblFecha.Location = new System.Drawing.Point(315, 5);
+            this.glblFecha.Location = new System.Drawing.Point(287, 5);
             this.glblFecha.Margin = new System.Windows.Forms.Padding(0);
             this.glblFecha.Name = "glblFecha";
-            this.glblFecha.Size = new System.Drawing.Size(193, 30);
+            this.glblFecha.Size = new System.Drawing.Size(221, 30);
             this.glblFecha.TabIndex = 1;
-            this.glblFecha.Text = "March 07, 2018";
+            this.glblFecha.Text = "Septiembre 31, 2020";
             this.glblFecha.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // glblNombreCliente
@@ -185,6 +185,7 @@ namespace PIU2021.view
             this.Margin = new System.Windows.Forms.Padding(0, 0, 0, 15);
             this.Name = "UCPedido2";
             this.Size = new System.Drawing.Size(544, 100);
+            this.Load += new System.EventHandler(this.UCPedido2_Load);
             this.gunaElipsePanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
