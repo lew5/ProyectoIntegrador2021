@@ -43,5 +43,10 @@ namespace PIU2021
         {
             MostrarUC<UCSeccionPedidos>(pnlContenedor);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnlContenedor.Controls.Add(new UCMensaje("!Guardado con éxito!", true));
+        }
     }
 }

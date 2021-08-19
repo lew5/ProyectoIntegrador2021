@@ -33,3 +33,4 @@ C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\P
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCPedido2.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCProducto.resources
 C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCSeccionDetallePedido.resources
+C:\Users\Lew\Documents\GitHub\ProyectoIntegrador2021\PIU2021\PIU2021\obj\Debug\PIU2021.view.UCMensaje.resources

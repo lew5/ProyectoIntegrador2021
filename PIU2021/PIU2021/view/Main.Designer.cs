@@ -33,6 +33,8 @@ namespace PIU2021
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.ucMenu = new PIU2021.UCMenu();
             this.pnlContenedor = new PIU2021.view.CustomPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pnlContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaElipse1
@@ -55,12 +57,23 @@ namespace PIU2021
             // 
             // pnlContenedor
             // 
+            this.pnlContenedor.Controls.Add(this.button1);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(250, 0);
             this.pnlContenedor.Margin = new System.Windows.Forms.Padding(0);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(774, 576);
             this.pnlContenedor.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(425, 92);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Main
             // 
@@ -75,6 +88,7 @@ namespace PIU2021
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
+            this.pnlContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -84,5 +98,6 @@ namespace PIU2021
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private UCMenu ucMenu;
         private view.CustomPanel pnlContenedor;
+        private System.Windows.Forms.Button button1;
     }
 }
